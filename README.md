@@ -81,12 +81,4 @@ UNSOLVED QUESTIONS
 4. How do we test this thing
 
 5. Is it going to suggest an alternate route? If so How? 
-<<<<<<< HEAD
 hello
-=======
-
-6. What is going to be included in the alert?
-
-7. How will the login work?
-    google might interface with google maps
->>>>>>> b2759da12a8411503f18665433b72d69bcd86ce7
