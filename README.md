@@ -20,6 +20,8 @@ Alert System
     Make a system where users can set their own alert preferences.
 
 
+
+
 API calls to EventBrite
     We need 
         event 
@@ -64,7 +66,6 @@ Severity Measure
 2. Attendance
 3. Type--marathon would be worse than a concert
 4. Time of day
-5. 
 
 
 
@@ -80,3 +81,8 @@ UNSOLVED QUESTIONS
 4. How do we test this thing
 
 5. Is it going to suggest an alternate route? If so How? 
+
+6. What is going to be included in the alert?
+
+7. How will the login work?
+    google might interface with google maps
