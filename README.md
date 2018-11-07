@@ -86,3 +86,14 @@ UNSOLVED QUESTIONS
 
 7. How will the login work?
     google might interface with google maps
+
+
+Kevin Conway
+    Git and backend stuff--firebase if need be
+    API's Logic
+Yobany Perez
+    logo and front end
+Michael Lee
+    documentation
+Chris Wood
+    back end, API's and logic
