@@ -1,11 +1,5 @@
 # Project1
 
-Google maps and Zillow--combine data from google maps and zillow to predict future traffic congestion spots
-
-linkedin and zillow--so you can match a future house to a future job in one step.
-
-
-
 An app which tells you about events in your city which may affect traffic and automatically alerts you at the appropriate time beforehand. Will use Google Maps and EventBrite Api's. 
 
 
@@ -74,7 +68,7 @@ UNSOLVED QUESTIONS
     if it doesn't have a way to check attendance beforehand, maybe there is a way to see search popularity for that event, or RSVP's or ticket sales.
 
 2. How are we gonna make the alerts work?
-    Start with email, move onto something more attention-getting if we have time.
+    Start with text, move onto something more attention-getting if we have time.
 
 3. Search Parameters
 
@@ -86,7 +80,8 @@ UNSOLVED QUESTIONS
 
 7. How will the login work?
     google might interface with google maps
-
+8. What if the event has no end time?
+    Automatically add a severity point.
 
 Kevin Conway
     Git and backend stuff--firebase if need be
@@ -97,3 +92,80 @@ Michael Lee
     documentation
 Chris Wood
     back end, API's and logic
+
+
+
+
+
+Baby Steps:
+
+Frontend
+
+    UX
+
+
+
+
+
+
+
+
+
+
+Backend
+
+
+
+
+
+
+
+
+
+
+
+Before you plug anything in, the first time a user hits the page, a random number is generated and stored as a cookie/localStorage on their browser. Not using more complicated logins at this time.
+
+plug in start address
+plug in end address
+plug in departure time
+plug in arrival time
+
+need to go to google maps so we can get a route.
+
+once we have the route, compare the route with eventbrite api for the next 7 days to display the first 7 days for the user.
+
+for the events that are severe enough or close enough, a function looks at the time of the commute to determine whether it shows up on the user's map
+
+once it knows the things to alert you about, it generates a map with a color-coded circle that is bigger or smaller depending on severity
+
+data is displayed for the user on their weekly outlook page.
+
+
+
+
+
+saved for later.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+id's
+
+#start-address
+
+#end-address
+
+#leave-time
+
+#arrive-time
