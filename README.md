@@ -83,6 +83,10 @@ UNSOLVED QUESTIONS
 8. What if the event has no end time?
     Automatically add a severity point.
 
+9. are we going to store just the start and end destination and plug the two into a function or are we going to store the whole route as one item?
+
+10. are we gonna need a server running all the time which checks eventbrite periodically?
+
 Kevin Conway
     Git and backend stuff--firebase if need be
     API's Logic
@@ -131,7 +135,9 @@ plug in end address
 plug in departure time
 plug in arrival time
 
-need to go to google maps so we can get a route.
+the addresses need to go to google maps so we can get a route. 
+    How do we get the route from Google Maps?
+    Do we need to look at a different map API?
 
 once we have the route, compare the route with eventbrite api for the next 7 days to display the first 7 days for the user.
 
@@ -161,6 +167,10 @@ saved for later.
 
 
 id's
+
+#first-name
+
+#last-name
 
 #start-address
 
