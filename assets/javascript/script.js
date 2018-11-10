@@ -120,26 +120,34 @@ $("#user-info-submit").on("click", function() {
 
 //†††††††††††††††† Maybe use a different API to look for other relevant events going on in your city. Ticketmaster looks like a good one. †††††††††††††††††††††††††
 
+
 $( document ).ready(function events() {
-$.ajax({
-  type:"GET",
-  url:"https://app.ticketmaster.com/discovery/v2/events.json?classificationName=sport,music&dmaId=245&latlong=&apikey=EjCnoRIJWhXvqFM6uxTUzXnplhtRgBCU",
-  async:true,
-  dataType: "json",
-  success: function(json) {
-              console.log(json._embedded.events[0].dates.start);
-              console.log(json._embedded.events[0]._embedded.venues[0].location);
-              console.log(json._embedded.events);
-
-              // Parse the response.
-              // Do other things.
-           },
-  error: function(xhr, status, err) {
-              // This time, we do not end up here!
-           }
-          // for (var i = 0; i < movies.length; i++) {
-});})
-
+  $.ajax({
+    type:"GET",
+    url:"https://app.ticketmaster.com/discovery/v2/events.json?classificationName=sport,music&dmaId=245&latlong=&apikey=EjCnoRIJWhXvqFM6uxTUzXnplhtRgBCU",
+    async:true,
+    dataType: "json",
+    success: function(json) {
+      for(var i = 0; i < json._embedded.events.length; i++) {
+      var obj = json._embedded.events[i];
+      console.log(obj.name,obj._embedded.venues[0].location, obj.dates.start.localDate, obj.dates.start.localTime);
+          
+                // Parse the response.
+                // Do other things.
+             }},
+    error: function(xhr, status, err) {
+                // This time, we do not end up here!
+             }
+             
+  });
+  var event = obj.name 
+  var latLong = obj._embedded.venues[0].location
+  var starDates = obj.dates.start.localDate 
+  var teaTime = obj.dates.start.localTime
+  
+  $("#eventlist > tbody").append("<tr><td>" + event + "</td><td>" + latLong + "</td><td>" + starDates + "</td><td>" +  teaTime+ "</td></tr>");
+  
+  })
 
 
 
