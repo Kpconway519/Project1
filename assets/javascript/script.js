@@ -17,6 +17,14 @@
 
 //=============First time user code============================
 //on landing page, user makes a username or inputs username
+var userName = $(/*user name input*/).val().trim();
+$(/*submit button*/).on("click", function() {
+
+  //check the username to see if it has been done before
+
+  //if it has not, put it in the array in firebase
+})
+
 
 //mash the two together like this [name][number] to give the user a unique identifier. Tell them to save this info for later. It will be used to get their info.
 
@@ -24,6 +32,9 @@
 //capture this info as variables
 
 //on click Submit Button #start-address #end-address #leave-time #arrive-time to database with key
+$(/*"submit button"*/).on("click", function() {
+
+
 //push the unique user identifier to the database with the user-inputted data.
 
 
@@ -32,7 +43,7 @@
 //2. Google pops out a route as a JSON object--lets figure out how to save this stuff for later
 //3. We save this route to use forever in the future and push it to the database
 
-
+});
 //end of on click function====================================
 
 //weekly outlook page===========================
@@ -46,7 +57,7 @@
 
 //separate out this stuff based on the day and show a different map for each day, which will be accessed when the user clicks on that day on their weekly outlook page
 
-//†††††††††††††††† Maybe use a different API to look for other relevant events †††††††††††††††††††††††††
+//†††††††††††††††† Maybe use a different API to look for other relevant events going on in your city †††††††††††††††††††††††††
 
 
 
@@ -59,7 +70,7 @@
 
 //returning users
 
-//it can read a cookie stored on their browser, if no cookie detected, give them an opportunity to plug in their name/number combo
+//it can read a cookie stored on their browser, if no cookie detected, give them an opportunity to plug in their username
 
 
 
