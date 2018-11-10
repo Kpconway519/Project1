@@ -186,6 +186,25 @@ id's
 
 #submit-button is used for the initial page where the user submits a username
 
+<!-- ID tags for individual cards on Schedule page -->
+#sunday-card
+#monday-card
+#tuesday-card
+#wednesday-card
+#thursday-card
+#friday-card
+#saturday-card
+
+<!-- ID tags for view buttons on the cards on Schedule page -->
+<!-- The idea is that when a user clicks the button, the map changes to the selected day -->
+#sunday-view
+#monday-view
+#tuesday-view
+#wednesday-view
+#thursday-view
+#friday-view
+#saturday-view
+
 
 
 
