@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -69,6 +71,94 @@
   src="https://code.jquery.com/jquery-3.3.1.min.js"
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
-  <script src="assets/javascript/script.js"></script>
+
+
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyCBpI-0zqjP8_LypXmGt4N9xuBz8SyYaqU",
+      authDomain: "humbug-e5b83.firebaseapp.com",
+      databaseURL: "https://humbug-e5b83.firebaseio.com",
+      projectId: "humbug-e5b83",
+      storageBucket: "humbug-e5b83.appspot.com",
+      messagingSenderId: "964116892329"
+    };    
+    firebase.initializeApp(config);
+  
+    var database = firebase.database();
+  
+  
+  var firebaseDbObject = {
+    users: [
+      {
+          username: "test",
+          route: "/*plug in the route link from Google*/" ,
+          leaveTime: "17:00",
+          arriveTime: "18:00",
+      },
+      {
+          username: "test2",
+          route: "route sample",
+          leaveTime: "2:00",
+          arriveTime: "3:00"
+      }
+      ],
+    allUsernames: ["sampleUser"]
+  }
+  //========================================
+  //this is just for the first time user putting the username into the database.
+  
+  
+  $("#submit-button").on("click", function(event) {
+    event.preventDefault();
+    //grab the user's name out of the username box on the landing page
+  
+    var userName = $("#user-name").val().trim();
+  
+    var newUser = {
+      username: "test2",
+      route: "route sample",
+      leaveTime: "2:00",
+      arriveTime: "3:00"
+    }
+  
+    if (firebaseDbObject.allUsernames.includes(userName) === true) {
+  //make sure to delete this alert later and replace it with something else
+      alert("exists already, please input a new username")
+    }else{
+  
+      newUser.username = userName;
+  
+      firebaseDbObject.allUsernames.push(userName)
+    
+  
+      //pull the object from firebase so we can change it
+      // database.ref().on("value", function(snapshot) {
+      //   //if the object exists, replace it with the new updated object.
+      //   if (snapshot.child("Users").exists()) {
+
+      //   }
+      // })
+
+      //upload the new object to firebase.
+      database.ref("-LQyUNs_dCRCSkR49-MO/users").push(newUser)
+
+        console.log(database.ref("users"))
+    };
+  
+  
+  })
+  </script>
+
+
 </body>
 </html>
+
+
+
+
+
+
+
+
+

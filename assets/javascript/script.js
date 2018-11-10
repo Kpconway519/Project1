@@ -8,7 +8,7 @@
     projectId: "humbug-e5b83",
     storageBucket: "humbug-e5b83.appspot.com",
     messagingSenderId: "964116892329"
-  };
+  };    
   firebase.initializeApp(config);
 
   var database = firebase.database();
@@ -23,14 +23,8 @@
 
 //=============First time user code============================
 //on landing page, user makes a username or inputs username
-var userInfo = {
-name: "",
-startAddress: "",
-endAddress: "",
-startTime: "",
-endTime: "",
-};
-var userName = userInfo.name;
+// ∂∂∂∂∂∂∂∂∂∂∂ must redo this thing in a bit ©©©©©©©©©©©©©©©©©
+
 
 //========================================
 //hardcoding the info in for now so I can play around with it.
@@ -38,57 +32,72 @@ var userName = userInfo.name;
 var firebaseDbObject = {
   users: [
     {
-        name: "test",
-        //CHRIS==I'm thinking we need to take this address info initially, but convert it to a lat/long for easier storage. This string below looks much more difficult to parse
+        username: "test",
         route: "/*plug in the route link from Google*/" ,
         leaveTime: "17:00",
         arriveTime: "18:00",
     },
-      {
-        name: "test2",
+    {
+        username: "test2",
         route: "route sample",
         leaveTime: "2:00",
         arriveTime: "3:00"
-      }
+    }
     ],
   allUsernames: ["sampleUser"]
 }
 //========================================
+//this is just for the first time user putting the username into the database.
+
 
 $("#submit-button").on("click", function(event) {
   event.preventDefault();
-
   //grab the user's name out of the username box on the landing page
+
   var userName = $("#user-name").val().trim();
 
-//=========trying to figure out how to put an object inside of another object. the .push() method returns an error. been working for a while on this one. no solution found yet.
-
   var newUser = {
-  userName: {
-    route: "",
-    leaveTime: "",
-    arriveTime: "",
-   }
+    username: "test2",
+    route: "route sample",
+    leaveTime: "2:00",
+    arriveTime: "3:00"
   }
 
+  if (firebaseDbObject.allUsernames.includes(userName) === true) {
+//make sure to delete this alert later and replace it with something else
+    alert("exists already, please input a new username")
+  }else{
 
-  firebaseDbObject.push(newUser)
-  localStorage.setItem("username", userName)
+    newUser.username = userName;
 
-
-  //check the username to see if it has been done before====================
-  //pull down the database
-
-  //make a function here to check and see if the new username matches one that has been done before. 
-
-  //if it does match, prompt the user to make a different one
+    firebaseDbObject.allUsernames.push(userName)
+  
 
 
-  //if it does not match, it is a new user, so we put it in the array in firebase
+    //upload the new object to firebase.
+    database.ref().push(firebaseDbObject)
 
-  //upload the new object to firebase.
-  database.ref().push(firebaseDbObject)
+  };
+
+
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //at this point the user plugs in their addresses and times
