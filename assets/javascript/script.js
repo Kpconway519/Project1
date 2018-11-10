@@ -1,8 +1,4 @@
-  //How do I put an object inside of another object?
-  
-  
-  
-  
+
   
   // Initialize Firebase
   var config = {
@@ -40,15 +36,21 @@ var userName = userInfo.name;
 //hardcoding the info in for now so I can play around with it.
 //the database is a JSON object that we can access like an api
 var firebaseDbObject = {
-  users: {
-    sampleUser: {
-      //CHRIS==I'm thinking we need to take this address info initially, but convert it to a lat/long for easier storage. This string below looks much more difficult to parse
-      route: "/*plug in the route link from Google*/" ,
-      leaveTime: "17:00",
-      arriveTime: "18:00",
-      },
-
-  },
+  users: [
+    {
+        name: "test",
+        //CHRIS==I'm thinking we need to take this address info initially, but convert it to a lat/long for easier storage. This string below looks much more difficult to parse
+        route: "/*plug in the route link from Google*/" ,
+        leaveTime: "17:00",
+        arriveTime: "18:00",
+    },
+      {
+        name: "test2",
+        route: "route sample",
+        leaveTime: "2:00",
+        arriveTime: "3:00"
+      }
+    ],
   allUsernames: ["sampleUser"]
 }
 //========================================
@@ -61,12 +63,16 @@ $("#submit-button").on("click", function(event) {
 
 //=========trying to figure out how to put an object inside of another object. the .push() method returns an error. been working for a while on this one. no solution found yet.
 
-  var newUser = {userName: {
-  startAddress: "",
-  endAddress: "",
-  leaveTime: "",
-  arriveTime: "",}}
+  var newUser = {
+  userName: {
+    route: "",
+    leaveTime: "",
+    arriveTime: "",
+   }
+  }
 
+
+  firebaseDbObject.push(newUser)
   localStorage.setItem("username", userName)
 
 
