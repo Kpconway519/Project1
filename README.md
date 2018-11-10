@@ -172,6 +172,8 @@ id's
 
 #last-name
 
+#user-name
+
 #start-address
 
 #end-address
@@ -180,9 +182,9 @@ id's
 
 #arrive-time
 
+#user-info-submit
 
-
-
+#submit-button is used for the initial page where the user submits a username
 
 
 

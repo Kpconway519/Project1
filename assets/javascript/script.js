@@ -1,3 +1,9 @@
+  //How do I put an object inside of another object?
+  
+  
+  
+  
+  
   // Initialize Firebase
   var config = {
     apiKey: "AIzaSyCBpI-0zqjP8_LypXmGt4N9xuBz8SyYaqU",
@@ -11,40 +17,95 @@
 
   var database = firebase.database();
 
-//something which checks the cookies to see if they have been on the website before.
+//something which checks the local storage to see if they have been on the website before.
 
+
+//if username exists in local storage, then log them in
+
+//else put something in local storage containing random number for identification purposes
 
 
 //=============First time user code============================
 //on landing page, user makes a username or inputs username
-var userName = $(/*user name input*/).val().trim();
-$(/*submit button*/).on("click", function() {
+var userInfo = {
+name: "",
+startAddress: "",
+endAddress: "",
+startTime: "",
+endTime: "",
+};
+var userName = userInfo.name;
 
-  //check the username to see if it has been done before
+//========================================
+//hardcoding the info in for now so I can play around with it.
+//the database is a JSON object that we can access like an api
+var firebaseDbObject = {
+  users: {
+    sampleUser: {
+      //CHRIS==I'm thinking we need to take this address info initially, but convert it to a lat/long for easier storage. This string below looks much more difficult to parse
+      route: /*plug in the route link from Google*/ 
+      leaveTime: "17:00",
+      arriveTime: "18:00",
+      },
 
-  //if it has not, put it in the array in firebase
+  },
+  allUsernames: ["sampleUser"]
+}
+//========================================
+
+$("#submit-button").on("click", function(event) {
+  event.preventDefault();
+
+  //grab the user's name out of the username box on the landing page
+  var userName = $("#user-name").val().trim();
+
+//=========trying to figure out how to put an object inside of another object. the .push() method returns an error. been working for a while on this one. no solution found yet.
+
+  var newUser = {userName: {
+  startAddress: "",
+  endAddress: "",
+  leaveTime: "",
+  arriveTime: "",}}
+
+  localStorage.setItem("username", userName)
+
+
+  //check the username to see if it has been done before====================
+  //pull down the database
+
+  //make a function here to check and see if the new username matches one that has been done before. 
+
+  //if it does match, prompt the user to make a different one
+
+
+  //if it does not match, it is a new user, so we put it in the array in firebase
+
+  //upload the new object to firebase.
+  database.ref().push(firebaseDbObject)
 })
 
 
-//mash the two together like this [name][number] to give the user a unique identifier. Tell them to save this info for later. It will be used to get their info.
-
 //at this point the user plugs in their addresses and times
-//capture this info as variables
 
-//on click Submit Button #start-address #end-address #leave-time #arrive-time to database with key
-$(/*"submit button"*/).on("click", function() {
+//get the values from the blanks
+//†††††††† need to look back at this and make sure I am putting this into the object correctly
+userInfo.startAddress = $("#start-address").val().trim();
+userInfo.endAddress = $("#end-address").val().trim();
+userInfo.leaveTime = $("#leave-time").val().trim();
+userInfo.arriveTime = $("#arrive-time").val().trim();
 
+//==============Section here for converting startAddress and endAddress into a latitude/longitude to plug into google maps API to get route, then save that route as a variable so it can be pushed to the database============================
 
-//push the unique user identifier to the database with the user-inputted data.
+//CHRIS need your help here
+userInfo.startAddress
+userInfo.endAddress
 
+//on click Submit Button send route, start time, and end time to database
+$("#user-info-submit").on("click", function() {
 
-//Lets try to store the route as a whole. To do this:
-//1. need to feed start and end address into Google
-//2. Google pops out a route as a JSON object--lets figure out how to save this stuff for later
-//3. We save this route to use forever in the future and push it to the database
+//send the user's route and time info to the database
 
 });
-//end of on click function====================================
 
 //weekly outlook page===========================
 //this page uses the route we saved from the on click function and compares it with the eventbrite api
@@ -57,7 +118,7 @@ $(/*"submit button"*/).on("click", function() {
 
 //separate out this stuff based on the day and show a different map for each day, which will be accessed when the user clicks on that day on their weekly outlook page
 
-//†††††††††††††††† Maybe use a different API to look for other relevant events going on in your city †††††††††††††††††††††††††
+//†††††††††††††††† Maybe use a different API to look for other relevant events going on in your city. Ticketmaster looks like a good one. †††††††††††††††††††††††††
 
 
 
@@ -68,9 +129,7 @@ $(/*"submit button"*/).on("click", function() {
 //===========================================
 
 
-//returning users
 
-//it can read a cookie stored on their browser, if no cookie detected, give them an opportunity to plug in their username
 
 
 
