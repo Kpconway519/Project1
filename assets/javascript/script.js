@@ -126,8 +126,25 @@ $("#user-info-submit").on("click", function() {
 
 //†††††††††††††††† Maybe use a different API to look for other relevant events going on in your city. Ticketmaster looks like a good one. †††††††††††††††††††††††††
 
+$( document ).ready(function events() {
+$.ajax({
+  type:"GET",
+  url:"https://app.ticketmaster.com/discovery/v2/events.json?classificationName=sport,music&dmaId=245&latlong=&apikey=EjCnoRIJWhXvqFM6uxTUzXnplhtRgBCU",
+  async:true,
+  dataType: "json",
+  success: function(json) {
+              console.log(json._embedded.events[0].dates.start);
+              console.log(json._embedded.events[0]._embedded.venues[0].location);
+              console.log(json._embedded.events);
 
-
+              // Parse the response.
+              // Do other things.
+           },
+  error: function(xhr, status, err) {
+              // This time, we do not end up here!
+           }
+          // for (var i = 0; i < movies.length; i++) {
+});})
 
 
 
