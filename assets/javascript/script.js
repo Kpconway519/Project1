@@ -43,7 +43,7 @@ var firebaseDbObject = {
   users: {
     sampleUser: {
       //CHRIS==I'm thinking we need to take this address info initially, but convert it to a lat/long for easier storage. This string below looks much more difficult to parse
-      route: /*plug in the route link from Google*/ 
+      route: "/*plug in the route link from Google*/" ,
       leaveTime: "17:00",
       arriveTime: "18:00",
       },
