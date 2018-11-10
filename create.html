@@ -38,20 +38,40 @@
                       </nav>
         </div>
         </div>
-        <!-- Row for the name form -->
+
+        <div class="row">
+                <div class="col-md-12">
+                  <!-- Add Employee  -->
+                  <div class="card mb-4">
+                    <div class="card-header">Create a schedule</div>
+                    <div class="card-body">
+        
+        <!-- Row for user schedule input form -->
                 <form>
-                        <div class="row justify-content-md-center">
-                        <div class="col-lg-6">
-                            <input type="text" class="form-control" placeholder="Username" id="user-name">
-                            <!-- Submit username button -->
-                            <div class="col-auto my-1">
-                            <button type="submit" class="btn btn-success" id="submit-button">Submit</button>
-                            </div>
+                        <div class="form-group justify-content-md-center">
+                          <label for="train-name-input">Start Address</label>
+                          <input class="form-control" id="start-address" placeholder="pineapple street" type="text">
                         </div>
+                        <div class="form-group">
+                          <label for="destination-input">End Address</label>
+                          <input class="form-control" id="end-address" placeholder="apple street" type="text">
                         </div>
+                        <div class="form-group">
+                          <label for="start-input">Departure Time (HH:mm-military time)</label>
+                          <input class="form-control" id="leave-time" placeholder="07:30" type="text">
+                        </div>
+                        <div class="form-group">
+                          <label for="frequency-input">Arrival Time (HH:mm-military time)</label>
+                          <input class="form-control" id="arrive-time" placeholder="10" type="text">
+                        </div>
+                        <button class="btn btn-success float-right" id="user-info-submit">Submit</button>
                 </form>
+            </div>
         </div>
-        </div>
+      </div>
+    </div>
+    </div>
+    </div>
     </div>
 
 
