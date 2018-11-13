@@ -1,4 +1,4 @@
-
+<!-- definitely going to go with google authentication. Just need to figure out exactly how. Will handle in class.  -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -50,6 +50,8 @@
                             <!-- Submit username button -->
                             <div class="col-auto my-1">
                             <button type="submit" class="btn btn-primary" id="submit-button">Submit</button>
+                            <button type="submit" class="btn btn-primary" id="kevin-button">google login</button>
+                            <button type="submit" class="btn btn-primary" id="sign-out">sign out</button>
                             </div>
                         </div>
                         </div>
@@ -88,23 +90,7 @@
     var database = firebase.database();
   
   
-  var firebaseDbObject = {
-    users: [
-      {
-          username: "test",
-          route: "/*plug in the route link from Google*/" ,
-          leaveTime: "17:00",
-          arriveTime: "18:00",
-      },
-      {
-          username: "test2",
-          route: "route sample",
-          leaveTime: "2:00",
-          arriveTime: "3:00"
-      }
-      ],
-    allUsernames: ["sampleUser"]
-  }
+
   //========================================
   //this is just for the first time user putting the username into the database.
   
@@ -114,40 +100,58 @@
     //grab the user's name out of the username box on the landing page
   
     var userName = $("#user-name").val().trim();
+    // var startTime = $("#start-time").val().trim();
+    // var endTime = $("#end-time").val().trim();
   
-    var newUser = {
-      username: "test2",
-      route: "route sample",
-      leaveTime: "2:00",
-      arriveTime: "3:00"
-    }
-  
-    if (firebaseDbObject.allUsernames.includes(userName) === true) {
-  //make sure to delete this alert later and replace it with something else
-      alert("exists already, please input a new username")
-    }else{
-  
-      newUser.username = userName;
-  
-      firebaseDbObject.allUsernames.push(userName)
-    
-  
-      //pull the object from firebase so we can change it
-      // database.ref().on("value", function(snapshot) {
-      //   //if the object exists, replace it with the new updated object.
-      //   if (snapshot.child("Users").exists()) {
-
-      //   }
-      // })
-
+var startTime = "3:00";
+var endTime = "crazy test";
       //upload the new object to firebase.
-      database.ref("-LQyUNs_dCRCSkR49-MO/users").push(newUser)
+      // database.ref("-LQyUNs_dCRCSkR49-MO/users").push(newUser)
+      database.ref('/users/').push({
+      username: userName,
+      route: "route sample",
+      leaveTime: startTime,
+      arriveTime: endTime
+      });
+
+
+
+
 
         console.log(database.ref("users"))
-    };
+    
   
   
   })
+
+$("#kevin-button").on("click", function() {
+
+  var provider = new firebase.auth.GoogleAuthProvider();
+
+firebase.auth().signInWithPopup(provider)
+// .then(function(result) {
+//   // This gives you a Google Access Token. You can use it to access the Google API.
+//   var token = result.credential.accessToken;
+//   // The signed-in user info.
+//   console.log(token)
+//   var user = result.user;
+//   console.log(user)
+//   // ...
+}).catch(function(error) {
+  // Handle Errors here.
+  var errorCode = error.code;
+  var errorMessage = error.message;
+  // The email of the user's account used.
+  var email = error.email;
+  // The firebase.auth.AuthCredential type that was used.
+  var credential = error.credential;
+  // ...
+});
+});
+
+$("#sign-out").on("click", function() {
+  firebase.auth().signOut();
+})
   </script>
 
 
