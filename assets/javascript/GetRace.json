@@ -1,0 +1,3374 @@
+{
+	"races": [{
+			"race": {
+				"race_id": 64811,
+				"name": "2018 Run Run Rudolph 5k/10k",
+				"last_date": null,
+				"last_end_date": null,
+				"next_date": "12/22/2018",
+				"next_end_date": "12/22/2018",
+				"is_draft_race": "F",
+				"is_registration_open": "F",
+				"created": "8/1/2018 12:42",
+				"last_modified": "8/1/2018 12:42",
+				"description": "<p>This race is a great way to celebrate the season as we have a fully stocked hot chocolate bar, candy cane bottle opener awards and we are giving away a $50&nbsp;Charlotte Running Co&nbsp;gift card for the best seasonally dressed male and female race participant. Participant applause-o-meter will determine our best dressed winners. A one of a kind long sleeve hooded race t-shirts will be given to all participants who pre-register for the event. The long sleeve hooded event t-shirts will be first come, first serve for those who register on race day. A portion of each registration for Run Run Rudolph 5k/10k will be given to the ever popular&nbsp;Dirt Diva&rsquo;s Project Angel&nbsp;and we will be hosting the final day of the&nbsp;CMPD Explorer Toy Drive. What a GREAT way to celebrate the season!!</p>",
+				"url": "https://runsignup.com/Race/NC/Charlotte/2018RunRunRudolph5k10k",
+				"external_race_url": "https://runrunrudolph5k10k.racesonline.com/",
+				"external_results_url": null,
+				"fb_page_id": null,
+				"fb_event_id": null,
+				"address": {
+					"street": "10101 David Taylor Drive",
+					"city": "Charlotte",
+					"state": "NC",
+					"zipcode": "28262",
+					"country_code": "US"
+				},
+				"timezone": "America/New_York",
+				"logo_url": "https://d368g9lw5ileu7.cloudfront.net/races/race64811-logo.bByElD.png",
+				"real_time_notifications_enabled": "F",
+				"events": [{
+						"event_id": 254654,
+						"race_event_days_id": 103123,
+						"name": "5k Run/Walk",
+						"details": null,
+						"start_time": "12/22/2018 08:00",
+						"end_time": null,
+						"age_calc_base_date": null,
+						"registration_opens": null,
+						"event_type": "running_race",
+						"distance": "5K",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": []
+					},
+					{
+						"event_id": 254655,
+						"race_event_days_id": 103123,
+						"name": "10k Run/Walk",
+						"details": null,
+						"start_time": "12/22/2018 08:00",
+						"end_time": null,
+						"age_calc_base_date": null,
+						"registration_opens": null,
+						"event_type": "running_race",
+						"distance": "10K",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": []
+					}
+				]
+			}
+		},
+		{
+			"race": {
+				"race_id": 52718,
+				"name": "A Place of Chance",
+				"last_date": "05/05/2018",
+				"last_end_date": "05/05/2018",
+				"next_date": "05/04/2019",
+				"next_end_date": "05/04/2019",
+				"is_draft_race": "F",
+				"is_registration_open": "F",
+				"created": "10/9/2017 21:11",
+				"last_modified": "10/29/2018 20:07",
+				"description": "<p>Come support DRTE as we continue to be the voice for voiceless children of incarcerated parents.</p>\r\n<h2>RACE DAY INFORMATION (Saturday, May 4 at Northside Baptist Church):</h2>\r\n<h4>Packet Pickup begins at 7:30 am</h4>\r\n<h4>Race Day registration begins at 7:30 am</h4>\r\n<p>This event will be held on Saturday, May 4, 2019 at Northside Baptist Church. We are expecting 200+ participants not including children, who will have their own fun competition. This event would not be possible without the support of community partners, local companies,&nbsp;and you.&nbsp;Please join us as we Cultivate Change: One Life at a Time.</p>",
+				"url": "https://runsignup.com/Race/NC/Charlotte/APlaceofChance",
+				"external_race_url": null,
+				"external_results_url": null,
+				"fb_page_id": null,
+				"fb_event_id": "890038004496352",
+				"address": {
+					"street": "333 Jeremiah Blvd",
+					"city": "Charlotte",
+					"state": "NC",
+					"zipcode": "28262",
+					"country_code": "US"
+				},
+				"timezone": "America/New_York",
+				"logo_url": "https://d368g9lw5ileu7.cloudfront.net/races/race52718-logo.bAtAYu.png",
+				"real_time_notifications_enabled": "F",
+				"events": [{
+						"event_id": 273219,
+						"race_event_days_id": 110080,
+						"name": "5K",
+						"details": "12 and under is $10, shirt not included.",
+						"start_time": "5/4/2019 08:30",
+						"end_time": null,
+						"age_calc_base_date": null,
+						"registration_opens": "12/1/2018 21:12",
+						"event_type": "running_race",
+						"distance": "3.1 Miles",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "12/1/2018 21:12",
+								"registration_closes": "2/14/2019 23:59",
+								"race_fee": "$20.00",
+								"processing_fee": "$0.00"
+							},
+							{
+								"registration_opens": "2/15/2019 00:00",
+								"registration_closes": "5/1/2019 23:59",
+								"race_fee": "$25.00",
+								"processing_fee": "$0.00"
+							}
+						],
+						"giveaway": "T-Shirt"
+					},
+					{
+						"event_id": 273220,
+						"race_event_days_id": 110080,
+						"name": "Fun Run",
+						"details": "No t-shirt for children activites",
+						"start_time": "5/4/2019 09:30",
+						"end_time": null,
+						"age_calc_base_date": null,
+						"registration_opens": "12/1/2018 21:12",
+						"event_type": "running_race",
+						"distance": null,
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+							"registration_opens": "12/1/2018 21:12",
+							"registration_closes": "5/1/2019 23:59",
+							"race_fee": "$10.00",
+							"processing_fee": "$0.00"
+						}]
+					},
+					{
+						"event_id": 273221,
+						"race_event_days_id": 110080,
+						"name": "MCApride",
+						"details": null,
+						"start_time": "5/4/2019 08:30",
+						"end_time": null,
+						"age_calc_base_date": null,
+						"registration_opens": "2/12/2019 22:25",
+						"event_type": "running_race",
+						"distance": "3.1 Miles",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+							"registration_opens": "2/12/2019 22:25",
+							"registration_closes": "3/9/2019 23:59",
+							"race_fee": "$20.00",
+							"processing_fee": "$0.00"
+						}],
+						"giveaway": "T-Shirt"
+					}
+				],
+				"headings": [{
+						"heading_text": "Awards",
+						"content": "<h4>Top 3 Overall Male and Female</h4>\r\n<h4>Top 3 in the following age groups.</h4>\r\n<h5>9 and under, 10 - 14, 15 - 19, 20 - 29, 30 - 39, 40 - 49, 50 - 59, 60 - 69, 70 and over.</h5>"
+					},
+					{
+						"heading_text": "Course Map",
+						"content": null
+					}
+				]
+			}
+		},
+		{
+			"race": {
+				"race_id": 23957,
+				"name": "ACC FAN 5K",
+				"last_date": "12/02/2017",
+				"last_end_date": "12/02/2017",
+				"next_date": "12/01/2018",
+				"next_end_date": "12/01/2018",
+				"is_draft_race": "F",
+				"is_registration_open": "T",
+				"created": "8/6/2015 12:29",
+				"last_modified": "11/13/2018 11:03",
+				"description": "<p>Don't miss the ACC Fan 5K Saturday, December 1, 2018, starting at 8:00 am. Dress up in your favorite school colors and see if you can outrun your schools&rsquo; biggest rivals! Kick-off your championship game day festivities with the ACC Fan 5K!</p>",
+				"url": "https://runsignup.com/Race/NC/Charlotte/ACC5K",
+				"external_race_url": "http://promotions.theacc.com/fan5k/",
+				"external_results_url": null,
+				"fb_page_id": null,
+				"fb_event_id": null,
+				"address": {
+					"street": "Bechtler Museum of Modern Art",
+					"city": "Charlotte",
+					"state": "NC",
+					"zipcode": "28202",
+					"country_code": "US"
+				},
+				"timezone": "America/New_York",
+				"logo_url": "https://d368g9lw5ileu7.cloudfront.net/races/race23957-logo.bBrs_N.png",
+				"real_time_notifications_enabled": "F",
+				"events": [{
+						"event_id": 248424,
+						"race_event_days_id": 100664,
+						"name": "5K Run",
+						"details": null,
+						"start_time": "12/1/2018 08:00",
+						"end_time": "12/1/2018 09:00",
+						"age_calc_base_date": null,
+						"registration_opens": "6/26/2018 00:00",
+						"event_type": "running_race",
+						"distance": "5K",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "6/26/2018 00:00",
+								"registration_closes": "7/15/2018 23:59",
+								"race_fee": "$25.00",
+								"processing_fee": "$3.25"
+							},
+							{
+								"registration_opens": "7/16/2018 00:00",
+								"registration_closes": "8/31/2018 23:59",
+								"race_fee": "$30.00",
+								"processing_fee": "$3.25"
+							},
+							{
+								"registration_opens": "9/1/2018 00:00",
+								"registration_closes": "11/16/2018 23:59",
+								"race_fee": "$35.00",
+								"processing_fee": "$4.25"
+							},
+							{
+								"registration_opens": "11/17/2018 00:00",
+								"registration_closes": "11/30/2018 23:59",
+								"race_fee": "$40.00",
+								"processing_fee": "$4.25"
+							},
+							{
+								"registration_opens": "12/1/2018 00:00",
+								"registration_closes": "12/1/2018 23:59",
+								"race_fee": "$45.00",
+								"processing_fee": "$4.25"
+							}
+						]
+					},
+					{
+						"event_id": 248425,
+						"race_event_days_id": 100664,
+						"name": "Kid's Mascot Run",
+						"details": null,
+						"start_time": "12/1/2018 09:00",
+						"end_time": "12/1/2018 10:00",
+						"age_calc_base_date": null,
+						"registration_opens": "6/26/2018 00:00",
+						"event_type": "running_race",
+						"distance": null,
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+							"registration_opens": "6/26/2018 00:00",
+							"registration_closes": "12/1/2018 23:59",
+							"race_fee": "$0.00",
+							"processing_fee": "$0.00"
+						}]
+					}
+				],
+				"headings": [{
+						"heading_text": "Course Map",
+						"content": null
+					},
+					{
+						"heading_text": "Packet Pickup",
+						"content": "<p>Packet Pickup will be held at Run For Your Life, 901 S. Kings Drive, STE 100 Charlotte, NC 28204 on Thursday November 29 &amp; Friday November 30 from 10am - 6pm and On site Race Day starting at 6:30am</p>"
+					}
+				]
+			}
+		},
+		{
+			"race": {
+				"race_id": 63695,
+				"name": "Another Chance 5k",
+				"last_date": null,
+				"last_end_date": null,
+				"next_date": "11/17/2018",
+				"next_end_date": "11/17/2018",
+				"is_draft_race": "F",
+				"is_registration_open": "T",
+				"created": "7/3/2018 17:24",
+				"last_modified": "10/15/2018 10:55",
+				"description": "<p>Another Chance is a nonprofit organization in Charlotte, North Carolina whose mission is<br/>to fund existing organ donation organizations, fund pro bono transplantations, and educate the<br/>community on these initiatives. The organization fulfills its mission by orchestrating fundraisers,<br/>projects, and other events that execute its goals and give a family, patient, mom or brother<br/>another chance to live.<br/>In achieving our mission, Another Chance will be hosting a 5k Run titled: Run For Life<br/>for individuals throughout the Charlotte community.<br/>The goal of this event is to raise funds to be donated to Donate Life North Carolina and<br/>increase civic knowledge and perspective regarding organ donation. In terms of participation, we<br/>are expecting about 100 participants, most likely more for this event which will be held 17,<br/>November 2018, 2018 from 10am to 2pm at McAlpine Park .</p>",
+				"url": "https://runsignup.com/Race/NC/Charlotte/AnotherChance5k",
+				"external_race_url": null,
+				"external_results_url": null,
+				"fb_page_id": null,
+				"fb_event_id": null,
+				"address": {
+					"street": "McAlpine Park",
+					"city": "Charlotte",
+					"state": "NC",
+					"zipcode": "28121",
+					"country_code": "US"
+				},
+				"timezone": "America/New_York",
+				"logo_url": "https://d368g9lw5ileu7.cloudfront.net/",
+				"real_time_notifications_enabled": "F",
+				"events": [{
+					"event_id": 249796,
+					"race_event_days_id": 101165,
+					"name": "5k",
+					"details": null,
+					"start_time": "11/17/2018 10:00",
+					"end_time": "11/17/2018 12:15",
+					"age_calc_base_date": null,
+					"registration_opens": "7/3/2018 17:24",
+					"event_type": "running_race",
+					"distance": "5K",
+					"volunteer": "F",
+					"require_dob": "T",
+					"require_phone": "T",
+					"registration_periods": [{
+						"registration_opens": "7/3/2018 17:24",
+						"registration_closes": "11/15/2018 23:59",
+						"race_fee": "$25.00",
+						"processing_fee": "$2.75"
+					}]
+				}]
+			}
+		},
+		{
+			"race": {
+				"race_id": 11987,
+				"name": "Atrium Health Big Game 4 Miler presented by SPORTPORT",
+				"last_date": "02/04/2018",
+				"last_end_date": "02/04/2018",
+				"next_date": "02/03/2019",
+				"next_end_date": "02/03/2019",
+				"is_draft_race": "F",
+				"is_registration_open": "T",
+				"created": "8/22/2014 08:42",
+				"last_modified": "9/5/2018 15:12",
+				"description": "<p>The days&rsquo; events are designed to promote and encourage active families and healthy lifestyles... oh, and celebrate football. The <strong>Atrium Health System&nbsp;</strong><strong>Big Game 4 Miler</strong>&nbsp;<em>presented by SPORTPORT</em> and benefiting Running<em>Works</em>, will feature a 4 mile run and also a 100 yard kids dash. The course will start and finish outside the stadium at the corner of Mint St. and Stonewall St. Participants will be encouraged to dress up and support their favorite football team while running on a course with a football theme. There are 4 downs in football and 4 miles on the course. Down markers will replace mile markers, course official will be dressed as referees, the finish line will be the end zone, etc.<br/><br/>And the most important part&hellip;the tailgating afterwards to help kick start you pre-game and celebrate the biggest day in sports.</p>\r\n<p><strong>Race Start Times:</strong><br/>The official start area is in front of the East gate of the stadium on S. Mint St.<br/>Sunday, February 3, 2019<br/>9:00 AM &ndash; 4 mile START<br/>10:15 AM &ndash; Kid&rsquo;s 100 yard dash<br/>10:30 AM &ndash; Awards Ceremony</p>\r\n<p><strong>Registration Deadlines:?</strong> &nbsp;Online registration officially opens the day after the Big Game for the following year. &nbsp;The first price increase is the first day of the playoffs and the final price increase is on race day and the day of the &ldquo;Big Game&rdquo;. &nbsp;Online registration will close at midnight on January 30th. &nbsp;You can still register at packet pick up on Friday and Saturday. &nbsp;Registration will open at 7:45 am and close at 8:45 am on race day. RACE CAP is 2000. If we reach the cap we will NOT have race day registration.</p>\r\n<p><strong>What do I get for participating?</strong><br/>1. All 4 miler participants will receive a performance LONG SLEEVE shirt. We will have mens and women&rsquo;s cut shirts so please size yourself with that in mind. You must register before January 20th&nbsp;to be guaranteed a t-shirt. 100 yard Kids&rsquo; Dash participants will receive a short sleeve shirt.<br/>2.&nbsp;Pint Glass for the 4 milers (the first 500 registered)<br/>3.&nbsp;Mini-footballs for the 100 yard Kids&rsquo; dash<br/>4.&nbsp;Custom team color bibs (must register before January 20th)<br/>5. Finisher Medals for the 4 mile participants<br/>6. Costume Contest<br/>7. Great giveaways from our sponsors<br/>8. Great fun!</p>\r\n<p><br/><strong>Packet Pick Up</strong><br/>You can pick up packets for friends and family. We HIGHLY SUGGEST picking up your packet on Friday or Saturday. There will be a lot of people running the race and we want to make sure you get your things before the gun goes off.</p>\r\n<p><br/><strong>Friday, February 1st, 2019; 1PM &ndash; 6:00PM</strong><br/>Atrium Health Urgent Care - Center City<br/>1426 E Morehead St.<br/>Charlotte, NC 28204</p>\r\n<p><br/><strong>Saturday,&nbsp;February 2nd, 2019; 11AM &ndash; 4:00PM</strong><br/>Run For Your Life &ndash; Midtown<br/>901 South Kings Dr.<br/>Charlotte, NC 28204</p>\r\n<p><br/><strong>Race Day &ndash; Sunday, February 3rd, 2019; 8:00AM</strong><br/>Outside the stadium<br/>800 S Mint St<br/>Charlotte, NC 28202</p>\r\n<p><br/><strong>T-Shirts</strong><br/>Every participant will receive a long sleeve soft-style performance shirt that signed up before January 20th. Shirts are ordered based on the sizes indicated during online registration.? &nbsp;NO SWITCHING SIZES &ndash; NO EXCEPTIONS! You may switch sizes AFTER the race at the registration tent if we have leftover shirts.</p>\r\n<p><br/><strong>Timing</strong><br/>We have partnered with Event Marketing Services to time this years event.<br/>Divisions<br/>Overall, Masters, 12 and under, 13-18, 19-24, 25-29, 30-34, 35-39, 40-44, 45-49, 50-54, 55-59, 60-64, 65-69, 70-74, 75 and over.</p>\r\n<p><br/><strong>Awards</strong><br/>4 Miler ONLY: Top 3 Males and Females in all divisions will receive awards. Awards gift certificates courtesy of Dick&rsquo;s Sporting Goods &ndash; South Park<br/><span style=\"text-decoration: underline;\">Claiming Awards</span><br/>As results become available, runners will be able to claim their awards at the awards ceremony prior to the last participant finishing. We do NOT ship unclaimed awards.<br/>NOTE: Sisu Events reserves the right to add/delete categories and awards prior to race based on participation.</p>\r\n<p><br/><strong>Refunds and Transfers</strong><br/>Registration fees are non-refundable. Event registrations are non-transferable between individuals, events, or years.</p>\r\n<p><br/><strong>Time Limit</strong><br/>Walkers are welcome but there is a 1 hour 15 minute time limit to cover the 4 mile course.</p>\r\n<p><br/><strong>Medical</strong><br/>There will be a RED medical tent located at the finish line in case of emergency or any minor medical needs. Announcements can always be made at the DJ booth as well. Any life threatening problems should call 911.</p>\r\n<p><br/><strong>Weather Policy</strong><br/>Races are held, rain or shine, unless Sisu Events determines that conditions are too dangerous. This will be based on a prudent decision made on race weekend or race day by Sisu Events and local law enforcement officials. If the race is canceled due to inclement weather there will be neither refunds nor transfers. This position is consistent with USA Track &amp; Field recommendations and with the protocol of sharing the risks associated with the sport of running. In the event of inclement weather or unforeseen circumstances, Sisu Events reserves the right to alter, cancel or eliminate any/all portions of the race.</p>\r\n<p><br/><strong>Parking</strong><br/>There are more than 30,000 parking spaces within a 10-15 minute walk of the stadium. Parking operators lease parking spaces on a game-by-game or seasonal basis near Bank of America Stadium.<br/><span style=\"text-decoration: underline;\">Non-NFL Event Parking</span><br/>Bank of America Stadium offers the ability to secure parking adjacent to the stadium for non-Panthers events. Lot 1, also known as the Mint Street Parking Facility, is located at the corner of Mint and Graham streets and is directly across from the stadium&rsquo;s North Gate. Parking for fans with disabilities is available on a first-come, first-served basis for vehicles displaying a handicap placard. This location offers convenience and ease, offering three entrances and exits.</p>\r\n<p><br/><strong>Entertainment</strong><br/>We are so excited to have AAA Entertainment at the Start and Finish line to energize the runners and maintain the fun!</p>\r\n<p><br/>We look forward to seeing you there!</p>\r\n<p>&nbsp;</p>",
+				"url": "https://runsignup.com/Race/NC/Charlotte/SuperBowl4Miler",
+				"external_race_url": "http://biggamerun.com",
+				"external_results_url": null,
+				"fb_page_id": "649445921818839",
+				"fb_event_id": null,
+				"address": {
+					"street": "800 S Mint St.",
+					"city": "Charlotte",
+					"state": "NC",
+					"zipcode": "28202",
+					"country_code": "US"
+				},
+				"timezone": "America/New_York",
+				"logo_url": "https://d368g9lw5ileu7.cloudfront.net/races/race11987-logo.bAeYxv.png",
+				"real_time_notifications_enabled": "F",
+				"events": [{
+						"event_id": 237174,
+						"race_event_days_id": 96308,
+						"name": "The Big Game 4 Miler",
+						"details": null,
+						"start_time": "2/3/2019 09:00",
+						"end_time": null,
+						"age_calc_base_date": null,
+						"registration_opens": "4/25/2018 00:00",
+						"event_type": "running_race",
+						"distance": "4 Miles",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "4/25/2018 00:00",
+								"registration_closes": "9/6/2018 23:59",
+								"race_fee": "$35.00",
+								"processing_fee": "$3.95"
+							},
+							{
+								"registration_opens": "9/7/2018 00:00",
+								"registration_closes": "1/5/2019 23:59",
+								"race_fee": "$40.00",
+								"processing_fee": "$3.95"
+							},
+							{
+								"registration_opens": "1/6/2019 00:00",
+								"registration_closes": "2/3/2019 23:59",
+								"race_fee": "$45.00",
+								"processing_fee": "$3.95"
+							}
+						],
+						"giveaway": "Long Sleeve Shirt"
+					},
+					{
+						"event_id": 237175,
+						"race_event_days_id": 96308,
+						"name": "100 yard kid's dash",
+						"details": "Kid's will line up 100 yards from the finish line so they will be able to finish through the arch like everyone else.  Kid's will be divided by age groups.  There are no winners or losers...we are having fun!",
+						"start_time": "2/3/2019 10:15",
+						"end_time": null,
+						"age_calc_base_date": null,
+						"registration_opens": "4/17/2018 13:00",
+						"event_type": "running_race",
+						"distance": "100 Yards",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+							"registration_opens": "4/17/2018 13:00",
+							"registration_closes": "2/3/2019 23:59",
+							"race_fee": "$10.00",
+							"processing_fee": "$2.00"
+						}],
+						"giveaway": "Short Sleeve Shirt"
+					}
+				]
+			}
+		},
+		{
+			"race": {
+				"race_id": 17635,
+				"name": "BB&T Corporate Cup 5K & Half Marathon",
+				"last_date": "03/10/2018",
+				"last_end_date": "03/10/2018",
+				"next_date": "03/09/2019",
+				"next_end_date": "03/09/2019",
+				"is_draft_race": "F",
+				"is_registration_open": "T",
+				"created": "3/5/2015 18:26",
+				"last_modified": "10/17/2018 12:59",
+				"description": "<p>Make your footprints count &amp; join us for the 40th annual BB&amp;T Corporate Cup 5K and Half-Marathon on Saturday, March 9th. Kicking off the Charlotte running season, this fundraiser is the YMCA of Greater Charlotte&rsquo;s largest road race with more than 3,200 runners in 2018. With the community&rsquo;s support, the race raised more than $200,000 for the Y&rsquo;s Annual Campaign, enabling the Y to offer programs and services that nurture the potential of kids and teens, promote healthy living, foster a sense of social responsibility and strengthen the foundations of community.</p>\r\n<p>The race starts &amp; ends in Uptown Charlotte and is perfect for runners and walkers of all levels - beginner to expert &ndash; with a 5K, half-marathon &amp; half-marathon relay distance. Celebrate the race finish with a post-race party in Uptown Charlotte with music, free food and over 20 vendors.</p>\r\n<p>2019 marks the 10th annual Team Challenge, a friendly competition amongst Charlotte area businesses &amp; community groups. Teams earn points for&nbsp;runner / walker participation, volunteerism, team spirit and&nbsp;giving back to the community. The team with the most points wins the actual &ldquo;Corporate Cup&rdquo; award &amp; earns bragging rights as the team most committed to healthy living &amp; social responsibility in 2019. Previous winners include RSM, Duke Energy, Clariant &amp; MetsoPower. For more information about the team challenge &amp; to register, visit <a href=\"http://www.ymcacharlotte.org/corporatecup\" target=\"_blank\" rel=\"noopener noreferrer\">www.ymcacharlotte.org/corporatecup</a>.</p>",
+				"url": "https://runsignup.com/Race/NC/Charlotte/BBTCorporateCup5KHalfMarathon",
+				"external_race_url": "http://www.ymcacharlotte.org/corporatecup",
+				"external_results_url": null,
+				"fb_page_id": null,
+				"fb_event_id": null,
+				"address": {
+					"street": "South Tryon Street & Levine Avenue of the Arts",
+					"city": "Charlotte",
+					"state": "NC",
+					"zipcode": "28202",
+					"country_code": "US"
+				},
+				"timezone": "America/New_York",
+				"logo_url": "https://d368g9lw5ileu7.cloudfront.net/races/race17635-logo.bAq_9h.png",
+				"real_time_notifications_enabled": "F",
+				"events": [{
+						"event_id": 269914,
+						"race_event_days_id": 108960,
+						"name": "5K Run/Walk",
+						"details": null,
+						"start_time": "3/9/2019 08:15",
+						"end_time": "3/9/2019 14:00",
+						"age_calc_base_date": null,
+						"registration_opens": "10/15/2018 00:00",
+						"event_type": "running_race",
+						"distance": "5K",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "10/15/2018 00:00",
+								"registration_closes": "11/25/2018 23:59",
+								"race_fee": "$20.00",
+								"processing_fee": "$3.25"
+							},
+							{
+								"registration_opens": "11/26/2018 00:00",
+								"registration_closes": "12/30/2018 23:59",
+								"race_fee": "$25.00",
+								"processing_fee": "$3.25"
+							},
+							{
+								"registration_opens": "12/31/2018 00:00",
+								"registration_closes": "2/3/2019 23:59",
+								"race_fee": "$30.00",
+								"processing_fee": "$3.25"
+							},
+							{
+								"registration_opens": "2/4/2019 00:00",
+								"registration_closes": "3/3/2019 23:59",
+								"race_fee": "$35.00",
+								"processing_fee": "$4.25"
+							},
+							{
+								"registration_opens": "3/4/2019 00:00",
+								"registration_closes": "3/9/2019 11:00",
+								"race_fee": "$40.00",
+								"processing_fee": "$4.25"
+							}
+						],
+						"giveaway": "Unisex T-Shirt"
+					},
+					{
+						"event_id": 269915,
+						"race_event_days_id": 108960,
+						"name": "Half-Marathon",
+						"details": null,
+						"start_time": "3/9/2019 07:40",
+						"end_time": "3/9/2019 14:00",
+						"age_calc_base_date": null,
+						"registration_opens": "10/15/2018 00:00",
+						"event_type": "running_race",
+						"distance": "13.1 Miles",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "10/15/2018 00:00",
+								"registration_closes": "11/25/2018 23:59",
+								"race_fee": "$60.00",
+								"processing_fee": "$4.85"
+							},
+							{
+								"registration_opens": "11/26/2018 00:00",
+								"registration_closes": "12/30/2018 23:59",
+								"race_fee": "$65.00",
+								"processing_fee": "$5.15"
+							},
+							{
+								"registration_opens": "12/31/2018 00:00",
+								"registration_closes": "2/3/2019 23:59",
+								"race_fee": "$70.00",
+								"processing_fee": "$5.45"
+							},
+							{
+								"registration_opens": "2/4/2019 00:00",
+								"registration_closes": "3/3/2019 23:59",
+								"race_fee": "$80.00",
+								"processing_fee": "$6.05"
+							},
+							{
+								"registration_opens": "3/4/2019 00:00",
+								"registration_closes": "3/8/2019 23:59",
+								"race_fee": "$85.00",
+								"processing_fee": "$6.35"
+							}
+						],
+						"giveaway": "Unisex T-Shirt"
+					},
+					{
+						"event_id": 269916,
+						"race_event_days_id": 108960,
+						"name": "5K Run/Walk (Corporate Teams Only)",
+						"details": null,
+						"start_time": "3/9/2019 08:15",
+						"end_time": "3/9/2019 14:00",
+						"age_calc_base_date": null,
+						"registration_opens": "10/15/2018 00:00",
+						"event_type": "running_race",
+						"distance": "5K",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "10/15/2018 00:00",
+								"registration_closes": "11/25/2018 23:59",
+								"race_fee": "$20.00",
+								"processing_fee": "$3.25"
+							},
+							{
+								"registration_opens": "11/26/2018 00:00",
+								"registration_closes": "12/30/2018 23:59",
+								"race_fee": "$25.00",
+								"processing_fee": "$3.25"
+							},
+							{
+								"registration_opens": "12/31/2018 00:00",
+								"registration_closes": "2/3/2019 23:59",
+								"race_fee": "$30.00",
+								"processing_fee": "$3.25"
+							},
+							{
+								"registration_opens": "2/4/2019 00:00",
+								"registration_closes": "3/3/2019 23:59",
+								"race_fee": "$35.00",
+								"processing_fee": "$4.25"
+							},
+							{
+								"registration_opens": "3/4/2019 00:00",
+								"registration_closes": "3/8/2019 23:59",
+								"race_fee": "$40.00",
+								"processing_fee": "$4.25"
+							}
+						],
+						"giveaway": "Unisex T-Shirt"
+					},
+					{
+						"event_id": 269917,
+						"race_event_days_id": 108960,
+						"name": "Half-Marathon (Corporate Teams Only)",
+						"details": null,
+						"start_time": "3/9/2019 07:40",
+						"end_time": "3/9/2019 14:00",
+						"age_calc_base_date": null,
+						"registration_opens": "10/15/2018 00:00",
+						"event_type": "running_race",
+						"distance": "13.1 Miles",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "10/15/2018 00:00",
+								"registration_closes": "11/25/2018 23:59",
+								"race_fee": "$60.00",
+								"processing_fee": "$4.85"
+							},
+							{
+								"registration_opens": "11/26/2018 00:00",
+								"registration_closes": "12/30/2018 23:59",
+								"race_fee": "$65.00",
+								"processing_fee": "$5.15"
+							},
+							{
+								"registration_opens": "12/31/2018 00:00",
+								"registration_closes": "2/3/2019 23:59",
+								"race_fee": "$70.00",
+								"processing_fee": "$5.45"
+							},
+							{
+								"registration_opens": "2/4/2019 00:00",
+								"registration_closes": "3/3/2019 23:59",
+								"race_fee": "$80.00",
+								"processing_fee": "$6.05"
+							},
+							{
+								"registration_opens": "3/4/2019 00:00",
+								"registration_closes": "3/8/2019 23:59",
+								"race_fee": "$85.00",
+								"processing_fee": "$6.35"
+							}
+						],
+						"giveaway": "Unisex T-Shirt"
+					},
+					{
+						"event_id": 269918,
+						"race_event_days_id": 108960,
+						"name": "Half Marathon Relay (Corporate Teams Only)",
+						"details": " BB&T Corporate Cup 5K and Half-Marathon will feature a half-marathon relay. Designed for a 2-person team, each person will run a portion of the half-marathon route, with the exchange point at the 10K split. Both participants will receive a shirt & a finisher medal for participating. Participants are responsible for their transportation to the exchange point & back to the start/finish line. Participants must have their partners confirmed at the time of registration.",
+						"start_time": "3/9/2019 07:40",
+						"end_time": "3/9/2019 14:00",
+						"age_calc_base_date": null,
+						"registration_opens": "10/15/2018 00:00",
+						"event_type": "running_race",
+						"distance": "13.1 Miles",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "10/15/2018 00:00",
+								"registration_closes": "11/25/2018 23:59",
+								"race_fee": "$40.00",
+								"processing_fee": "$4.25"
+							},
+							{
+								"registration_opens": "11/26/2018 00:00",
+								"registration_closes": "12/30/2018 23:59",
+								"race_fee": "$45.00",
+								"processing_fee": "$4.25"
+							},
+							{
+								"registration_opens": "12/31/2018 00:00",
+								"registration_closes": "2/3/2019 23:59",
+								"race_fee": "$50.00",
+								"processing_fee": "$4.25"
+							},
+							{
+								"registration_opens": "2/4/2019 00:00",
+								"registration_closes": "3/3/2019 23:59",
+								"race_fee": "$55.00",
+								"processing_fee": "$4.55"
+							},
+							{
+								"registration_opens": "3/4/2019 00:00",
+								"registration_closes": "3/8/2019 23:59",
+								"race_fee": "$65.00",
+								"processing_fee": "$5.15"
+							}
+						],
+						"giveaway": "Unisex T-Shirt"
+					},
+					{
+						"event_id": 269919,
+						"race_event_days_id": 108960,
+						"name": "Half Marathon Relay",
+						"details": " BB&T Corporate Cup 5K and Half-Marathon will feature a half-marathon relay. Designed for a 2-person team, each person will run a portion of the half-marathon route, with the exchange point at the 10K split. Both participants will receive a shirt & a finisher medal for participating. Participants are responsible for their transportation to the exchange point & back to the start/finish line. Participants must have their partners confirmed at the time of registration.",
+						"start_time": "3/9/2019 07:40",
+						"end_time": "3/9/2019 14:00",
+						"age_calc_base_date": null,
+						"registration_opens": "10/15/2018 14:01",
+						"event_type": "running_race",
+						"distance": null,
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "10/15/2018 14:01",
+								"registration_closes": "11/25/2018 23:59",
+								"race_fee": "$40.00",
+								"processing_fee": "$4.25"
+							},
+							{
+								"registration_opens": "11/26/2018 00:00",
+								"registration_closes": "12/30/2018 23:59",
+								"race_fee": "$45.00",
+								"processing_fee": "$4.25"
+							},
+							{
+								"registration_opens": "12/31/2018 00:00",
+								"registration_closes": "2/3/2019 23:59",
+								"race_fee": "$50.00",
+								"processing_fee": "$4.25"
+							},
+							{
+								"registration_opens": "2/4/2019 00:00",
+								"registration_closes": "3/3/2019 23:59",
+								"race_fee": "$55.00",
+								"processing_fee": "$4.55"
+							},
+							{
+								"registration_opens": "3/4/2019 00:00",
+								"registration_closes": "3/8/2019 23:59",
+								"race_fee": "$65.00",
+								"processing_fee": "$5.15"
+							}
+						],
+						"giveaway": "Unisex T-Shirt"
+					}
+				],
+				"headings": [{
+					"heading_text": "Team Challenge Information",
+					"content": "<p>The Team Challenge is a friendly competition amongst area businesses &amp; community groups, competing for bragging rights as the team most committed to&nbsp;healthy living &amp; social responsibility in 2018.&nbsp;Teams will earn points for runner / walker participation, volunteerism, team spirit and giving back to the YMCA's Annual Campaign. For Team Challenge information, please visit: <a href=\"http://www.ymcacharlotte.org/races/corporatecup/team-challenge.aspx\" target=\"_blank\" rel=\"noopener noreferrer\">http://www.ymcacharlotte.org/races/corporatecup/team-challenge.aspx</a></p>\r\n<p>Please note that teams will need their team captain to pre-register for the event via the web form on the linked page above. Teams will be set up for registration within 48-72 hours.</p>"
+				}]
+			}
+		},
+		{
+			"race": {
+				"race_id": 59362,
+				"name": "Charlotte LUNGe Forward 5K Walk, Run & Rally",
+				"last_date": "05/19/2018",
+				"last_end_date": "05/19/2018",
+				"next_date": "03/30/2019",
+				"next_end_date": "03/30/2019",
+				"is_draft_race": "F",
+				"is_registration_open": "F",
+				"created": "3/16/2018 10:00",
+				"last_modified": "9/25/2018 14:22",
+				"description": "<p>Join us for the annual Charlotte LUNGe Forward 5K Run, Walk &amp; Rally! From the 5K race to the celebration rally, to the kid&rsquo;s dash, this year&rsquo;s event will include a variety of activities for the entire family.&nbsp; The Charlotte LUNGe Forward will be a day of celebration and remembrance, as well as a day to take action and provide hope to those impacted by lung cancer.&nbsp;However you choose to participate, your support will make an impact in the fight against lung cancer in North Carolina.&nbsp;</p>\r\n<p>Thank you for joining our network of hope and action! Together, there is so much we can do.</p>",
+				"url": "https://runsignup.com/Race/NC/Charlotte/CharlotteLUNGeForward5KWalkRunRally",
+				"external_race_url": "http://support.lungcancerinitiativenc.org/site/TR?fr_id=1040&pg=entry",
+				"external_results_url": null,
+				"fb_page_id": null,
+				"fb_event_id": null,
+				"address": {
+					"street": "6220 Park Road",
+					"city": "Charlotte",
+					"state": "NC",
+					"zipcode": "28210",
+					"country_code": "US"
+				},
+				"timezone": "America/New_York",
+				"logo_url": "https://d368g9lw5ileu7.cloudfront.net/",
+				"real_time_notifications_enabled": "F",
+				"events": [{
+					"event_id": 265503,
+					"race_event_days_id": 107225,
+					"name": "Registration Opens",
+					"details": null,
+					"start_time": "3/30/2019 07:30",
+					"end_time": null,
+					"age_calc_base_date": null,
+					"registration_opens": null,
+					"event_type": "running_race",
+					"distance": "5K",
+					"volunteer": "F",
+					"require_dob": "T",
+					"require_phone": "T",
+					"registration_periods": []
+				}]
+			}
+		},
+		{
+			"race": {
+				"race_id": 53605,
+				"name": "Charlotte Racefest Half Marathon & 10k ",
+				"last_date": "04/14/2018",
+				"last_end_date": "04/14/2018",
+				"next_date": "04/13/2019",
+				"next_end_date": "04/13/2019",
+				"is_draft_race": "F",
+				"is_registration_open": "T",
+				"created": "11/6/2017 19:04",
+				"last_modified": "11/7/2018 20:13",
+				"description": "<p>Well into its 2nd decade, the Charlotte RaceFest Half Marathon and 10K will once again take place in the wonderful SouthPark area of Charlotte, NC. Thanks to the support of our participants and sponsors, Charlotte RaceFest is considered one of Charlotte&rsquo;s premier road-running events. The event offers participants and sponsors the chance to experience a community event full of tradition, goodwill and a feel-good vibe.</p>\r\n<p><br/>The event offers Half Marathon and 10K events for 2016. Our finish line area offers a great post-race atmosphere including vendor displays, community groups, live music and plenty of runner refreshments including food &amp; craft beer (2 per 21+ registrant).</p>",
+				"url": "https://runsignup.com/Race/NC/Charlotte/CharlotteRacefestHalfMarathon10k",
+				"external_race_url": null,
+				"external_results_url": null,
+				"fb_page_id": null,
+				"fb_event_id": null,
+				"address": {
+					"street": "SouthPark Mall",
+					"city": "Charlotte",
+					"state": "NC",
+					"zipcode": "28210",
+					"country_code": "US"
+				},
+				"timezone": "America/New_York",
+				"logo_url": "https://d368g9lw5ileu7.cloudfront.net/races/race53605-logo.bBs882.png",
+				"real_time_notifications_enabled": "F",
+				"events": [{
+						"event_id": 239294,
+						"race_event_days_id": 97198,
+						"name": "Half Marathon",
+						"details": null,
+						"start_time": "4/13/2019 07:30",
+						"end_time": "4/13/2019 10:30",
+						"age_calc_base_date": null,
+						"registration_opens": "7/1/2018 19:30",
+						"event_type": "running_only",
+						"distance": "13.1 Miles",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "7/1/2018 19:30",
+								"registration_closes": "11/30/2018 23:59",
+								"race_fee": "$60.00",
+								"processing_fee": "$4.60"
+							},
+							{
+								"registration_opens": "12/1/2018 00:00",
+								"registration_closes": "2/28/2019 23:59",
+								"race_fee": "$70.00",
+								"processing_fee": "$5.20"
+							},
+							{
+								"registration_opens": "3/1/2019 00:00",
+								"registration_closes": "3/31/2019 23:59",
+								"race_fee": "$80.00",
+								"processing_fee": "$5.80"
+							},
+							{
+								"registration_opens": "4/1/2019 00:00",
+								"registration_closes": "4/13/2019 08:00",
+								"race_fee": "$90.00",
+								"processing_fee": "$6.40"
+							}
+						],
+						"giveaway": "T-Shirt"
+					},
+					{
+						"event_id": 239295,
+						"race_event_days_id": 97198,
+						"name": "10k",
+						"details": null,
+						"start_time": "4/13/2019 07:30",
+						"end_time": "4/13/2019 10:30",
+						"age_calc_base_date": null,
+						"registration_opens": "7/1/2018 19:30",
+						"event_type": "running_race",
+						"distance": "10K",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "7/1/2018 19:30",
+								"registration_closes": "11/30/2018 23:59",
+								"race_fee": "$40.00",
+								"processing_fee": "$4.00"
+							},
+							{
+								"registration_opens": "12/1/2018 00:00",
+								"registration_closes": "2/28/2019 23:59",
+								"race_fee": "$45.00",
+								"processing_fee": "$4.00"
+							},
+							{
+								"registration_opens": "3/1/2019 00:00",
+								"registration_closes": "3/31/2019 23:59",
+								"race_fee": "$50.00",
+								"processing_fee": "$4.00"
+							},
+							{
+								"registration_opens": "4/1/2019 00:00",
+								"registration_closes": "4/13/2019 08:00",
+								"race_fee": "$55.00",
+								"processing_fee": "$4.30"
+							}
+						],
+						"giveaway": "T-Shirt",
+						"participant_cap": 750
+					}
+				]
+			}
+		},
+		{
+			"race": {
+				"race_id": 65402,
+				"name": "Craft Beer Half Marathon & 5 Miler",
+				"last_date": null,
+				"last_end_date": null,
+				"next_date": "03/30/2019",
+				"next_end_date": "03/30/2019",
+				"is_draft_race": "F",
+				"is_registration_open": "T",
+				"created": "8/14/2018 17:04",
+				"last_modified": "10/10/2018 17:43",
+				"description": "<p>North Carolinas BEST Half Marathon celebrating running and Craft Beer!&nbsp;</p>\r\n<p>Join us for the <strong>Craft Beer Half Marathon &amp; 5 Miler</strong> on March 30th, 2019.&nbsp; Celebrate running and the HUGE Charlotte Craft Beer scene with fantastic course through miles of the greenway in North Charlotte.&nbsp; This event will kick-off Charlotte Craft Beer Week and is very exclusive. The Half Marathon &amp; 5 Miler will only accept 1,000 runners.&nbsp; REGISTER NOW to guarantee your spot!&nbsp; Run the race and stay for the FREE beer.</p>\r\n<p><span style=\"text-decoration: underline;\"><strong>Race Start Times:</strong></span></p>\r\n<p>The Craft Beer Half Marathon, starts and finishes outside of the Carolinas Healthcare University 8800 N Tryon St, Charlotte, NC 28262</p>\r\n<p>Saturday, March 30, 2019</p>\r\n<p>8:00 AM &ndash; HALF MARATHON</p>\r\n<p>8:15 AM &ndash; 5 MILER</p>\r\n<p><strong>What do I get for participating?</strong></p>\r\n<p><span style=\"text-decoration: underline;color: #800000;\">The Most Swag for any Half Marathon in the area!</span></p>\r\n<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Long Sleeve Shirt</p>\r\n<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Custom Bibs with your name on it</p>\r\n<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Coaster Finisher Medals (do this race 4 times and you&rsquo;ll have a set of coasters)</p>\r\n<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Pint Glasses for all Half Marathon participants only</p>\r\n<p>&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Can/bottle Koozies for all Half Marathon participants only</p>\r\n<p>Now that is a TON OF SWAG!</p>\r\n<p><span style=\"text-decoration: underline;\"><strong>Packet Pick Up:</strong></span></p>\r\n<p><span style=\"color: #ff0000;\">*You will be able to pick up packets for friends and family.</span></p>\r\n<p><strong>Friday, March 29th, 2019; 10:00AM &ndash; 6:00PM</strong></p>\r\n<p>Run For Your Life &ndash; Midtown</p>\r\n<p>901 South Kings Drive, #100</p>\r\n<p>Charlotte, NC 28204</p>\r\n<p><strong>Race Day &ndash; Saturday, March 30th, 2019; 6:45AM &ndash; 7:45AM</strong></p>\r\n<p>Carolinas Healthcare University</p>\r\n<p>8800 N Tryon St,</p>\r\n<p>Charlotte, NC 28262</p>\r\n<p><span style=\"text-decoration: underline;\"><strong>COURSE:</strong></span></p>\r\n<p>This Half Marathon is HALF on the roads and HALF on the beautiful greenway paved trails.&nbsp;</p>\r\n<p>You will start on the backside of Atrium Health University and run down N. Tryon Street before entering the greenway trails after the 1 mile mark.&nbsp; Ahh&hellip;shade, cool temperatures, and great scenery!&nbsp; You will then follow the trail until around 5.8 miles where you will jump onto the roads for the next few miles.&nbsp; At around the 8.5 mile mark you will then jump back onto the trails where you will head back towards the start.&nbsp; At around the 12.7 mile mark you will exit the trail and run the roads to the finish at the backside of Atrium Health University.&nbsp; Time to celebrate with a ton of different local craft beers.&nbsp; <strong>RUN LOCAL, DRINK LOCAL</strong></p>\r\n<p><a href=\"https://www.mapmyrun.com/routes/fullscreen/2117129062/\" target=\"_blank\" rel=\"noopener noreferrer\">Half Marathon Course</a></p>\r\n<p><a href=\"https://www.mapmyrun.com/routes/fullscreen/2199679858/\" target=\"_blank\" rel=\"noopener noreferrer\">5 Mile Course</a></p>\r\n<p><span style=\"text-decoration: underline;\"><strong>T-Shirts:</strong></span></p>\r\n<p>Every participant will be guaranteed a long sleeve tri-blend shirt that signed up before March 15th. You will have a choice between a men&rsquo;s or women&rsquo;s cut shirt. Shirts are ordered based on the sizes indicated during online registration.<br/>NO SWITCHING SIZES &ndash; NO EXCEPTIONS!</p>\r\n<p><span style=\"text-decoration: underline;\"><strong>Timing:</strong></span></p>\r\n<p>We have partnered with Event Marketing Services to time this year&rsquo;s event using Chronotrack Timing Systems. All Half Marathon and 5 Miler participants will be timed and will receive their disposable timing tag during packet pick up.</p>\r\n<p><strong>Divisions</strong></p>\r\n<p>Overall, Masters, 12 and under, 13-18, 19-24, 25-29, 30-34, 35-39, 40-44, 45-49, 50-54, 55-59, 60-64, 65-69, 70-74, 75+.</p>\r\n<p><strong>Awards</strong></p>\r\n<p>Top 3 Males and Females in all divisions will receive awards.&nbsp;</p>\r\n<p><strong>Claiming Awards</strong></p>\r\n<p>As results become available, runners will be able to claim their awards at the awards ceremony prior to the last participant finishing. We do NOT ship unclaimed awards.</p>\r\n<p>NOTE: Sisu Events reserves the right to add/delete categories and awards prior to race based on participation.</p>\r\n<p><span style=\"text-decoration: underline;\"><strong>Refunds and Transfers:</strong></span></p>\r\n<p>Registration fees are non-refundable. Event registrations are non-transferable between individuals, events, or years.</p>\r\n<p><span style=\"text-decoration: underline;\"><strong>Number of Participants Allowed:</strong></span></p>\r\n<p>Half Marathon - 1,000</p>\r\n<p>5 Miler - 1,000</p>\r\n<p><span style=\"text-decoration: underline;\"><strong>Time Limit:</strong></span></p>\r\n<p>There is a 3:00 hour time limit in the Half Marathon and a 1:15 time limit in the 5 miler.&nbsp;&nbsp;In order to comply with the agreement with the City of Charlotte, streets comprising the route must be reopened to vehicular traffic on a set schedule.</p>\r\n<p><span style=\"text-decoration: underline;\"><strong>Dogs and Strollers:</strong></span></p>\r\n<p>Dogs and Strollers will NOT be allowed for this event.</p>\r\n<p><span style=\"text-decoration: underline;\"><strong>Medic/First Aid:</strong></span></p>\r\n<p>Should you need medical attention at the finish line, let a volunteer know and you&rsquo;ll be escorted to the medical tent located very close to the finish line. There will be a Carolina Healthcare&nbsp;medical tent located at the finish line in case of emergency or any minor medical needs. Announcements can always be made at the DJ booth as well. Any life threatening problems should call 911.</p>\r\n<p><span style=\"text-decoration: underline;\"><strong>Water Stops:</strong></span></p>\r\n<p>There will be SIX water stops for the Half Marathon and 2 water stops for the 5 Miler.</p>\r\n<p>We will provide a water bottle at the finish line AFTER the race. DO NOT get a water bottle before the race or there will not be any available to the rest of the runners.</p>\r\n<p><span style=\"text-decoration: underline;\"><strong>Weather Policy:</strong></span></p>\r\n<p>Races are held, rain or shine, unless Sisu Events determines that conditions are too dangerous. This will be based on a prudent decision made on race weekend or race day by Sisu Events and local law enforcement officials. If the race is canceled due to inclement weather there will be neither refunds nor transfers. This position is consistent with USA Track &amp; Field recommendations and with the protocol of sharing the risks associated with the sport of running. In the event of inclement weather or unforeseen circumstances, Sisu Events reserves the right to alter, cancel or eliminate any/all portions of the race.</p>\r\n<p><span style=\"text-decoration: underline;\"><strong>Parking &amp; Transportation:</strong></span></p>\r\n<p>PLEASE arrive in time to park. Parking will be available in the JW Clay Blvd Station and The Shoppes at University Place.</p>\r\n<p><strong>Take the Train!&nbsp;</strong> The JW Clay Blvd Station is only 0.25 miles (roughly 400 meters) form the start.</p>\r\n<p><span style=\"text-decoration: underline;\"><strong>Expo:</strong></span></p>\r\n<p>At the Craft Beer Half Expo you will find exhibitors, great giveaways from our sponsors, and best of all BEER from a ton of the areas best breweries. Local breweries will have beer to sample&hellip;must be 21 years of age. The Expo starts at 7:30 and ends around 11 am.&nbsp; Use your free pint glass and sample.</p>\r\n<p><span style=\"text-decoration: underline;\"><strong>Entertainment:</strong></span></p>\r\n<p>We are excited to have music at the Start and Finish line to energize the runners and maintain the fun!</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>",
+				"url": "https://runsignup.com/Race/NC/Charlotte/CraftBeerHalfMarathon",
+				"external_race_url": null,
+				"external_results_url": null,
+				"fb_page_id": null,
+				"fb_event_id": null,
+				"address": {
+					"street": "8800 N Tryon St.",
+					"city": "Charlotte",
+					"state": "NC",
+					"zipcode": "28262",
+					"country_code": "US"
+				},
+				"timezone": "America/New_York",
+				"logo_url": "https://d368g9lw5ileu7.cloudfront.net/races/race65402-logo.bBDGb4.png",
+				"real_time_notifications_enabled": "F",
+				"events": [{
+						"event_id": 257016,
+						"race_event_days_id": 104108,
+						"name": "Half Marathon",
+						"details": null,
+						"start_time": "3/30/2019 08:00",
+						"end_time": null,
+						"age_calc_base_date": null,
+						"registration_opens": "8/16/2018 17:13",
+						"event_type": "running_only",
+						"distance": null,
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "8/16/2018 17:13",
+								"registration_closes": "12/31/2018 23:59",
+								"race_fee": "$70.00",
+								"processing_fee": "$4.95"
+							},
+							{
+								"registration_opens": "1/1/2019 00:00",
+								"registration_closes": "2/28/2019 23:59",
+								"race_fee": "$80.00",
+								"processing_fee": "$5.55"
+							},
+							{
+								"registration_opens": "3/1/2019 00:00",
+								"registration_closes": "3/30/2019 23:59",
+								"race_fee": "$90.00",
+								"processing_fee": "$6.15"
+							}
+						],
+						"giveaway": "T-Shirt"
+					},
+					{
+						"event_id": 257017,
+						"race_event_days_id": 104108,
+						"name": "5 Miler",
+						"details": null,
+						"start_time": "3/30/2019 08:15",
+						"end_time": null,
+						"age_calc_base_date": null,
+						"registration_opens": "8/16/2018 17:13",
+						"event_type": "running_race",
+						"distance": null,
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "8/16/2018 17:13",
+								"registration_closes": "12/31/2018 23:59",
+								"race_fee": "$35.00",
+								"processing_fee": "$3.95"
+							},
+							{
+								"registration_opens": "1/1/2019 00:00",
+								"registration_closes": "2/28/2019 23:59",
+								"race_fee": "$40.00",
+								"processing_fee": "$3.95"
+							},
+							{
+								"registration_opens": "3/1/2019 00:00",
+								"registration_closes": "3/30/2019 23:59",
+								"race_fee": "$45.00",
+								"processing_fee": "$3.95"
+							}
+						],
+						"giveaway": "T-Shirt"
+					}
+				]
+			}
+		},
+		{
+			"race": {
+				"race_id": 51407,
+				"name": "Health Guidance 5k",
+				"last_date": "11/18/2017",
+				"last_end_date": "11/18/2017",
+				"next_date": "11/17/2018",
+				"next_end_date": "11/17/2018",
+				"is_draft_race": "F",
+				"is_registration_open": "T",
+				"created": "8/31/2017 16:41",
+				"last_modified": "11/12/2018 13:17",
+				"description": "<p>Health Guidance, a locally founded and operated non-profit patient advocacy organization, cares for patients and their families. People who are challenged by difficult diagnoses. Individuals who need help finding diagnostic tools, the care of exceptional physicians, and the very best medical treatments. Health Guidance strengthens patients and their families by providing strong support during difficult health challenges.</p>\r\n<p>Health Guidance relies solely on generous donations from individuals, grants and our special events. We serve local families in the Charlotte-Mecklenburg community free of charge through their critical medical illness, utilizing our personalized health management service.....We believe in the dream of wellness.&nbsp;http://www.hgccharlotte.org/</p>",
+				"url": "https://runsignup.com/Race/NC/Charlotte/HealthGuidance5k",
+				"external_race_url": "http://www.hgccharlotte.org/5k-race-in-noda.html",
+				"external_results_url": null,
+				"fb_page_id": null,
+				"fb_event_id": null,
+				"address": {
+					"street": "3025 N Davidson St.",
+					"city": "Charlotte",
+					"state": "NC",
+					"zipcode": "28205",
+					"country_code": "US"
+				},
+				"timezone": "America/New_York",
+				"logo_url": "https://d368g9lw5ileu7.cloudfront.net/races/race51407-logo.bBTNBm.png",
+				"real_time_notifications_enabled": "F",
+				"events": [{
+						"event_id": 254762,
+						"race_event_days_id": 103177,
+						"name": "5K",
+						"details": null,
+						"start_time": "11/17/2018 08:00",
+						"end_time": "11/17/2018 10:00",
+						"age_calc_base_date": null,
+						"registration_opens": "8/2/2018 16:43",
+						"event_type": "running_race",
+						"distance": "3.1 Miles",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "8/2/2018 16:43",
+								"registration_closes": "10/30/2018 23:59",
+								"race_fee": "$25.00",
+								"processing_fee": "$2.50"
+							},
+							{
+								"registration_opens": "10/31/2018 00:00",
+								"registration_closes": "11/17/2018 12:00",
+								"race_fee": "$30.00",
+								"processing_fee": "$2.50"
+							}
+						],
+						"giveaway": "T-Shirt"
+					},
+					{
+						"event_id": 254763,
+						"race_event_days_id": 103177,
+						"name": "Phantom Runner",
+						"details": "Can't participate and would still like to support our event and get a cool race shirt, consider being a PHANTOM RUNNER (No participation required, shirts may be picked up at Packet Pick up or on-site Race Day.",
+						"start_time": "11/17/2018 08:00",
+						"end_time": "11/17/2018 10:00",
+						"age_calc_base_date": null,
+						"registration_opens": "8/2/2018 17:18",
+						"event_type": "running_race",
+						"distance": null,
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "8/2/2018 17:18",
+								"registration_closes": "10/30/2018 23:59",
+								"race_fee": "$25.00",
+								"processing_fee": "$2.50"
+							},
+							{
+								"registration_opens": "10/31/2018 00:00",
+								"registration_closes": "11/17/2018 23:59",
+								"race_fee": "$25.00",
+								"processing_fee": "$2.50"
+							}
+						]
+					}
+				],
+				"headings": [{
+						"heading_text": "Awards",
+						"content": "<p>Awards- Children/Teens:&nbsp;</p>\r\n<p>Overall Winner&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Male Female&nbsp;&nbsp;</p>\r\n<p>&nbsp;0 &ndash; 6&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Male Female</p>\r\n<p>7 &ndash; 12&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Male Female</p>\r\n<p>12 &ndash; 19&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Male Female</p>\r\n<p>Awards &ndash; Adults</p>\r\n<p>Overall winner&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Male &nbsp;&nbsp; Female</p>\r\n<p>20 - 29&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Male &nbsp;&nbsp; Female</p>\r\n<p>30 - 39&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Male&nbsp;&nbsp;&nbsp; Female</p>\r\n<p>40 - 49&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Male &nbsp;&nbsp; Female</p>\r\n<p>50 - 59&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Male&nbsp;&nbsp;&nbsp; Female</p>\r\n<p>60+&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Male&nbsp;&nbsp;&nbsp; Female</p>"
+					},
+					{
+						"heading_text": "Course Map",
+						"content": null
+					},
+					{
+						"heading_text": "Packet Pickup",
+						"content": "<p>Packet Pick up and onsite registration: Friday, November 16, 2018 from 6 - 8 PM Johnston YMCA&nbsp;and onsite registration and packet pick up Saturday November 17, 2018 at 7 am. Thank you for joining the Health Guidance Center of Charlotte at the Health Guidance 5K Run/Walk in NoDa - starting at the Johnston YMCA and finishing in front of Amelie's, where you will enjoy delicious Amelie's treats.</p>\r\n<p><strong>Volunteers will arrive at Johnston YMCA at 6:30 am Saturday morning November 17, 2018.</strong></p>"
+					}
+				]
+			}
+		},
+		{
+			"race": {
+				"race_id": 28086,
+				"name": "Healthy Achievement 5K Run | Walk",
+				"last_date": "06/16/2018",
+				"last_end_date": "06/16/2018",
+				"next_date": "06/15/2019",
+				"next_end_date": "06/15/2019",
+				"is_draft_race": "F",
+				"is_registration_open": "T",
+				"created": "12/20/2015 08:47",
+				"last_modified": "7/21/2018 11:07",
+				"description": "<p>The Healthy Achievement 5K Run | Walk&nbsp;is the signature fundraising and awareness event to support the Kappa Foundation&rsquo;s vision and successful mentoring programs as well as bring exposure to the importance of maintaining good health while achieving personal, scholastic and professional goals.&nbsp;</p>",
+				"url": "https://runsignup.com/Race/NC/Charlotte/HA5K",
+				"external_race_url": "http://www.ha5k.com",
+				"external_results_url": null,
+				"fb_page_id": "healthyach5k",
+				"fb_event_id": null,
+				"address": {
+					"street": "Romare Bearden Park",
+					"city": "Charlotte",
+					"state": "NC",
+					"zipcode": "28202",
+					"country_code": "US"
+				},
+				"timezone": "America/New_York",
+				"logo_url": "https://d368g9lw5ileu7.cloudfront.net/races/race28086-logo.bwJcKE.png",
+				"real_time_notifications_enabled": "F",
+				"events": [{
+						"event_id": 247437,
+						"race_event_days_id": 100343,
+						"name": "HA5K Run | Walk",
+						"details": null,
+						"start_time": "6/15/2019 07:30",
+						"end_time": "6/15/2019 10:00",
+						"age_calc_base_date": null,
+						"registration_opens": "6/21/2018 00:00",
+						"event_type": "running_race",
+						"distance": "5K",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "6/21/2018 00:00",
+								"registration_closes": "7/8/2018 23:59",
+								"race_fee": "$15.00",
+								"processing_fee": "$3.25"
+							},
+							{
+								"registration_opens": "7/9/2018 00:00",
+								"registration_closes": "1/31/2019 23:59",
+								"race_fee": "$25.00",
+								"processing_fee": "$3.25"
+							},
+							{
+								"registration_opens": "2/1/2019 00:00",
+								"registration_closes": "4/15/2019 23:59",
+								"race_fee": "$30.00",
+								"processing_fee": "$3.25"
+							},
+							{
+								"registration_opens": "4/16/2019 00:00",
+								"registration_closes": "6/5/2019 23:59",
+								"race_fee": "$35.00",
+								"processing_fee": "$4.25"
+							},
+							{
+								"registration_opens": "6/6/2019 00:00",
+								"registration_closes": "6/13/2019 23:59",
+								"race_fee": "$40.00",
+								"processing_fee": "$4.25"
+							},
+							{
+								"registration_opens": "6/14/2019 00:00",
+								"registration_closes": "6/14/2019 23:59",
+								"race_fee": "$45.00",
+								"processing_fee": "$4.25"
+							}
+						],
+						"giveaway": "T-Shirt (availability / size not guaranteed after MAY 1st!)"
+					},
+					{
+						"event_id": 247438,
+						"race_event_days_id": 100343,
+						"name": "Virtual HA5K Run | Walk",
+						"details": "2018 - Run | Walk in the HA5K anywhere!!!  \r\nPrior to Race Day, we will mail your Performance Tech Tshirt and Custom Finisher Medal!!  We would love for you to post pics of your journey on Facebook, Instagram etc. Whether in Charlotte or Chicago, you will be a part of the HA5K family!  Note:  Race Packets will be mailed to your registration address unless you specify a different mailing address below.",
+						"start_time": "6/15/2019 07:30",
+						"end_time": "6/15/2019 10:00",
+						"age_calc_base_date": null,
+						"registration_opens": "1/30/2019 00:00",
+						"event_type": "virtual_race",
+						"distance": "5K",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "1/30/2019 00:00",
+								"registration_closes": "4/13/2019 23:59",
+								"race_fee": "$25.00",
+								"processing_fee": "$3.25"
+							},
+							{
+								"registration_opens": "4/14/2019 00:00",
+								"registration_closes": "6/5/2019 23:59",
+								"race_fee": "$25.00",
+								"processing_fee": "$3.25"
+							},
+							{
+								"registration_opens": "6/6/2019 00:00",
+								"registration_closes": "6/8/2019 23:59",
+								"race_fee": "$25.00",
+								"processing_fee": "$3.25"
+							}
+						],
+						"giveaway": "T-Shirt (availability / size not guaranteed after MAY 1st!)"
+					}
+				],
+				"headings": [{
+						"heading_text": "2018 RESULTS",
+						"content": "<p>Click <a href=\"https://www.athlinks.com/event/145164/results/Event/694205/Results\" target=\"_blank\" rel=\"noopener noreferrer\">here</a> to search race results!</p>"
+					},
+					{
+						"heading_text": "More Details",
+						"content": "<p><strong>Race Details</strong></p>\r\n<p>Start Time</p>\r\n<p>7:30 AM &ndash; please arrive early and be prepared to start at 7:30 AM.</p>\r\n<p><strong>Event Location &amp; Route*</strong></p>\r\n<p>All race day events will take place on or about the 300 block of S.&nbsp;Mint Street, adjacent to Romare Bearden Park, which is located on between W. 3rd Street and W. MLK, Jr. Blvd.</p>\r\n<p>START - on Mint at MLK, head south</p>\r\n<p>Left on Stonewall</p>\r\n<p>Right on Tryon</p>\r\n<p>Right on Winona</p>\r\n<p>Right on Winnifred</p>\r\n<p>Left on Bland</p>\r\n<p>Right&nbsp; on Mint</p>\r\n<p>Left on Morehead</p>\r\n<p>Right on Cedar</p>\r\n<p>Right on 4th</p>\r\n<p>Cross Graham and turn Right on Graham</p>\r\n<p>Left on Mint St.</p>\r\n<p>&nbsp;FINISH &ndash; you will reach 3.1 miles at&nbsp;Mint St. and MLK Blvd. <br/>* This route has been certified as an official 5K event distance</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;<strong>Parking Options</strong></p>\r\n<p>Parking is available in several places around the event. Click <a href=\"http://charmeck.org/mecklenburg/county/ParkandRec/Parks/ParksByRegion/CentralRegion/Documents/RB parking.pdf\" target=\"_blank\" rel=\"noopener noreferrer\">here</a> for details.</p>\r\n<p><strong>&nbsp;Packet Pickup</strong></p>\r\n<p>You may pick up your race bib and race t-shirt at the following locations:</p>\r\n<p>Thursday, June 14th<br/>10:00 AM &ndash; 7:00 PM: <a href=\"http://goo.gl/maps/u63JS\" target=\"_blank\" rel=\"noopener noreferrer\">Run For Your Life | Midtown Location</a><br/>901 S. Kings Drive, Charlotte, NC 28204</p>\r\n<p>Friday, June 15th<br/>10:00 AM &ndash; 7:00 PM: <a href=\"http://goo.gl/maps/u63JS\" target=\"_blank\" rel=\"noopener noreferrer\">Run For Your Life | Midtown Location</a><br/>901 S. Kings Drive, Charlotte, NC 28204</p>\r\n<p>Race Day | Saturday, June 16th<br/>6:30 AM &ndash; 7:30 AM: Race registration<br/>300 South&nbsp;Mint Street &ndash; At the registration tent<br/>&nbsp;</p>\r\n<p><strong>Family / Walker Friendly Event</strong></p>\r\n<p>The Healthy Achievement 5K is a family friendly event. You don&rsquo;t have to be a runner to participate &ndash; you most certainly can walk the course and enjoy the health fair in the park after you finish!</p>\r\n<p>&nbsp;</p>\r\n<p><strong>Registration</strong></p>\r\n<p>Online Registration &ndash; <a href=\"/Race/NC/Charlotte/HA5K\" target=\"_blank\" rel=\"noopener noreferrer\">Click here</a><br/>Paper Registrations &ndash; available at any Run For Your Life location. Completed or turned in during packet pickup June 14th and 15th &amp; race day<br/>Race Day Registrations &ndash; Opens at 6:00 AM, closes at 7:30 AM <br/>&nbsp;</p>\r\n<p><strong>Training Resources</strong></p>\r\n<p>Our goal is to inspire and facilitate healthy achievement. Here is a popular link of a training program that might prove helpful as you gear up to run / jog / walk the route - click <a href=\"http://www.coolrunning.com/engine/2/2_3/181.shtml\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>. Please always consult your physician with any questions and concerns before starting a training program.</p>\r\n<p><strong>&nbsp;Results, Awards &amp; Prizes</strong></p>\r\n<p>Results will be&nbsp;emailed to youand physical postings will occur at the Health Festival, near the registration / main information tent.</p>\r\n<p>NEW CUSTOMIZED 2018 FINISHER MEDALS for everyone!!!</p>\r\n<p>Top overall male and female winners will receive a&nbsp;trophy.</p>\r\n<p>Top male and female in each age group will receive a winner's medal: 14 &amp; Under, 15-19, 20-24, 25-29, 30-34, 35-39, 40-44, 45-49, 50-54. 55-59, 60-64, 65-69, 70-74, 75+&nbsp;<br/>You must be present to receive your award / gift card.<br/>&nbsp;</p>\r\n<p>Health Festival</p>\r\n<p>8:30 AM - 10:00 AM - 300 S.&nbsp;Mint Street<br/>The Health Festival will feature the awards ceremony, food &amp; beverages for purchase from local food trucks, DJ, and more!<br/>&nbsp;</p>\r\n<p>Can't Participate? Consider a Donation</p>\r\n<p>If you are unable to participate but would like to support healthy achievement initiatives and youth mentoring programs in the Charlotte community, we ask that you consider making a 100% tax deductible donation to the Kappa Foundation of Charlotte. A portion of our event proceeds will be donated to the American Heart Association and the American Cancer Society. <a href=\"http://www.kappafoundationofcharlotte.org/donate.asp\" target=\"_blank\" rel=\"noopener noreferrer\">Click here to make a secure donation now</a>.</p>\r\n<p>Does your company have a matching program for charitable donations? If so, don&rsquo;t forget to submit your matching gift form to double your gift with really no effort!</p>\r\n<p>&nbsp;</p>\r\n<p>Your Investment Matters</p>\r\n<p>When you register to participate or make a donation to the Healthy Achievement 5K, we are making an investment in young people, in our future, together. Your support ensures that more children, particularly young men, in our communities will have the chance to realize their potential and make healthy choices. At the Kappa Foundation of Charlotte and the American Heart Association / American Stroke Association, we are committed to being good stewards of your contributions.</p>\r\n<p>Kappa Foundation of Charlotte<br/>The Kappa Foundation of Charlotte strives to foster exceptional achievement amongst young men in the Charlotte / Mecklenburg County community through diligent role modeling, mentoring, structured involvement and open access to economic scholarship and resources. To this end, the Foundation hosts two primary programs - Kappa League and the Beautillion Militaire (our 40th year running, focused college preparatory and life skills program). Kappa League is rooted in the spirit of assisting young men who are in need of counsel, advice and positive role models to aid in the navigation of their journey from childhood to manhood, particularly from a personal and scholastic development perspective. Just over the last four years, more than 135 young men have participated in the Kappa League Program.</p>\r\n<p>Beautillion Militaire focuses on advanced mentoring and facilitates scholarships for students in area high schools pursuing further degrees at four-year collegiate institutions. The Beautillion Militaire raised over $225,000 in merit and community based scholarship funds for greater than 100 young men.</p>\r\n<p>The Healthy Achievement 5K, along with its primary presenter, the Kappa Foundation of Charlotte, Inc., depends on the generosity of private donors, corporations, foundations and special events. For more info, please click <a href=\"http://www.kappafoundationofcharlotte.org/\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>.</p>\r\n<p>American Heart Association / American Stroke Association<br/>Heart diseases and stroke are the #1 cause of death in North Carolina. Learn about the lifesaving work of the American Heart Association. Since 1924, we have been working to keep you, your loved ones and your community safe from heart disease and stroke.</p>\r\n<p>Important Facts to Consider:</p>\r\n<p>Blacks have almost twice the risk of first-ever strokes compared to whites.<br/>Blacks have higher death rates for stroke compared to whites.<br/>The prevalence of high blood pressure in African Americans in the United States is the highest in the world.<br/>Among non-Hispanic blacks age 20 and older, 62.9 percent of men and 77.2 percent of women are overweight or obese.<br/>In 2001, 27.7 percent of black or African-Americans only, used any tobacco product. Heavy cigarette smoking approximately doubles a person's risk for stroke when compared to light smokers.<br/>Black women have higher prevalence rates of high blood pressure, obesity, physical inactivity and diabetes than white women.<br/>We're building healthier lives where you live and work and making your community healthier by advocating for key health issues. We train millions of Americans each year in CPR and first aid, and educate healthcare providers every day.</p>\r\n<p>Each year we host multiple events in Charlotte community to bring awareness and education about our key issues and to raise support for invaluable heart disease and stroke research. Join in the fight against heart disease and stroke by participating in the Healthy Achievement 5K Run | Walk or attending one of our other events in the Charlotte community. Here's the chance to make a real difference! For more info, please click <a href=\"http://www.heart.org/HEARTORG/Affiliate/Charlotte/NorthCarolina/Home_UCM_MAA004_AffiliatePage.jsp\" target=\"_blank\" rel=\"noopener noreferrer\">here</a>.</p>\r\n<p>American Cancer Society<br/>African Americans have the highest death rate and shortest survival of any racial and ethnic group in the US for most cancers. Although the overall racial disparity in cancer death rates is decreasing, in 2007 the death rate for all cancers combined continued to be 32% higher in African American men and 16% higher in African American women than in white men and women, respectively.</p>\r\n<p>About 168,900 new cancer cases were expected to be diagnosed among African Americans in 2011. The most common of these among African American men are prostate (40%), lung (15%), and colon and rectum (9%). Among African American women, the most common cancers are breast (34%), lung (13%), and colorectum (11%).</p>\r\n<p>Help fight back, get involved and make a difference in the fight against cancer by participating in the Healthy Achievement 5K Run | Walk. For more information go to <a href=\"http://www.cancer.org\" target=\"_blank\" rel=\"noopener noreferrer\">www.cancer.org</a> or call (800) 227-2345.</p>\r\n<p>Sponsorship Opportunities</p>\r\n<p>We welcome support from companies wanting to support healthy achievement initiatives and established youth mentoring programs in the Charlotte community. There are many ways for companies to get involved with the Healthy Achievement 5K Run | Walk specifically, and / or the Kappa Foundation of Charlotte, generally. Please email us at info@kappafoundationofcharlotte.org to learn about sponsorship opportunities.</p>\r\n<p>Tax Deductible</p>\r\n<p>Kappa Foundation of Charlotte, Inc. is a 501(c)3 non-profit. Tax ID#56-2192985. Your gift is tax deductible.</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>"
+					},
+					{
+						"heading_text": "Race Bling and Tech Style - FINISHER MEDALS and REAL TECH TEES!!",
+						"content": "<p><strong>STAY TUNED FOR NEW CUSTOM 2019 HA5K FINISHER MEDALS AND REAL TECH TEES FOR EVERYONE!!!</strong></p>\r\n<p><strong>2018 Versions Pictured Below</strong></p>\r\n<p><img src=\"https://d2mkojm4rk40ta.cloudfront.net/us-east-1-src/prod/clientUploads/2018-06/05/1/28086/ddf0abc3-faae-47c6-9253-d181b67e11d3-bBfVbJ.jpg\" alt=\"Image\" width=\"900\" height=\"900\"></img></p>"
+					}
+				]
+			}
+		},
+		{
+			"race": {
+				"race_id": 64167,
+				"name": "Let Me Run FallFest 5K",
+				"last_date": null,
+				"last_end_date": null,
+				"next_date": "11/17/2018",
+				"next_end_date": "11/17/2018",
+				"is_draft_race": "F",
+				"is_registration_open": "F",
+				"created": "7/17/2018 11:23",
+				"last_modified": "7/17/2018 11:23",
+				"description": "<p>The 5k is open to the public and will benefit Let Me Run, a nonprofit wellness program that inspires boys through the power of running to be courageous enough to be themselves, to build healthy relationships, and to live an active lifestyle. The 5k is Let Me Run's end-of-season race where the boys celebrate their emotional, social and physical growth.</p>",
+				"url": "https://runsignup.com/Race/NC/Charlotte/LetMeRunFallFest5K",
+				"external_race_url": "https://letmerun5k.racesonline.com/",
+				"external_results_url": "https://letmerun5k.racesonline.com/results",
+				"fb_page_id": null,
+				"fb_event_id": null,
+				"address": {
+					"street": "3600 Arco Corporate Dr",
+					"city": "Charlotte",
+					"state": "NC",
+					"zipcode": "28272",
+					"country_code": "US"
+				},
+				"timezone": "America/New_York",
+				"logo_url": "https://d368g9lw5ileu7.cloudfront.net/races/race64167-logo.bBtGOf.png",
+				"real_time_notifications_enabled": "F",
+				"events": [{
+					"event_id": 251823,
+					"race_event_days_id": 101997,
+					"name": "Let Me Run 5K",
+					"details": null,
+					"start_time": "11/17/2018 09:00",
+					"end_time": null,
+					"age_calc_base_date": null,
+					"registration_opens": null,
+					"event_type": "running_race",
+					"distance": "5K",
+					"volunteer": "F",
+					"require_dob": "T",
+					"require_phone": "T",
+					"registration_periods": []
+				}]
+			}
+		},
+		{
+			"race": {
+				"race_id": 56334,
+				"name": "Long Creek Adventure Race",
+				"last_date": null,
+				"last_end_date": null,
+				"next_date": "11/17/2018",
+				"next_end_date": "11/17/2018",
+				"is_draft_race": "F",
+				"is_registration_open": "F",
+				"created": "1/19/2018 10:58",
+				"last_modified": "1/19/2018 10:58",
+				"description": "<p>The inaugural Long Creek Adventure Race puts teams of two or three, as well as solo participants, to the test during either the 4 or 8 hour adventure race format. With a map provided at the beginning of the race, participants will trail run, mountain bike, and paddle their way through a series of checkpoints as quickly as possible throughout the USNWC property and along the Catawba River. Keep an eye out for the checkpoints along the way&hellip;you&rsquo;ll need every point you can get to come out on top.</p>\r\n<p>&nbsp;<br/>EVENT DETAILS:<br/>Date &ndash; Saturday, November 17, 2018<br/>Distance &ndash; Varies: Based on chosen route<br/>Start Time &ndash; 9:00am<br/>REGISTRATION:<br/>Note: Participants can compete as a solo, teams of 2, or teams of 3<br/>Pre-registration &ndash; Must register by November 154 HourSolo: $40<br/>2 Person Teams: $75<br/>3 Person Teams: $115<br/>8 HourSolo: $55<br/>2 Person Teams: $90<br/>3 Person Teams: $130<br/>Race day registration &ndash; if available4 HourSolo: $50<br/>2 Person Teams: $85<br/>3 Person Teams: $125<br/>8 HourSolo: $65<br/>2 Person Teams: $100<br/>3 Person Teams: $140<br/>*Note:&nbsp;Recover&nbsp;shirts are only guaranteed to teams who pre-register by November 11</p>",
+				"url": "https://runsignup.com/Race/NC/Charlotte/LongCreekAdventureRace",
+				"external_race_url": "http://usnwc.org/play/whitewater-race-series/upcoming/long-creek-adventure-race/",
+				"external_results_url": "http://usnwc.org/play/whitewater-race-series/upcoming/long-creek-adventure-race/",
+				"fb_page_id": null,
+				"fb_event_id": null,
+				"address": {
+					"street": "5000 Whitewater Center Parkway",
+					"city": "Charlotte",
+					"state": "NC",
+					"zipcode": "28214",
+					"country_code": "US"
+				},
+				"timezone": "America/New_York",
+				"logo_url": "https://d368g9lw5ileu7.cloudfront.net/races/race56334-logo.bAyHw_.png",
+				"real_time_notifications_enabled": "F",
+				"events": [{
+						"event_id": 216126,
+						"race_event_days_id": 87545,
+						"name": "4 Hour",
+						"details": null,
+						"start_time": "11/17/2018 09:00",
+						"end_time": null,
+						"age_calc_base_date": null,
+						"registration_opens": null,
+						"event_type": "adventure_race",
+						"distance": null,
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": []
+					},
+					{
+						"event_id": 216127,
+						"race_event_days_id": 87545,
+						"name": "8 Hour",
+						"details": null,
+						"start_time": "11/17/2018 09:00",
+						"end_time": null,
+						"age_calc_base_date": null,
+						"registration_opens": null,
+						"event_type": "adventure_race",
+						"distance": null,
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": []
+					}
+				]
+			}
+		},
+		{
+			"race": {
+				"race_id": 17795,
+				"name": "Novant Health Charlotte Marathon",
+				"last_date": "11/03/2018",
+				"last_end_date": "11/03/2018",
+				"next_date": "11/16/2019",
+				"next_end_date": "11/16/2019",
+				"is_draft_race": "F",
+				"is_registration_open": "T",
+				"created": "3/5/2015 18:41",
+				"last_modified": "11/12/2018 13:40",
+				"description": "<p>Formerly the Thunder Road Marathon. New Name. Same Electric Experience. Join us on Our Streets. In Our City. At Our Marathon. November 16, 2019. Learn more at<a href=\"http://runcharlotte.com/\" target=\"_blank\" rel=\"noopener noreferrer\"> www.RunCharlotte.com</a></p>",
+				"url": "https://runsignup.com/Race/NC/Charlotte/CharlotteMarathon",
+				"external_race_url": "http://www.runcharlotte.com/",
+				"external_results_url": null,
+				"fb_page_id": "CharlotteMarathon",
+				"fb_event_id": "513612985689238",
+				"address": {
+					"street": "Graham Street and 3rd Street",
+					"city": "Charlotte",
+					"state": "NC",
+					"zipcode": "28202",
+					"country_code": "US"
+				},
+				"timezone": "America/New_York",
+				"logo_url": "https://d368g9lw5ileu7.cloudfront.net/races/race17795-logo.byVWMx.png",
+				"real_time_notifications_enabled": "F",
+				"events": [{
+						"event_id": 274356,
+						"race_event_days_id": 110515,
+						"name": "MARATHON",
+						"details": null,
+						"start_time": "11/16/2019 07:30",
+						"end_time": "11/16/2019 16:00",
+						"age_calc_base_date": null,
+						"registration_opens": "11/5/2018 00:00",
+						"event_type": "running_race",
+						"distance": "26.2 Miles",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "11/5/2018 00:00",
+								"registration_closes": "11/8/2018 23:59",
+								"race_fee": "$75.00",
+								"processing_fee": "$5.75"
+							},
+							{
+								"registration_opens": "11/9/2018 00:00",
+								"registration_closes": "12/1/2018 23:59",
+								"race_fee": "$85.00",
+								"processing_fee": "$6.35"
+							},
+							{
+								"registration_opens": "12/2/2018 00:00",
+								"registration_closes": "3/13/2019 23:59",
+								"race_fee": "$95.00",
+								"processing_fee": "$6.95"
+							},
+							{
+								"registration_opens": "6/14/2019 00:00",
+								"registration_closes": "9/13/2019 23:59",
+								"race_fee": "$115.00",
+								"processing_fee": "$8.15"
+							},
+							{
+								"registration_opens": "9/14/2019 00:00",
+								"registration_closes": "11/10/2019 23:59",
+								"race_fee": "$125.00",
+								"processing_fee": "$8.75"
+							},
+							{
+								"registration_opens": "11/15/2019 09:00",
+								"registration_closes": "11/15/2019 23:59",
+								"race_fee": "$145.00",
+								"processing_fee": "$9.95"
+							}
+						],
+						"giveaway": "T-Shirt"
+					},
+					{
+						"event_id": 274357,
+						"race_event_days_id": 110515,
+						"name": "HALF MARATHON",
+						"details": null,
+						"start_time": "11/16/2019 07:30",
+						"end_time": "11/16/2019 16:00",
+						"age_calc_base_date": null,
+						"registration_opens": "11/5/2018 00:00",
+						"event_type": "running_race",
+						"distance": "13.1 Miles",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "11/5/2018 00:00",
+								"registration_closes": "11/8/2018 23:59",
+								"race_fee": "$55.00",
+								"processing_fee": "$4.55"
+							},
+							{
+								"registration_opens": "11/9/2018 00:00",
+								"registration_closes": "12/1/2018 23:59",
+								"race_fee": "$65.00",
+								"processing_fee": "$5.15"
+							},
+							{
+								"registration_opens": "12/2/2018 00:00",
+								"registration_closes": "3/13/2019 23:59",
+								"race_fee": "$80.00",
+								"processing_fee": "$6.05"
+							},
+							{
+								"registration_opens": "3/14/2019 00:00",
+								"registration_closes": "6/13/2019 23:59",
+								"race_fee": "$90.00",
+								"processing_fee": "$6.65"
+							},
+							{
+								"registration_opens": "6/14/2019 00:00",
+								"registration_closes": "9/13/2019 23:59",
+								"race_fee": "$100.00",
+								"processing_fee": "$7.25"
+							},
+							{
+								"registration_opens": "9/14/2019 00:00",
+								"registration_closes": "11/10/2019 23:59",
+								"race_fee": "$110.00",
+								"processing_fee": "$7.85"
+							},
+							{
+								"registration_opens": "11/15/2019 21:00",
+								"registration_closes": "11/15/2019 23:59",
+								"race_fee": "$125.00",
+								"processing_fee": "$8.75"
+							}
+						],
+						"giveaway": "T-Shirt"
+					},
+					{
+						"event_id": 274359,
+						"race_event_days_id": 110515,
+						"name": "5K",
+						"details": null,
+						"start_time": "11/16/2019 07:45",
+						"end_time": "11/16/2019 16:00",
+						"age_calc_base_date": null,
+						"registration_opens": "11/5/2018 00:00",
+						"event_type": "running_race",
+						"distance": "5K",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "11/5/2018 00:00",
+								"registration_closes": "11/8/2018 23:59",
+								"race_fee": "$20.00",
+								"processing_fee": "$3.25"
+							},
+							{
+								"registration_opens": "11/9/2018 00:00",
+								"registration_closes": "12/1/2018 23:59",
+								"race_fee": "$25.00",
+								"processing_fee": "$3.25"
+							},
+							{
+								"registration_opens": "9/14/2019 00:00",
+								"registration_closes": "11/10/2019 23:59",
+								"race_fee": "$35.00",
+								"processing_fee": "$4.25"
+							},
+							{
+								"registration_opens": "11/14/2019 21:00",
+								"registration_closes": "11/15/2019 23:59",
+								"race_fee": "$40.00",
+								"processing_fee": "$4.25"
+							}
+						],
+						"giveaway": "T-Shirt"
+					},
+					{
+						"event_id": 274360,
+						"race_event_days_id": 110515,
+						"name": "Marathon Relay",
+						"details": null,
+						"start_time": "11/16/2019 07:30",
+						"end_time": "11/16/2019 16:00",
+						"age_calc_base_date": null,
+						"registration_opens": "11/5/2018 00:00",
+						"event_type": "running_race",
+						"distance": "26.2 Miles",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "11/5/2018 00:00",
+								"registration_closes": "11/8/2018 23:59",
+								"race_fee": "$100.00",
+								"processing_fee": "$7.25"
+							},
+							{
+								"registration_opens": "11/9/2018 00:00",
+								"registration_closes": "12/1/2018 23:59",
+								"race_fee": "$125.00",
+								"processing_fee": "$8.75"
+							},
+							{
+								"registration_opens": "3/14/2019 00:00",
+								"registration_closes": "6/13/2019 23:59",
+								"race_fee": "$200.00",
+								"processing_fee": "$13.25"
+							},
+							{
+								"registration_opens": "6/14/2019 00:00",
+								"registration_closes": "9/13/2019 23:59",
+								"race_fee": "$225.00",
+								"processing_fee": "$14.75"
+							},
+							{
+								"registration_opens": "9/14/2019 00:00",
+								"registration_closes": "11/10/2019 23:59",
+								"race_fee": "$250.00",
+								"processing_fee": "$16.25"
+							},
+							{
+								"registration_opens": "11/14/2019 19:00",
+								"registration_closes": "11/15/2019 23:59",
+								"race_fee": "$275.00",
+								"processing_fee": "$15.13"
+							}
+						],
+						"giveaway": "T-Shirt"
+					},
+					{
+						"event_id": 274361,
+						"race_event_days_id": 110515,
+						"name": "KIDS MARATHON 1 MILE FUN RUN",
+						"details": "Don’t leave your kids at home on race day, get them involved! Register your kids for the 1 Mile Fun Run.  Participants will get a kid’s tech shirt, bib and 1 Mile finisher medal.\r\n ",
+						"start_time": "11/16/2019 07:50",
+						"end_time": "11/16/2019 16:00",
+						"age_calc_base_date": null,
+						"registration_opens": "11/5/2018 00:00",
+						"event_type": "running_race",
+						"distance": null,
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "11/5/2018 00:00",
+								"registration_closes": "12/1/2018 23:59",
+								"race_fee": "$10.00",
+								"processing_fee": "$2.25"
+							},
+							{
+								"registration_opens": "9/14/2019 00:00",
+								"registration_closes": "11/10/2019 23:59",
+								"race_fee": "$15.00",
+								"processing_fee": "$3.25"
+							},
+							{
+								"registration_opens": "11/15/2019 09:00",
+								"registration_closes": "11/15/2019 21:00",
+								"race_fee": "$25.00",
+								"processing_fee": "$3.25"
+							}
+						],
+						"giveaway": "T-Shirt"
+					},
+					{
+						"event_id": 274362,
+						"race_event_days_id": 110515,
+						"name": "KIDS MARATHON 7-WEEK TRAINING PROGRAM",
+						"details": "In an effort to fight pediatric obesity and encourage healthy habits in  kids, the Novant Health Charlotte Marathon has partnered with Chick-fil-A to create a 7 week kids running program. Participating kids will run 25.2 miles over the 7 weeks leading up to race day. They will then join Charlotte Marathon festivities to run their final program mile on race day and finish out with 26.2 total miles.  Program includes training guide, training e-newsletters, access to kid’s running experts, personalized bib, tech t-shirt, Kid’s marathon finisher medal. Program registration will close on September 26 and the 7-week training program will run September 28 – November 16.",
+						"start_time": "11/16/2019 08:30",
+						"end_time": "11/16/2019 16:00",
+						"age_calc_base_date": null,
+						"registration_opens": "11/5/2018 00:00",
+						"event_type": "running_race",
+						"distance": null,
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "11/5/2018 00:00",
+								"registration_closes": "12/1/2018 23:59",
+								"race_fee": "$40.00",
+								"processing_fee": "$4.25"
+							},
+							{
+								"registration_opens": "9/14/2019 00:00",
+								"registration_closes": "10/3/2019 23:59",
+								"race_fee": "$50.00",
+								"processing_fee": "$4.25"
+							}
+						],
+						"giveaway": "T-Shirt"
+					}
+				],
+				"headings": [{
+					"heading_text": "Get a Refund By Referring Friends",
+					"content": "<p>We want you to share the enjoyment of crossing that finish line with all of your closest running buddies! For every 3 friends that you refer, you get $15 (Marathon, Marathon Relay, Half Marathon) or $5 (5K) refunded from your registration cost. This can&nbsp;continue for every additional 3 friends that you refer until your registration becomes free.</p>"
+				}]
+			}
+		},
+		{
+			"race": {
+				"race_id": 68820,
+				"name": "Orange Crush Swim Team (Ages 5-18)",
+				"last_date": null,
+				"last_end_date": null,
+				"next_date": "01/07/2019",
+				"next_end_date": "01/07/2019",
+				"is_draft_race": "F",
+				"is_registration_open": "F",
+				"created": "11/6/2018 11:24",
+				"last_modified": "11/6/2018 11:24",
+				"description": "<h1><strong>2019 Orange Crush Swim Team</strong></h1>\r\n<p><strong>Eligibility:</strong><br/>Boys and Girls, ages 5 -18.&nbsp; Minimum requirement is the ability to swim 25 yard front crawl (freestyle) and 25 yard backstroke within 2 minutes.</p>\r\n<p><strong>Purpose:</strong> <br/>The YWCA Orange Crush swim team seeks to promote each swimmer&rsquo;s personal best in a team-oriented and fun environment. Our coaches are committed to developing strong swimmers through quality instruction while encouraging each child to improve at their own level.</p>\r\n<p><strong>Dates:</strong><br/>Parents Meeting/Suit Fitting: Thursday, January 3, 2019 at 6pm<br/>First Day of Practice: Monday, January 7, 2019 (See Times on Registration Form)</p>\r\n<p><strong>Cost:</strong> <br/>Member: $210 &amp; Non-Member: $235</p>\r\n<p><strong>Discounts:</strong> <br/>$25 off for Family Discount <br/>$20 off for Ages 5-6 (determined by Age on January 1, 2018)</p>\r\n<p><strong>Included in Cost: &nbsp;</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br/>Child End of Season Banquet, Shirt, Team Swim Cap, Trophy/Medal/Ribbons<br/>(Additional Fee for Parents/Guardians/Siblings to attend Banquet)</p>\r\n<p><strong>Not Included:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br/>Required Swim Suit (Cost: $40-$58) May use OC Swimsuit from previous years.</p>\r\n<p><strong>Optional:&nbsp;&nbsp;&nbsp;</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br/>Personalized Swim Cap for $29.50 &amp; Picture Package ranging in prices</p>\r\n<p><strong>Registration Options:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br/>1. Register Online (Visit <a href=\"http://www.ywcacentralcarolinas.org)\" target=\"_blank\" rel=\"noopener noreferrer\">www.ywcacentralcarolinas.org)</a><br/>2. Register at the YWCA : Mon-Fri 7:30am-8pm, Sat 8:30am-4pm, and&nbsp;Sun 1:30pm-4pm</p>\r\n<p><strong>Open Registration:</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br/>Starts November 12th (Ends Dec 15th or until team is at maximum registration.)</p>\r\n<p><strong>Questions:&nbsp;</strong> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br/>Jeff Nerret @ 980-585-0509 or aquatics@ywcacentralcarolinas.org</p>\r\n<p>&nbsp;</p>",
+				"url": "https://runsignup.com/Race/NC/Charlotte/OrangeCrushSwimTeamAges518",
+				"external_race_url": "https://ywcacentralcarolinas.org/orange-crush/",
+				"external_results_url": null,
+				"fb_page_id": null,
+				"fb_event_id": null,
+				"address": {
+					"street": "YWCA Central Carolinas 3420 Park Road",
+					"city": "Charlotte",
+					"state": "NC",
+					"zipcode": "28209",
+					"country_code": "US"
+				},
+				"timezone": "America/New_York",
+				"logo_url": "https://d368g9lw5ileu7.cloudfront.net/races/race68820-logo.bB4Ca0.png",
+				"real_time_notifications_enabled": "F",
+				"events": [{
+					"event_id": 274730,
+					"race_event_days_id": 110658,
+					"name": "First Day of Practice",
+					"details": null,
+					"start_time": "1/7/2019 17:00",
+					"end_time": null,
+					"age_calc_base_date": null,
+					"registration_opens": null,
+					"event_type": "swim",
+					"distance": null,
+					"volunteer": "F",
+					"require_dob": "T",
+					"require_phone": "T",
+					"registration_periods": []
+				}]
+			}
+		},
+		{
+			"race": {
+				"race_id": 17743,
+				"name": "Race to the Taste 5K",
+				"last_date": "06/09/2018",
+				"last_end_date": "06/09/2018",
+				"next_date": "06/08/2019",
+				"next_end_date": "06/08/2019",
+				"is_draft_race": "F",
+				"is_registration_open": "F",
+				"created": "3/5/2015 18:38",
+				"last_modified": "11/12/2018 21:20",
+				"description": "<p>The Race to the Taste 5K presented by Truliant Federal Credit Union will be held on Saturday, June 8 and will start and finish at the Taste of Charlotte Festival in beautiful uptown Charlotte! .</p>\r\n<p>The 5K, Race to the Taste, will start at 9am followed by the Cupcake Run/Walk at 9:45am. The 5K course will follow the city streets Uptown for a beautiful skyline view. Runners can participate in the traditional full course 5K or can enjoy a lighter menu of the 1 mile Cupcake Run/Walk...grabbing mini cupcakes along the route - racing to the end or taking it slow enjoying their local cupcakes.</p>\r\n<p>Making the race more appetizing, Runners who register prior to May 23 will receive a premium UNISEX sport-tech race shirt from <a href=\"https://recoverbrands.com/\" target=\"_blank\" rel=\"noopener noreferrer\">Recover Brands</a> and an awesome swag bag which includes a ticket to a <a href=\"http://gocheckers.com\" target=\"_blank\" rel=\"noopener noreferrer\">Charlotte Checkers</a> game, a Taste of Charlotte Super Coin that can be used to purchase any food item from any of the participating restaurants at the <a href=\"http://www.tasteofcharlotte.com\" target=\"_blank\" rel=\"noopener noreferrer\">Taste of Charlotte Festival</a> and more! &nbsp;</p>\r\n<p><strong>T-Shirt and Swag Bag are not guaranteed to runners who register after May 23rd.</strong></p>\r\n<p>Participants of the Cupcake Run/Walk will receive a UNISEX t-shirt and cupcakes!! You can run or walk in both at a discounted rate and still receive a swag bag.</p>\r\n<p>*Please note that if you register for both races at the discounted rate, you will only receive the 5K UNISEX T-shirt, NOT two t-shirts!&nbsp;&nbsp;</p>\r\n<p>Stick around after the race for the <a href=\"https://www.ubereats.com\" target=\"_blank\" rel=\"noopener noreferrer\">UBEReats</a> After-Party with awards in multiple age divisions, live music from the Tropical Flavors Band, a cold Corona Premier, more cupcakes and the kick of of Taste of Charlotte at 11:00am. &nbsp;Please bring your ID if you plan to have a Corona Premier!</p>\r\n<p>Taste of Charlotte has partnered with the Checkers Charitable Foundation again this year. &nbsp;A donation will be made from the proceeds. The Checkers will be onsite with Chubby and the Checkmates to help cheer on the runners. We also welcome the team from Moms In Training!</p>\r\n<p><strong>Important Information</strong><br/>Early Packet Pickup&nbsp;</p>\r\n<p>Run For Your Life - Midtown&nbsp;<br/>901 S. Kings Drive<br/>Charlotte, NC 28204<br/>Pick up times are:</p>\r\n<p>June 6 &amp; 7</p>\r\n<p>Thursday or Friday 10 a.m. - 6 p.m.<br/>&nbsp;</p>",
+				"url": "https://runsignup.com/Race/NC/Charlotte/RacetotheTaste5K2",
+				"external_race_url": "http://www.tasteofcharlotte.com/race-to-the-taste-5k",
+				"external_results_url": null,
+				"fb_page_id": "racetothetasteclt",
+				"fb_event_id": "218644158603755",
+				"address": {
+					"street": "Tryon St & Trade St",
+					"city": "Charlotte",
+					"state": "NC",
+					"zipcode": "28202",
+					"country_code": "US"
+				},
+				"timezone": "America/New_York",
+				"logo_url": "https://d368g9lw5ileu7.cloudfront.net/races/race17743-logo.bAZNT-.png",
+				"real_time_notifications_enabled": "F",
+				"events": [{
+						"event_id": 276232,
+						"race_event_days_id": 111112,
+						"name": "5K",
+						"details": null,
+						"start_time": "6/8/2019 09:00",
+						"end_time": "6/8/2019 09:45",
+						"age_calc_base_date": null,
+						"registration_opens": "12/7/2018 00:00",
+						"event_type": "running_race",
+						"distance": "5K",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "12/7/2018 00:00",
+								"registration_closes": "1/13/2019 23:59",
+								"race_fee": "$28.00",
+								"processing_fee": "$3.25"
+							},
+							{
+								"registration_opens": "1/14/2019 00:00",
+								"registration_closes": "5/31/2019 23:59",
+								"race_fee": "$33.00",
+								"processing_fee": "$4.25"
+							},
+							{
+								"registration_opens": "6/1/2019 00:00",
+								"registration_closes": "6/7/2019 23:59",
+								"race_fee": "$37.00",
+								"processing_fee": "$4.25"
+							}
+						],
+						"giveaway": "T-Shirt"
+					},
+					{
+						"event_id": 276233,
+						"race_event_days_id": 111112,
+						"name": "Cupcake Run/Walk",
+						"details": null,
+						"start_time": "6/8/2019 09:45",
+						"end_time": "6/8/2019 10:30",
+						"age_calc_base_date": null,
+						"registration_opens": "12/7/2018 00:00",
+						"event_type": "running_race",
+						"distance": null,
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+							"registration_opens": "12/7/2018 00:00",
+							"registration_closes": "6/7/2019 23:59",
+							"race_fee": "$15.00",
+							"processing_fee": "$3.25"
+						}],
+						"giveaway": "T-Shirt"
+					},
+					{
+						"event_id": 276234,
+						"race_event_days_id": 111112,
+						"name": "5K & Cupcake Run/Walk",
+						"details": null,
+						"start_time": "6/8/2019 09:00",
+						"end_time": "6/8/2019 10:30",
+						"age_calc_base_date": null,
+						"registration_opens": "12/7/2018 00:00",
+						"event_type": "running_race",
+						"distance": "5K",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "12/7/2018 00:00",
+								"registration_closes": "5/7/2019 23:59",
+								"race_fee": "$38.00",
+								"processing_fee": "$4.25"
+							},
+							{
+								"registration_opens": "5/8/2019 00:00",
+								"registration_closes": "5/31/2019 23:59",
+								"race_fee": "$43.00",
+								"processing_fee": "$4.25"
+							},
+							{
+								"registration_opens": "6/1/2019 00:00",
+								"registration_closes": "6/7/2019 23:59",
+								"race_fee": "$47.00",
+								"processing_fee": "$4.25"
+							}
+						],
+						"giveaway": "T-Shirt"
+					},
+					{
+						"event_id": 276235,
+						"race_event_days_id": 111112,
+						"name": "Kid's Dash",
+						"details": null,
+						"start_time": "6/8/2019 08:45",
+						"end_time": "6/8/2019 10:30",
+						"age_calc_base_date": null,
+						"registration_opens": "12/7/2018 14:35",
+						"event_type": "running_race",
+						"distance": null,
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+							"registration_opens": "12/7/2018 14:35",
+							"registration_closes": "6/7/2019 23:59",
+							"race_fee": "$0.00",
+							"processing_fee": "$0.00"
+						}]
+					}
+				]
+			}
+		},
+		{
+			"race": {
+				"race_id": 27293,
+				"name": "Ramblin Rose Women's Triathlon - South Charlotte (NC)",
+				"last_date": "06/03/2018",
+				"last_end_date": "06/03/2018",
+				"next_date": "06/02/2019",
+				"next_end_date": "06/02/2019",
+				"is_draft_race": "F",
+				"is_registration_open": "T",
+				"created": "11/23/2015 11:42",
+				"last_modified": "11/5/2018 21:24",
+				"description": "<p>WELCOME!<br/>Ramblin' Rose Women&rsquo;s Events, produced by Set Up Events, are designed to &ldquo;Celebrate the Empowerment of Women.&rdquo; In its 14th season, the 2019 Ramblin' Rose Women&rsquo;s Triathlon Tour is the perfect way to celebrate the triathlon experience! Join us in Raleigh, South Charlotte, Greenville (SC), Winston-Salem, Charlotte (Huntersville), and/or Chapel Hill and experience the exhilaration of participating in a Ramblin' Rose!!</p>\r\n<p>COMPETE AS A GROUP!<br/>Create or Join a group - it's super easy! Families, Companies, Friends, Neighborhoods - just look for your group and select it - or create a new one and invite your friends to join you! Above all - this should be fun!</p>\r\n<p>AQUATHLON<br/>Aquathlon is simply swim and run! This is a great introduction into multisport. No worry about biking and great for kids to come race with mom!</p>\r\n<p>USA TRIATHLON&nbsp;<br/>All Ramblin' Rose Triathlons are USA Triathlon sanctioned events. Registrants will be required to purchase a $15 one-day permit if you are not a current USAT member.</p>\r\n<p>MINIMUM AGE REQUIREMENT<br/>Ramblin' Rose requires youth participants to be a minimum of 10 years of age on 12/31/19.</p>\r\n<p>REFUNDS OR TRANSFERS<br/>By registering for this event, you are agreeing to the Transfer &amp; Refund Policies posted on the Ramblin' Rose website.</p>\r\n<p>For all event-related questions, including course maps, click on the link below.<br/><a href=\"http://ramblinroseevents.com/\" target=\"_blank\" rel=\"noopener noreferrer\">ramblinroseevents.com</a></p>",
+				"url": "https://runsignup.com/Race/NC/Charlotte/RamblinRoseWomensTriathlonSouthCharlotteNC",
+				"external_race_url": "http://ramblinroseevents.com",
+				"external_results_url": "http://ramblinroseevents.com/south-charlotte-tour-home/south-charlotte-results/",
+				"fb_page_id": "RamblinRoseEvents",
+				"fb_event_id": "2055358697818786",
+				"address": {
+					"street": "Harris YMCA",
+					"city": "Charlotte",
+					"state": "NC",
+					"zipcode": "28210",
+					"country_code": "US"
+				},
+				"timezone": "America/New_York",
+				"logo_url": "https://d368g9lw5ileu7.cloudfront.net/races/race27293-logo.bB4pTi.png",
+				"real_time_notifications_enabled": "T",
+				"events": [{
+						"event_id": 271602,
+						"race_event_days_id": 109535,
+						"name": "Individual",
+						"details": null,
+						"start_time": "6/2/2019 08:00",
+						"end_time": null,
+						"age_calc_base_date": "12/31/2019",
+						"registration_opens": "11/1/2018 00:00",
+						"event_type": "triathlon",
+						"distance": null,
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "11/1/2018 00:00",
+								"registration_closes": "3/31/2019 23:59",
+								"race_fee": "$75.00",
+								"processing_fee": "$7.63"
+							},
+							{
+								"registration_opens": "4/1/2019 00:00",
+								"registration_closes": "4/30/2019 23:59",
+								"race_fee": "$80.00",
+								"processing_fee": "$8.00"
+							},
+							{
+								"registration_opens": "5/1/2019 00:00",
+								"registration_closes": "5/30/2019 23:59",
+								"race_fee": "$85.00",
+								"processing_fee": "$8.38"
+							},
+							{
+								"registration_opens": "5/31/2019 00:00",
+								"registration_closes": "6/2/2019 07:30",
+								"race_fee": "$90.00",
+								"processing_fee": "$8.75"
+							}
+						],
+						"giveaway": "Female-Specific T-Shirt Size (no switching sizes)"
+					},
+					{
+						"event_id": 271603,
+						"race_event_days_id": 109535,
+						"name": "Relay Team",
+						"details": "Relay team can consist of 2 or 3 team members",
+						"start_time": "6/2/2019 08:00",
+						"end_time": null,
+						"age_calc_base_date": "12/31/2019",
+						"registration_opens": "11/1/2018 00:00",
+						"event_type": "triathlon",
+						"distance": null,
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "11/1/2018 00:00",
+								"registration_closes": "3/31/2019 23:59",
+								"race_fee": "$150.00",
+								"processing_fee": "$13.25"
+							},
+							{
+								"registration_opens": "4/1/2019 00:00",
+								"registration_closes": "4/30/2019 23:59",
+								"race_fee": "$160.00",
+								"processing_fee": "$14.00"
+							},
+							{
+								"registration_opens": "5/1/2019 00:00",
+								"registration_closes": "5/30/2019 23:59",
+								"race_fee": "$170.00",
+								"processing_fee": "$14.75"
+							},
+							{
+								"registration_opens": "5/31/2019 00:00",
+								"registration_closes": "6/2/2019 07:30",
+								"race_fee": "$180.00",
+								"processing_fee": "$15.50"
+							}
+						],
+						"giveaway": "Female-Specific T-Shirt Size (no switching sizes)"
+					},
+					{
+						"event_id": 271604,
+						"race_event_days_id": 109535,
+						"name": "Aquathlon Individual",
+						"details": "Aquathlon is simply swim and run! This is a great introduction into multisport. No worry about biking and great for kids to come race with mom! ",
+						"start_time": "6/2/2019 08:00",
+						"end_time": null,
+						"age_calc_base_date": "12/31/2019",
+						"registration_opens": "11/1/2018 00:01",
+						"event_type": "swim_run",
+						"distance": null,
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+							"registration_opens": "11/1/2018 00:01",
+							"registration_closes": "6/2/2019 07:30",
+							"race_fee": "$50.00",
+							"processing_fee": "$5.75"
+						}],
+						"giveaway": "Female-Specific T-Shirt Size (no switching sizes)"
+					}
+				]
+			}
+		},
+		{
+			"race": {
+				"race_id": 56335,
+				"name": "Ride & Seek MTB Adventure Race",
+				"last_date": null,
+				"last_end_date": null,
+				"next_date": "11/18/2018",
+				"next_end_date": "11/18/2018",
+				"is_draft_race": "F",
+				"is_registration_open": "F",
+				"created": "1/19/2018 11:00",
+				"last_modified": "1/19/2018 11:01",
+				"description": "<p>Challenges await you and your teammate around every jump and berm at Ride &amp; Seek, the USNWC&rsquo;s second annual mountain biking adventure race. Teams of two ride their way through various challenges in the order of their choosing, aiming to complete all the checkpoints as quickly as possible. The first team to complete all the required challenges throughout the 35+ mile trail system will be crowned champion.<br/>EVENT DETAILS:<br/>Date &ndash; Saturday, November 18, 2018<br/>Distance &ndash; Varies: Based on teams chosen route<br/>Time &ndash; 9:00 a.m.<br/>REGISTRATION:<br/>*Note: Teams of 2 only<br/>Pre-registration &ndash; Must register by November 15 $50/team<br/>Race day registration &ndash; if available $60/team<br/>*Note:&nbsp;Recover&nbsp;shirts&nbsp;are only guaranteed&nbsp;to teams who pre-register by November 11</p>",
+				"url": "https://runsignup.com/Race/NC/Charlotte/RideSeekMTBAdventureRace3",
+				"external_race_url": "http://usnwc.org/play/whitewater-race-series/upcoming/ride-seek-mtb-adventure-race/",
+				"external_results_url": "http://usnwc.org/play/whitewater-race-series/upcoming/ride-seek-mtb-adventure-race/",
+				"fb_page_id": null,
+				"fb_event_id": null,
+				"address": {
+					"street": "5000 Whitewater Center Parkway",
+					"city": "Charlotte",
+					"state": "NC",
+					"zipcode": "28214",
+					"country_code": "US"
+				},
+				"timezone": "America/New_York",
+				"logo_url": "https://d368g9lw5ileu7.cloudfront.net/races/race56335-logo.bAyHy7.png",
+				"real_time_notifications_enabled": "F",
+				"events": [{
+					"event_id": 216128,
+					"race_event_days_id": 87546,
+					"name": "Ride & Seek",
+					"details": null,
+					"start_time": "11/18/2018 09:00",
+					"end_time": null,
+					"age_calc_base_date": null,
+					"registration_opens": null,
+					"event_type": "mountain_bike_race",
+					"distance": null,
+					"volunteer": "F",
+					"require_dob": "T",
+					"require_phone": "T",
+					"registration_periods": []
+				}]
+			}
+		},
+		{
+			"race": {
+				"race_id": 26207,
+				"name": "Run For You- Run Far - Session 1",
+				"last_date": "01/06/2018",
+				"last_end_date": "04/14/2018",
+				"next_date": "01/05/2019",
+				"next_end_date": "04/11/2019",
+				"is_draft_race": "F",
+				"is_registration_open": "T",
+				"created": "10/16/2015 11:17",
+				"last_modified": "10/11/2018 22:05",
+				"description": "<p>RUN FAR<br/>RUN FAR is a 14-week program to prepare you for longer distances and races like half marathons and full marathons. RUN FAR is open to all levels of runners!<br/>From the start of the RUN FAR program, runners and walkers are grouped with others of similar abilities and goals.<br/>The RUN FAR weekly training schedule includes 3 different workouts, each designed to help the runner with pacing and endurance. Interval training, (speed workouts), tempo (pace running), hill running (strength), and progressively long runs (endurance) are combined with rest days and cross training to meet the goal results of the distance runner!<br/>Beginner Half or Full Marathon Option<br/>Designed for new members or current half marathoners interested in moving up to the marathon distance. Includes a training plan for those first time half marathoners and first time marathoners.<br/>Intermediate/Maintenance Half and Full Marathon training program option<br/>Designed for current Run For You&trade; members or other runners who have run a half or full marathon and are training for a half or full marathon. Intermediate training program for those who have already covered the marathon distance.<br/>Dates:&nbsp;1/5/19 - 4/11/19.</p>",
+				"url": "https://runsignup.com/Race/NC/Charlotte/RunForYouRunFarSession1",
+				"external_race_url": null,
+				"external_results_url": null,
+				"fb_page_id": null,
+				"fb_event_id": null,
+				"address": {
+					"street": "Programs available at RFYL Midtown, Piper Glen, and University locations",
+					"city": "Charlotte",
+					"state": "NC",
+					"zipcode": "28203",
+					"country_code": "US"
+				},
+				"timezone": "America/New_York",
+				"logo_url": "https://d368g9lw5ileu7.cloudfront.net/",
+				"real_time_notifications_enabled": "F",
+				"events": [{
+						"event_id": 267794,
+						"race_event_days_id": 108097,
+						"name": "New Member",
+						"details": null,
+						"start_time": "1/5/2019 08:00",
+						"end_time": "4/11/2019 08:00",
+						"age_calc_base_date": null,
+						"registration_opens": "10/9/2018 00:00",
+						"event_type": "running_race",
+						"distance": null,
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+							"registration_opens": "10/9/2018 00:00",
+							"registration_closes": "3/5/2019 23:59",
+							"race_fee": "$120.00",
+							"processing_fee": "$8.45"
+						}],
+						"giveaway": "T-Shirt"
+					},
+					{
+						"event_id": 267795,
+						"race_event_days_id": 108097,
+						"name": "Returning Member",
+						"details": null,
+						"start_time": "1/5/2019 08:00",
+						"end_time": "4/11/2019 08:00",
+						"age_calc_base_date": null,
+						"registration_opens": "10/9/2018 00:00",
+						"event_type": "running_race",
+						"distance": null,
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "10/9/2018 00:00",
+								"registration_closes": "2/5/2019 23:59",
+								"race_fee": "$100.00",
+								"processing_fee": "$7.25"
+							},
+							{
+								"registration_opens": "2/6/2019 00:00",
+								"registration_closes": "3/5/2019 23:59",
+								"race_fee": "$120.00",
+								"processing_fee": "$8.45"
+							}
+						],
+						"giveaway": "T-Shirt"
+					},
+					{
+						"event_id": 267796,
+						"race_event_days_id": 108097,
+						"name": "Annual Pass (Returning Members)",
+						"details": null,
+						"start_time": "1/5/2019 08:00",
+						"end_time": "4/11/2019 08:00",
+						"age_calc_base_date": null,
+						"registration_opens": "10/9/2018 00:00",
+						"event_type": "running_race",
+						"distance": null,
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "10/9/2018 00:00",
+								"registration_closes": "2/5/2019 23:59",
+								"race_fee": "$235.00",
+								"processing_fee": "$15.35"
+							},
+							{
+								"registration_opens": "2/6/2019 00:00",
+								"registration_closes": "3/5/2019 23:59",
+								"race_fee": "$260.00",
+								"processing_fee": "$14.30"
+							}
+						],
+						"giveaway": "T-Shirt"
+					},
+					{
+						"event_id": 267797,
+						"race_event_days_id": 108097,
+						"name": "Annual Pass (New Members)",
+						"details": null,
+						"start_time": "1/5/2019 08:00",
+						"end_time": "4/11/2019 08:00",
+						"age_calc_base_date": null,
+						"registration_opens": "10/9/2018 00:00",
+						"event_type": "running_race",
+						"distance": null,
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+							"registration_opens": "10/9/2018 00:00",
+							"registration_closes": "3/5/2019 23:59",
+							"race_fee": "$285.00",
+							"processing_fee": "$15.68"
+						}],
+						"giveaway": "T-Shirt"
+					}
+				]
+			}
+		},
+		{
+			"race": {
+				"race_id": 33249,
+				"name": "Running Scared 5 Miler & Monster Mile",
+				"last_date": "10/27/2018",
+				"last_end_date": "10/27/2018",
+				"next_date": "10/26/2019",
+				"next_end_date": "10/26/2019",
+				"is_draft_race": "F",
+				"is_registration_open": "T",
+				"created": "4/15/2016 12:39",
+				"last_modified": "10/31/2018 12:46",
+				"description": "<p>Charlotte's BEST Halloween Event!&nbsp;</p>\r\n<p>Make it a Tradition.</p>\r\n<p>The <strong>4th Annual&nbsp;Running Scared 5 Miler &amp; Monster Mile</strong>&nbsp;<em>presented by SPORTPORT</em> will take place on October 26th, 2019 at 9:00am. &nbsp;This family fun event encourages participants to have fun, be creative, and dress up in costumes. &nbsp;Costumes are of course encouraged but not required. &nbsp;Enjoy a scenic 5 mile race through and around uptown Charlotte starting and finishing at Romare Bearden Park. &nbsp; There will be activities for the kids (face painting, games, etc.), Food Trucks, Beer, Music , and more!&nbsp;</p>\r\n<p><strong>What do I get for participating?</strong></p>\r\n<p>1. High Quality shirt. We will have Unisex short sleeve shirts so please size yourself with that in mind. You must register before October 10th to be guaranteed a choice of shirt; GHOST, MONSTER, PUMPKIN, OR REGULAR.&nbsp; Anyone registered AFTER October 10th will be given a REGULAR event shirt...while inventory lasts.</p>\r\n<p>2. Finisher Medals guaranteed for the 5 Miler Only.&nbsp;</p>\r\n<p>3. Great giveaways from our sponsors</p>\r\n<p>4. Sample beer from local breweries, face painting, costume contest, etc.</p>\r\n<p>6. Great fun!</p>\r\n<p><span style=\"text-decoration: underline;\"><strong>Packet Pick Up</strong></span></p>\r\n<p><strong>Friday, October 25th, 2019; 10:00AM &ndash; 5:00PM</strong></p>\r\n<p>Run For Your Life &ndash; Midtown<br/>901 South Kings Drive, #100<br/>Charlotte, NC 28204</p>\r\n<p><strong>Race Day &ndash; Saturday, October 26th, 2019; 7:45AM &ndash; 8:45AM</strong></p>\r\n<p>300 S Church St,<br/>Charlotte, NC 28202</p>\r\n<p><span style=\"text-decoration: underline;\"><strong>T-Shirts</strong></span></p>\r\n<p>Every participant will receive a t-shirt that signed up before <strong>October 10th</strong>. Shirts are ordered based on the sizes indicated during online registration.? NO SWITCHING SIZES &ndash; NO EXCEPTIONS!</p>\r\n<p><span style=\"text-decoration: underline;\"><strong>Timing</strong></span></p>\r\n<p>We have partnered with Event Marketing Services to time this years event using Chronotrack Timing Systems. All 5Miler participants will be timed and will receive their disposable timing tag during packet pick up. &nbsp;Monster Mile&nbsp;participants will be able to see there time at the finsih with the finishline clock.</p>\r\n<p><span style=\"text-decoration: underline;\"><strong>Divisions</strong></span></p>\r\n<p>Overall, Masters, 12 and under, 13-18, 19-24, 25-29, 30-34, 35-39, 40-44, 45-49, 50-54, 55-59, 60-64, 65-69, 70 and over.</p>\r\n<p><span style=\"text-decoration: underline;\"><strong>Awards</strong></span></p>\r\n<p>Top 3 Males and Females in all divisions will receive awards. Awards gift certificates courtesy of Run For Your Life - Midtown</p>\r\n<p><span style=\"text-decoration: underline;\"><strong>Claiming Awards</strong></span></p>\r\n<p>As results become available, runners will be able to claim their awards at the awards ceremony prior to the last participant finishing. We do NOT ship unclaimed awards.</p>\r\n<p>NOTE: Sisu Events reserves the right to add/delete categories and awards prior to race based on participation.</p>\r\n<p><span style=\"text-decoration: underline;\"><strong>Refunds and Transfers</strong></span></p>\r\n<p>Registration fees are non-refundable. Event registrations are non-transferable between individuals, events, or years.</p>\r\n<p><span style=\"text-decoration: underline;\"><strong>Time Limit</strong></span></p>\r\n<p>Walkers are welcome in the Monster Mile only. &nbsp;There is no time limit.</p>\r\n<p><span style=\"text-decoration: underline;\"><strong>Medic/First Aid</strong></span></p>\r\n<p>There will be a <span style=\"color: #ff0000;\">RED</span> medical tent located at the finish line in case of emergency or any medical needs. Announcements can always be made at the DJ booth as well.</p>\r\n<p><span style=\"text-decoration: underline;\"><strong>Weather Policy</strong></span></p>\r\n<p>Races are held, rain or shine, unless Sisu Events determines that conditions are too dangerous. This will be based on a prudent decision made on race weekend or race day by Sisu Events and local law enforcement officials. If the race is canceled due to inclement weather there will be neither refunds nor transfers. This position is consistent with USA Track &amp; Field recommendations and with the protocol of sharing the risks associated with the sport of running. In the event of inclement weather or unforeseen circumstances, Sisu Events reserves the right to alter, cancel or eliminate any/all portions of the race.</p>\r\n<p><span style=\"text-decoration: underline;\"><strong>Parking</strong></span></p>\r\n<p>PLEASE arrive in time to park. There are many available parking lots and parking decks around Uptown Charlotte with evening parking rates (usually after 5pm). Many are within a short walking distance of BB&amp;T Ballpark.</p>\r\n<p><span style=\"text-decoration: underline;\"><strong>Expo</strong></span></p>\r\n<p>At the Running Scared 5 Miler and Monster Mile Expo you will find exhibitors, great giveaways from our sponsors, kids activities &nbsp;and best of all FOOD TRUCKS AND &nbsp;BEER! Local Food Trucks will have food for sale. Local breweries will have beer to sample&hellip;must be 21 years of age.</p>\r\n<p><span style=\"text-decoration: underline;\"><strong>Entertainment</strong></span></p>\r\n<p>We are so excited to have AAA Entertainment at the Start and Finish line to energize the runners and maintain the fun!</p>\r\n<p>&nbsp;</p>",
+				"url": "https://runsignup.com/Race/NC/Charlotte/RunningScared5MilerMonsterMile",
+				"external_race_url": "http://runningscared5miler.com",
+				"external_results_url": null,
+				"fb_page_id": "Running-Scared-5-Miler-and-Monster-Mile-904709349652349",
+				"fb_event_id": null,
+				"address": {
+					"street": "300 S Church St",
+					"city": "Charlotte",
+					"state": "NC",
+					"zipcode": "28202",
+					"country_code": "US"
+				},
+				"timezone": "America/New_York",
+				"logo_url": "https://d368g9lw5ileu7.cloudfront.net/races/race33249-logo.bxh9IF.png",
+				"real_time_notifications_enabled": "F",
+				"events": [{
+						"event_id": 273427,
+						"race_event_days_id": 110154,
+						"name": "Running Scared 5 miler - Regular Shirt",
+						"details": null,
+						"start_time": "10/26/2019 09:00",
+						"end_time": null,
+						"age_calc_base_date": null,
+						"registration_opens": "10/31/2018 00:00",
+						"event_type": "running_only",
+						"distance": "5 Miles",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "10/31/2018 00:00",
+								"registration_closes": "8/31/2019 23:59",
+								"race_fee": "$35.00",
+								"processing_fee": "$3.95"
+							},
+							{
+								"registration_opens": "9/1/2019 00:00",
+								"registration_closes": "9/30/2019 23:59",
+								"race_fee": "$39.99",
+								"processing_fee": "$3.95"
+							},
+							{
+								"registration_opens": "10/1/2019 00:00",
+								"registration_closes": "10/26/2019 23:59",
+								"race_fee": "$45.00",
+								"processing_fee": "$3.95"
+							}
+						],
+						"giveaway": "Shirt - Women's sizes tend to run at least a size small"
+					},
+					{
+						"event_id": 273428,
+						"race_event_days_id": 110154,
+						"name": "Running Scared 5 miler - Ghost Shirt",
+						"details": null,
+						"start_time": "10/26/2019 09:00",
+						"end_time": null,
+						"age_calc_base_date": null,
+						"registration_opens": "10/31/2018 00:00",
+						"event_type": "running_race",
+						"distance": "5 Miles",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "10/31/2018 00:00",
+								"registration_closes": "8/31/2019 23:59",
+								"race_fee": "$35.00",
+								"processing_fee": "$3.95"
+							},
+							{
+								"registration_opens": "9/1/2019 00:00",
+								"registration_closes": "9/30/2019 23:59",
+								"race_fee": "$39.99",
+								"processing_fee": "$3.95"
+							},
+							{
+								"registration_opens": "10/1/2019 00:00",
+								"registration_closes": "10/26/2019 23:59",
+								"race_fee": "$45.00",
+								"processing_fee": "$3.95"
+							}
+						],
+						"giveaway": "T-Shirt"
+					},
+					{
+						"event_id": 273429,
+						"race_event_days_id": 110154,
+						"name": "Running Scared 5 miler - Monster Shirt",
+						"details": null,
+						"start_time": "10/26/2019 09:00",
+						"end_time": null,
+						"age_calc_base_date": null,
+						"registration_opens": "10/31/2018 00:00",
+						"event_type": "running_race",
+						"distance": "5 Miles",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "10/31/2018 00:00",
+								"registration_closes": "8/31/2019 23:59",
+								"race_fee": "$35.00",
+								"processing_fee": "$3.95"
+							},
+							{
+								"registration_opens": "9/1/2019 00:00",
+								"registration_closes": "9/30/2019 23:59",
+								"race_fee": "$39.99",
+								"processing_fee": "$3.95"
+							},
+							{
+								"registration_opens": "10/1/2019 00:00",
+								"registration_closes": "10/26/2019 23:59",
+								"race_fee": "$45.00",
+								"processing_fee": "$3.95"
+							}
+						],
+						"giveaway": "T-Shirt"
+					},
+					{
+						"event_id": 273430,
+						"race_event_days_id": 110154,
+						"name": "Running Scared 5 miler - Pumpkin Shirt",
+						"details": null,
+						"start_time": "10/26/2019 09:00",
+						"end_time": null,
+						"age_calc_base_date": null,
+						"registration_opens": "10/31/2018 00:00",
+						"event_type": "running_race",
+						"distance": "5 Miles",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "10/31/2018 00:00",
+								"registration_closes": "8/31/2019 23:59",
+								"race_fee": "$35.00",
+								"processing_fee": "$3.95"
+							},
+							{
+								"registration_opens": "9/1/2019 00:00",
+								"registration_closes": "9/30/2019 23:59",
+								"race_fee": "$39.99",
+								"processing_fee": "$3.95"
+							},
+							{
+								"registration_opens": "10/1/2019 00:00",
+								"registration_closes": "10/26/2019 23:59",
+								"race_fee": "$45.00",
+								"processing_fee": "$3.95"
+							}
+						],
+						"giveaway": "T-Shirt"
+					},
+					{
+						"event_id": 273431,
+						"race_event_days_id": 110154,
+						"name": "Monster Mile",
+						"details": null,
+						"start_time": "10/26/2019 10:15",
+						"end_time": null,
+						"age_calc_base_date": null,
+						"registration_opens": "10/31/2018 00:00",
+						"event_type": "running_race",
+						"distance": "1 Miles",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "10/31/2018 00:00",
+								"registration_closes": "8/31/2019 23:59",
+								"race_fee": "$20.00",
+								"processing_fee": "$2.95"
+							},
+							{
+								"registration_opens": "9/1/2019 00:00",
+								"registration_closes": "9/30/2019 23:59",
+								"race_fee": "$22.50",
+								"processing_fee": "$2.95"
+							},
+							{
+								"registration_opens": "10/1/2019 00:00",
+								"registration_closes": "10/26/2019 23:59",
+								"race_fee": "$25.00",
+								"processing_fee": "$2.95"
+							}
+						],
+						"giveaway": "Shirt - Women's sizes tend to run at least a size small"
+					}
+				]
+			}
+		},
+		{
+			"race": {
+				"race_id": 37702,
+				"name": "Santa Run 8K & Snowman Dash",
+				"last_date": "12/16/2017",
+				"last_end_date": "12/16/2017",
+				"next_date": "12/15/2018",
+				"next_end_date": "12/15/2018",
+				"is_draft_race": "F",
+				"is_registration_open": "T",
+				"created": "8/3/2016 10:37",
+				"last_modified": "10/10/2018 05:58",
+				"description": "<p>The&nbsp;<strong>3rd Annual Santa Run 8K &amp; Snowman Dash <em>presented by SPORTPORT</em></strong> will take place on December 15, 2018 at 9:00am. This family fun event encourages participants to have fun, be creative, and dress up in costumes. Costumes are of course encouraged but not required.&nbsp;In fact, we will help you with your costume. &nbsp;You can choose to be a Santa, Elf, Reindeer, or Snowman.</p>\r\n<p><br/>What do I get for participating?<br/>1. High Quality shirt. We will have Unisex long sleeve shirts so please size yourself with that in mind. You must register before December 1st to be guaranteed a choice of shirt; SANTA, ELF, REINDEER, OR SNOWMAN. &nbsp;Your style of shirt will depend on what &ldquo;character&rdquo; you chose during registration. &nbsp;Anyone registered AFTER <strong>December 1st</strong> will be an Reindeerwhile inventory lasts.<br/>2. Finisher Medals for the 8K ONLY (first 1500 registered are guaranteed a medal and then we will offer medals to those who did not receive one, after the last finisher has crossed the line. &nbsp;Sign Up early! (No Snowman Dash Medals)<br/>3. Santa Hats, Elf Hats, Reindeer Antlers, and Snowman Beanies for the 8K only. Must register before <strong>December 1st</strong> to be guaranteed a hat. We will have extras available at the registration tent AFTER the race is over.<br/>4. FREE Hot Cocoa.<br/>5. Visit the Christmas Village at Romare Bearden Park</p>\r\n<p><br/><span style=\"text-decoration: underline;\"><strong>Packet Pick Up</strong></span></p>\r\n<p><strong>Thursday, December 13th, 2018; 10:00AM &ndash; 6:00PM</strong><br/>Run For Your Life &ndash; Midtown<br/>901 South Kings Drive, #100<br/>Charlotte, NC 28204</p>\r\n<p><strong>Friday, December 14th, 2018; 10:00AM &ndash; 6:00PM</strong><br/>Run For Your Life &ndash; Midtown<br/>901 South Kings Drive, #100<br/>Charlotte, NC 28204</p>\r\n<p><strong>Race Day &ndash; Saturday, December 16, 2017; 7:45AM &ndash; 8:45AM</strong><br/>300 S Church St,<br/>Charlotte, NC 28202</p>\r\n<p><em><strong>*YOU WILL BE ABLE TO PICK UP PACKETS FOR FRIENDS AND/OR FAMILY MEMBERS</strong></em></p>\r\n<p><br/><strong>T-Shirts</strong><br/>Every participant will receive a t-shirt that signed up before <strong>December 1st</strong>. If you've registered after our character/shirt deadline on <strong>December 1st</strong>, you will be registered as an Elf. We will order extra Elf shirts for those registering after <strong>December 1st</strong> but please note, your shirt is not guaranteed. We can not guarantee an Elf hat after <strong>December 1st</strong>.&nbsp; Shirts are ordered based on the sizes indicated during online registration. NO SWITCHING SIZES &ndash; NO EXCEPTIONS!</p>\r\n<p><strong>Timing</strong><br/>We have partnered with Run Events&nbsp;to time this years event using Chronotrack Timing Systems. All 8K participants will be timed and will receive their disposable timing tag during packet pick up. &nbsp;Snowman Dash participants will be able to see there time at the finish with the finish line clock.</p>\r\n<p><br/><strong>Divisions</strong><br/>Overall, Masters, 12 and under, 13-18, 19-24, 25-29, 30-34, 35-39, 40-44, 45-49, 50-54, 55-59, 60-64, 65-69, 70 and over.</p>\r\n<p><strong>Awards</strong><br/>Top 3 Males and Females in all divisions will receive awards.&nbsp;</p>\r\n<p><strong>Claiming Awards</strong><br/>As results become available, runners will be able to claim their awards at the awards ceremony prior to the last participant finishing. We do NOT ship unclaimed awards.</p>\r\n<p>NOTE: Sisu Events reserves the right to add/delete categories and awards prior to race based on participation.</p>\r\n<p><strong>Refunds and Transfers</strong><br/>Registration fees are non-refundable. Event registrations are non-transferable between individuals, events, or years.</p>\r\n<p><strong>Time Limit</strong><br/>Walkers are welcome in the Snowman Dash&nbsp;only.</p>\r\n<p><br/><strong>Medic/First Aid</strong><br/>There will be a RED medical tent located at the finish line in case of emergency or any medical needs. Announcements can always be made at the DJ booth as well.</p>\r\n<p><br/><strong>Weather Policy</strong><br/>Races are held, rain or shine, unless Sisu Events &amp; Run Events determines that conditions are too dangerous. This will be based on a prudent decision made on race weekend or race day by Sisu Events/Run Events and local law enforcement officials. If the race is canceled due to inclement weather there will be neither refunds nor transfers. This position is consistent with USA Track &amp; Field recommendations and with the protocol of sharing the risks associated with the sport of running. In the event of inclement weather or unforeseen circumstances, Sisu Events &amp; Run Events reserve the right to alter, cancel or eliminate any/all portions of the race.</p>\r\n<p><br/><strong>Parking</strong><br/>PLEASE arrive in time to park. There are many available parking lots and parking decks around Uptown Charlotte with evening parking rates (usually after 5pm). Many are within a short walking distance of BB&amp;T Ballpark.</p>\r\n<p><strong>Expo</strong><br/>At the Santa Run 8K and Snowman Dash you will find exhibitors, great giveaways from our sponsors, FREE Hot Cocoa courtesy of Wesley Village Apartments, etc.</p>\r\n<p><br/><strong>Entertainment</strong><br/>We are so excited to have&nbsp;a DJ&nbsp;at the Start and Finish line to energize the runners and maintain the fun!</p>",
+				"url": "https://runsignup.com/Race/NC/Charlotte/SantaRun8KSnowmanDash",
+				"external_race_url": "http://www.santarun8k.com",
+				"external_results_url": null,
+				"fb_page_id": null,
+				"fb_event_id": null,
+				"address": {
+					"street": "300 S Church St",
+					"city": "Charlotte",
+					"state": "NC",
+					"zipcode": "28202",
+					"country_code": "US"
+				},
+				"timezone": "America/New_York",
+				"logo_url": "https://d368g9lw5ileu7.cloudfront.net/races/race37702-logo.bxXzGU.png",
+				"real_time_notifications_enabled": "F",
+				"events": [{
+						"event_id": 217179,
+						"race_event_days_id": 87993,
+						"name": "Santa Run 8K - SANTA",
+						"details": null,
+						"start_time": "12/15/2018 09:00",
+						"end_time": null,
+						"age_calc_base_date": null,
+						"registration_opens": "12/19/2017 00:00",
+						"event_type": "running_only",
+						"distance": "8K",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "12/19/2017 00:00",
+								"registration_closes": "10/20/2018 23:59",
+								"race_fee": "$35.00",
+								"processing_fee": "$3.95"
+							},
+							{
+								"registration_opens": "10/21/2018 00:00",
+								"registration_closes": "11/15/2018 23:59",
+								"race_fee": "$40.00",
+								"processing_fee": "$3.95"
+							},
+							{
+								"registration_opens": "11/16/2018 00:00",
+								"registration_closes": "12/15/2018 23:59",
+								"race_fee": "$45.00",
+								"processing_fee": "$3.95"
+							}
+						],
+						"giveaway": "Unisex Shirt - Adult Long-Sleeve Thermal",
+						"participant_cap": 350
+					},
+					{
+						"event_id": 217180,
+						"race_event_days_id": 87993,
+						"name": "Santa Run 8K - ELF",
+						"details": "If you've registered after our character/shirt deadline on December 1st, you will be registered as an Elf.  We will order extra Elf shirts for those registering after December 1st but please note, your shirt is not guaranteed.  We can not guarantee an Elf hat after December 1st.",
+						"start_time": "12/15/2018 09:00",
+						"end_time": null,
+						"age_calc_base_date": null,
+						"registration_opens": "12/19/2017 09:27",
+						"event_type": "running_only",
+						"distance": "8K",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "12/19/2017 09:27",
+								"registration_closes": "10/20/2018 23:59",
+								"race_fee": "$35.00",
+								"processing_fee": "$3.95"
+							},
+							{
+								"registration_opens": "10/21/2018 00:00",
+								"registration_closes": "11/15/2018 23:59",
+								"race_fee": "$40.00",
+								"processing_fee": "$3.95"
+							},
+							{
+								"registration_opens": "11/16/2018 00:00",
+								"registration_closes": "12/15/2018 23:59",
+								"race_fee": "$45.00",
+								"processing_fee": "$3.95"
+							}
+						],
+						"giveaway": "Unisex Shirt - Adult Long-Sleeve Thermal",
+						"participant_cap": 500
+					},
+					{
+						"event_id": 217181,
+						"race_event_days_id": 87993,
+						"name": "Santa Run 8K - REINDEER",
+						"details": null,
+						"start_time": "12/15/2018 09:00",
+						"end_time": null,
+						"age_calc_base_date": null,
+						"registration_opens": "12/19/2017 09:27",
+						"event_type": "running_only",
+						"distance": "8K",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "12/19/2017 09:27",
+								"registration_closes": "10/20/2018 23:59",
+								"race_fee": "$35.00",
+								"processing_fee": "$3.95"
+							},
+							{
+								"registration_opens": "10/21/2018 00:00",
+								"registration_closes": "11/15/2018 23:59",
+								"race_fee": "$40.00",
+								"processing_fee": "$3.95"
+							},
+							{
+								"registration_opens": "11/16/2018 00:00",
+								"registration_closes": "12/15/2018 23:59",
+								"race_fee": "$45.00",
+								"processing_fee": "$3.95"
+							}
+						],
+						"giveaway": "Unisex Shirt - Adult Long-Sleeve Thermal",
+						"participant_cap": 350
+					},
+					{
+						"event_id": 217182,
+						"race_event_days_id": 87993,
+						"name": "Santa Run 8K -SNOWMAN",
+						"details": null,
+						"start_time": "12/15/2018 09:00",
+						"end_time": null,
+						"age_calc_base_date": null,
+						"registration_opens": "12/19/2017 09:27",
+						"event_type": "running_only",
+						"distance": "8K",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "12/19/2017 09:27",
+								"registration_closes": "10/20/2018 23:59",
+								"race_fee": "$35.00",
+								"processing_fee": "$3.95"
+							},
+							{
+								"registration_opens": "10/21/2018 00:00",
+								"registration_closes": "11/15/2018 23:59",
+								"race_fee": "$40.00",
+								"processing_fee": "$3.95"
+							},
+							{
+								"registration_opens": "11/16/2018 00:00",
+								"registration_closes": "12/15/2018 23:59",
+								"race_fee": "$45.00",
+								"processing_fee": "$3.95"
+							}
+						],
+						"giveaway": "Unisex Shirt - Adult Long-Sleeve Thermal ",
+						"participant_cap": 250
+					},
+					{
+						"event_id": 217183,
+						"race_event_days_id": 87993,
+						"name": "Snowman Dash",
+						"details": null,
+						"start_time": "12/15/2018 10:15",
+						"end_time": null,
+						"age_calc_base_date": null,
+						"registration_opens": "12/19/2017 09:27",
+						"event_type": "running_race",
+						"distance": "1 Miles",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "12/19/2017 09:27",
+								"registration_closes": "10/20/2018 23:59",
+								"race_fee": "$20.00",
+								"processing_fee": "$2.95"
+							},
+							{
+								"registration_opens": "10/21/2018 00:00",
+								"registration_closes": "11/15/2018 23:59",
+								"race_fee": "$22.50",
+								"processing_fee": "$2.95"
+							},
+							{
+								"registration_opens": "11/16/2018 00:00",
+								"registration_closes": "12/15/2018 23:59",
+								"race_fee": "$25.00",
+								"processing_fee": "$2.95"
+							}
+						],
+						"giveaway": "Unisex Shirt",
+						"participant_cap": 200
+					}
+				]
+			}
+		},
+		{
+			"race": {
+				"race_id": 17649,
+				"name": "Shamrock 4 Miler presented by Novant Health",
+				"last_date": "03/17/2018",
+				"last_end_date": "03/17/2018",
+				"next_date": "03/16/2019",
+				"next_end_date": "03/16/2019",
+				"is_draft_race": "F",
+				"is_registration_open": "T",
+				"created": "3/5/2015 18:32",
+				"last_modified": "8/14/2018 11:43",
+				"description": "<p>Join us for the 56th annual <strong>Shamrock 4 Miler Presented by Novant Health!</strong>. Start your St. Patrick&rsquo;s Day Weekend with a 4 Mile run, a Kid's Leprechaun Jog, live music, and plenty of food and fun!</p>\r\n<p><strong>Entry Fees</strong><br/> Thru January 18<br/> 4 Miler $25<br/> 4 Miler (K-12) $20<br/> Kid's Leprechaun Jog $5</p>\r\n<p>January 19 - February 15</p>\r\n<p>4 Miler $30<br/> 4 Miler (K-12) $25<br/> Kid's Leprechaun Jog $5</p>\r\n<p>February 16 &ndash; March 16<br/> 4 Miler $35<br/> 4 Miler (K-12) $30<br/> Kid's Leprechaun Jog $5</p>\r\n<p><strong>Packet Pick Up:</strong></p>\r\n<p>Midtown<strong>*</strong>: Thursday &amp; Friday 10:30AM - 6:00PM&nbsp;</p>\r\n<p>Piper Glen: Thursday 10:30AM - 6:00PM; Friday until 3PM</p>\r\n<p>University: Thursday &amp; Friday 10:30AM - 6:00PM;&nbsp;</p>\r\n<p>On-site Race Day beginning at 6:45am</p>",
+				"url": "https://runsignup.com/Race/NC/Charlotte/Shamrock4MilerpresentedbyStoneCrestatPiperGlen",
+				"external_race_url": "http://runforyourlife.com/shamrock4miler/",
+				"external_results_url": null,
+				"fb_page_id": "runforyourlife",
+				"fb_event_id": null,
+				"address": {
+					"street": "7832 Rea Rd",
+					"city": "Charlotte",
+					"state": "NC",
+					"zipcode": "28277",
+					"country_code": "US"
+				},
+				"timezone": "America/New_York",
+				"logo_url": "https://d368g9lw5ileu7.cloudfront.net/races/race17649-logo.bAxqdx.png",
+				"real_time_notifications_enabled": "F",
+				"events": [{
+						"event_id": 230760,
+						"race_event_days_id": 93597,
+						"name": "4 Miler",
+						"details": null,
+						"start_time": "3/16/2019 08:00",
+						"end_time": "3/16/2019 10:00",
+						"age_calc_base_date": null,
+						"registration_opens": "3/23/2018 00:00",
+						"event_type": "running_race",
+						"distance": "4 Miles",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "3/23/2018 00:00",
+								"registration_closes": "1/18/2019 23:59",
+								"race_fee": "$25.00",
+								"processing_fee": "$3.25"
+							},
+							{
+								"registration_opens": "1/19/2019 00:00",
+								"registration_closes": "2/15/2019 23:59",
+								"race_fee": "$30.00",
+								"processing_fee": "$3.25"
+							},
+							{
+								"registration_opens": "2/16/2019 00:00",
+								"registration_closes": "3/15/2019 18:59",
+								"race_fee": "$35.00",
+								"processing_fee": "$4.25"
+							}
+						],
+						"giveaway": "T-Shirt"
+					},
+					{
+						"event_id": 230761,
+						"race_event_days_id": 93597,
+						"name": "4 Miler K-12",
+						"details": null,
+						"start_time": "3/16/2019 08:00",
+						"end_time": "3/16/2019 10:00",
+						"age_calc_base_date": null,
+						"registration_opens": "3/23/2018 00:00",
+						"event_type": "running_race",
+						"distance": "4 Miles",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "3/23/2018 00:00",
+								"registration_closes": "1/18/2019 23:59",
+								"race_fee": "$20.00",
+								"processing_fee": "$3.25"
+							},
+							{
+								"registration_opens": "1/19/2019 00:00",
+								"registration_closes": "3/15/2019 18:59",
+								"race_fee": "$25.00",
+								"processing_fee": "$3.25"
+							}
+						],
+						"giveaway": "T-Shirt"
+					},
+					{
+						"event_id": 230762,
+						"race_event_days_id": 93597,
+						"name": "Virtual Run",
+						"details": null,
+						"start_time": "3/16/2019 08:00",
+						"end_time": "3/16/2019 10:00",
+						"age_calc_base_date": null,
+						"registration_opens": "3/23/2018 00:00",
+						"event_type": "virtual_race",
+						"distance": null,
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+							"registration_opens": "3/23/2018 00:00",
+							"registration_closes": "3/13/2019 12:00",
+							"race_fee": "$35.00",
+							"processing_fee": "$4.25"
+						}],
+						"giveaway": "T-Shirt"
+					},
+					{
+						"event_id": 230763,
+						"race_event_days_id": 93597,
+						"name": "Kid's Leprechaun Jog",
+						"details": null,
+						"start_time": "3/16/2019 08:00",
+						"end_time": "3/16/2019 10:00",
+						"age_calc_base_date": null,
+						"registration_opens": "3/23/2018 00:00",
+						"event_type": "running_race",
+						"distance": null,
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+							"registration_opens": "3/23/2018 00:00",
+							"registration_closes": "3/15/2019 18:00",
+							"race_fee": "$5.00",
+							"processing_fee": "$2.25"
+						}],
+						"giveaway": "T-Shirt"
+					}
+				],
+				"headings": [{
+					"heading_text": "Want to be a Virtual Runner",
+					"content": "<p>Hey Runners &ndash; Did you know Run Events now offers a Virtual Runner option! Want to support the cause but out of town on race day? Love the bling but hate getting up so early on a Saturday? Well, we still want you to be included! Here&rsquo;s how it works:</p>\r\n<p>If you know you absolutely can&rsquo;t make it but want to sign up anyway, you can still get that tee shirt and finisher&rsquo;s medal.</p>\r\n<p>Simply run the same distance as the chosen race during the week leading up to race day.<br/>Ex: Yiasou Greek Fest 5K is Saturday, 8/25 therefore you have from Saturday, 8/18 - Friday, 8/24 to complete your virtual entry.<br/>Share on social media and email registration@runforyourlife.com the workout from your Garmin or other running app, and arrange to have your tee and medal sent to your closest Run For Your Life;<br/>You will not be eligible for awards or an official time.<br/>After the race, just stop by the Run For Your Life you chose to pick up your tee shirt and medal!<br/>It&rsquo;s that easy! We want you t be included and if you just can&rsquo;t make it&hellip;. Well now you can!</p>"
+				}]
+			}
+		},
+		{
+			"race": {
+				"race_id": 68600,
+				"name": "Strip It 2 Give It 8K, 5K, Fun Run",
+				"last_date": null,
+				"last_end_date": null,
+				"next_date": "01/05/2019",
+				"next_end_date": "01/05/2019",
+				"is_draft_race": "F",
+				"is_registration_open": "F",
+				"created": "10/30/2018 22:25",
+				"last_modified": "10/30/2018 22:25",
+				"description": "<p>Strip it to Give it is a charity race designed to bring Charlotte together to help clothe our homeless neighbors and support local organizations that are preventing and ending homelessness in our city.</p>",
+				"url": "https://runsignup.com/Race/NC/Charlotte/StripIt2GiveIt8K5KFunRun",
+				"external_race_url": "http://stripit2giveit.com",
+				"external_results_url": "http://stripit2giveit.com/results",
+				"fb_page_id": null,
+				"fb_event_id": null,
+				"address": {
+					"street": "2900 Griffith St",
+					"city": "Charlotte",
+					"state": "NC",
+					"zipcode": "28203",
+					"country_code": "US"
+				},
+				"timezone": "America/New_York",
+				"logo_url": "https://d368g9lw5ileu7.cloudfront.net/races/race68600-logo.bB2rkU.png",
+				"real_time_notifications_enabled": "F",
+				"events": [{
+						"event_id": 273503,
+						"race_event_days_id": 110191,
+						"name": "8K",
+						"details": null,
+						"start_time": "1/5/2019 11:00",
+						"end_time": null,
+						"age_calc_base_date": null,
+						"registration_opens": null,
+						"event_type": "running_race",
+						"distance": "8K",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": []
+					},
+					{
+						"event_id": 273504,
+						"race_event_days_id": 110191,
+						"name": "5K",
+						"details": null,
+						"start_time": "1/5/2019 11:00",
+						"end_time": null,
+						"age_calc_base_date": null,
+						"registration_opens": null,
+						"event_type": "running_race",
+						"distance": "5K",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": []
+					},
+					{
+						"event_id": 273505,
+						"race_event_days_id": 110191,
+						"name": "Fun Run",
+						"details": null,
+						"start_time": "1/5/2019 12:00",
+						"end_time": null,
+						"age_calc_base_date": null,
+						"registration_opens": null,
+						"event_type": "running_race",
+						"distance": "1 Miles",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": []
+					}
+				]
+			}
+		},
+		{
+			"race": {
+				"race_id": 66436,
+				"name": "The Charlotte Pizza 5k Run",
+				"last_date": null,
+				"last_end_date": null,
+				"next_date": "12/15/2018",
+				"next_end_date": "12/15/2018",
+				"is_draft_race": "F",
+				"is_registration_open": "T",
+				"created": "9/11/2018 14:17",
+				"last_modified": "10/26/2018 10:54",
+				"description": "<p><strong>Registration for this event is now open!</strong></p>\r\n<p>It started in Tampa.&nbsp; We did it in Spokane and Orlando.&nbsp; And now we're doing it in Charlotte!&nbsp; The Charlotte 5k Pizza Run is here!</p>\r\n<h2>Here's how it works:</h2>\r\n<p>This is an EVENING event.&nbsp; It starts at 3pm and ends at 5pm.&nbsp; Every runner will consume TWO slices of pizza, but NOT all at once. You'll eat one slice 5 minutes before the start time, and consume your second slice at the &quot;pizza station&quot;, about half-way through the course.</p>\r\n<p>The first runner to cross the finish line will be crowned &quot;The Pizza King (or Queen)&quot; (&lt;---- they get a special award!).</p>\r\n<p>Why? Because everyone will run for pizza.</p>\r\n<p>This event will happen at Mallard Creek Park.&nbsp;</p>\r\n<h2>&nbsp;What do I get?</h2>\r\n<p>Every finisher will receive a medal, t-shirt, an opportunity to interact with local sponsors, and an epic great time.</p>\r\n<ul>\r\n<li>A custom pizza medal (image to be posted at a later date, but believe me - you'll like the medal).</li>\r\n<li>An awesome race shirt to show off!</li>\r\n<li>Pizza King and Queen&nbsp;ceremony directly after the race.</li>\r\n<li>Free access to race photos.</li>\r\n<li>Pizza is included with your registration!</li>\r\n</ul>\r\n<h2>What's Allowed?</h2>\r\n<ul>\r\n<li>Strollers and wheelchairs are allowed on this course, but participants MUST stay to the right of the path to allow for passers.</li>\r\n<li>Service animals.</li>\r\n<li>Headphones are authorized, but&nbsp;we ask that you keep to a volume that allows you to hear race and park officials.</li>\r\n</ul>\r\n<h2>What's NOT Allowed?</h2>\r\n<ul>\r\n<li>Pets (except certified service animals).</li>\r\n<li>Double-wide (or wider) strollers.&nbsp; At some points on the course, the path isn't wide enough for three adults.</li>\r\n<li>Skateboards, bicycles, tricycles, skates, etc...</li>\r\n<li>Bandits. If you're not wearing a bib at the finish line, you won't get a medal!</li>\r\n</ul>\r\n<p><span style=\"font-size: 10pt;\">***For obvious reasons, this event is not certified.&nbsp; Runners <span style=\"text-decoration: underline;\"><strong>WILL NOT</strong></span> receive a certified time.&nbsp; Bibs will <span style=\"text-decoration: underline;\"><strong>not</strong></span> have chips on them.&nbsp; This is a FUN RUN!***</span></p>\r\n<h2>Allergy and Dietary Restrictions.</h2>\r\n<p>As much as we'd like to, we CANNOT accomodate for allergy or dietary restrictions such as gluten-free pizza. All of the pizza and food will contain cheese and gluten. At this time, we cannot make special accomodations for individual runners and spectators.</p>",
+				"url": "https://runsignup.com/Race/NC/Charlotte/TheCharlottePizza5kRun",
+				"external_race_url": "https://neoendurance.com/charlotte/pizza-5k-run",
+				"external_results_url": null,
+				"fb_page_id": "neoenduranceraces",
+				"fb_event_id": null,
+				"address": {
+					"street": "Mallard Creek Community Park",
+					"city": "Charlotte",
+					"state": "NC",
+					"zipcode": "28269",
+					"country_code": "US"
+				},
+				"timezone": "America/New_York",
+				"logo_url": "https://d368g9lw5ileu7.cloudfront.net/races/race66436-logo.bBMxu4.png",
+				"real_time_notifications_enabled": "F",
+				"events": [{
+						"event_id": 262032,
+						"race_event_days_id": 106017,
+						"name": "5k Run/Walk",
+						"details": "This is an UNTIMED 5 kilometer walk/run.  The first place finisher will be crowned the 2018 Charlotte Pizza King or Queen.\r\n\r\nKids are welcome in this event, but MUST register separately.  All registrants will be assigned a bib number; receive a shirt on race day; and earn a finisher's medal.",
+						"start_time": "12/15/2018 15:00",
+						"end_time": "12/15/2018 17:00",
+						"age_calc_base_date": null,
+						"registration_opens": "9/11/2018 12:02",
+						"event_type": "running_race",
+						"distance": "5K",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "9/11/2018 12:02",
+								"registration_closes": "10/31/2018 23:59",
+								"race_fee": "$25.00",
+								"processing_fee": "$2.50"
+							},
+							{
+								"registration_opens": "11/1/2018 00:00",
+								"registration_closes": "12/7/2018 14:00",
+								"race_fee": "$30.00",
+								"processing_fee": "$2.50"
+							}
+						],
+						"giveaway": "T-Shirt",
+						"participant_cap": 300
+					},
+					{
+						"event_id": 262034,
+						"race_event_days_id": 106017,
+						"name": "5k Kids",
+						"details": "This is a special reserve pricing for kids.  We encourage families of all ages to bring their little ones and have some fun at a reduced cost.\r\n\r\nThis group is restricted for children between 0-11 years of age.  They will receive shirts appropriate for their sizes (children sizes), a racing bib, and a finisher's medal.",
+						"start_time": "12/15/2018 15:00",
+						"end_time": "12/15/2018 17:00",
+						"age_calc_base_date": null,
+						"registration_opens": "9/11/2018 14:29",
+						"event_type": "running_race",
+						"distance": "5K",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "9/11/2018 14:29",
+								"registration_closes": "10/31/2018 23:59",
+								"race_fee": "$15.00",
+								"processing_fee": "$2.50"
+							},
+							{
+								"registration_opens": "11/1/2018 00:00",
+								"registration_closes": "12/7/2018 23:59",
+								"race_fee": "$20.00",
+								"processing_fee": "$2.50"
+							}
+						],
+						"giveaway": "T-Shirt",
+						"participant_cap": 50
+					}
+				],
+				"headings": [{
+						"heading_text": "The Coronation of the Pizza King and Queen!",
+						"content": "<p>The first male and female runner to follow the Royalty Rules and cross the finish line will get crowned the 2018 Charlotte Pizza King and Pizza Queen!! They will hold this title until an incumbent beats them out the following year!</p>\r\n<h2>The Royalty Rules</h2>\r\n<ol>\r\n<li>Eat a slice of pizza 5-minutes before start time.</li>\r\n<li>Start the race at the sound of the race director's horn.</li>\r\n<li>Stop and eat a SECOND slice a the pizza/water station about half-way through the course.</li>\r\n<li>Proceed and complete the course with a dashing finish!</li>\r\n</ol>\r\n<p>No cheating! You cannot run and eat at the same time.</p>\r\n<p>You don't HAVE to eat the pizza, but if you want to compete for the crowns, you have the follow the rules above. ALL runners will receive a finisher's medal and t-shirt.</p>"
+					},
+					{
+						"heading_text": "The Video!",
+						"content": "<p>Watch the video and see how much fun this event is!</p>"
+					},
+					{
+						"heading_text": "The Medal!",
+						"content": "<p>The artwork is still being designed.&nbsp; We'll post the drafts as soon as our team apply the finishing touches!</p>"
+					},
+					{
+						"heading_text": "Proudly Supporting Local Pizzerias",
+						"content": "<p>We ONLY select local pizzerias.&nbsp; We believe in supporting the local economy and will therefore choose a small-business pizzeria.&nbsp; This year, the lucky pizzeria is non other than Farley's Pizza!</p>\r\n<p>These guys are located at:</p>\r\n<p>2025 E. Arbors Drive Suite 210, Charlotte NC 28262<br/>704-688-0500</p>\r\n<div><img style=\"display: block;margin-left: auto;margin-right: auto;\" src=\"https://neoendurance.com/images/Races/Charlotte_Pizza_5k/Farleys_Transparent.png\" alt=\"Farleys Transparent\" width=\"311\" height=\"132\"></img></div>"
+					},
+					{
+						"heading_text": "The Charity!",
+						"content": "<p>This event is benefitting Sassy Caps! They're a 501(c)3 non-profit organization. Sassy Caps is a nationwide network of volunteers that make soft, fun hats and seatbelt pillows to donate to people receiving cancer treatment. They also sponsor and host local, free &quot;Day of Sass&quot; spa makeovers for women with cancer. Their mission statement is &quot;to empower volunteers to connect with local cancer communities through service and love, and to make the fight against cancer a little bit sassier&quot;.</p>\r\n<h3>Become a Fundraiser!</h3>\r\n<p>Help them reach their fundraising goal!!!&nbsp; Become a fundraiser or join their team and make an impact on the community of those who could benefit from comfortable and cute hats while undergoing cancer treatment. You don't have to run the event to join or create a fundraising team (but you'd be missing out on the fun!).</p>\r\n<p><a href=\"http://www.sassycaps.org\" target=\"_self\"><img style=\"display: block;margin-left: auto;margin-right: auto;\" src=\"https://neoendurance.com/images/Races/Charlotte_Pizza_5k/SassyCaps_transparent_logo.png\" alt=\"SassyCaps transparent logo\" width=\"278\" height=\"190\"></img></a></p>"
+					}
+				]
+			}
+		},
+		{
+			"race": {
+				"race_id": 53799,
+				"name": "The Final - 4 miler",
+				"last_date": "03/31/2018",
+				"last_end_date": "03/31/2018",
+				"next_date": "04/06/2019",
+				"next_end_date": "04/06/2019",
+				"is_draft_race": "F",
+				"is_registration_open": "T",
+				"created": "11/9/2017 12:38",
+				"last_modified": "6/21/2018 05:48",
+				"url": "https://runsignup.com/Race/NC/Charlotte/TheFinal4Miler",
+				"external_race_url": null,
+				"external_results_url": null,
+				"fb_page_id": null,
+				"fb_event_id": null,
+				"address": {
+					"street": "300 N. Brevard St.",
+					"city": "Charlotte",
+					"state": "NC",
+					"zipcode": "28202",
+					"country_code": "US"
+				},
+				"timezone": "America/New_York",
+				"logo_url": "https://d368g9lw5ileu7.cloudfront.net/races/race53799-logo.bAbjq_.png",
+				"real_time_notifications_enabled": "F",
+				"events": [{
+					"event_id": 247431,
+					"race_event_days_id": 100340,
+					"name": "Final - 4 miler",
+					"details": null,
+					"start_time": "4/6/2019 08:00",
+					"end_time": "4/6/2019 10:30",
+					"age_calc_base_date": null,
+					"registration_opens": "6/20/2018 12:38",
+					"event_type": "running_race",
+					"distance": "4 Miles",
+					"volunteer": "F",
+					"require_dob": "T",
+					"require_phone": "T",
+					"registration_periods": [{
+							"registration_opens": "6/20/2018 12:38",
+							"registration_closes": "2/1/2019 23:59",
+							"race_fee": "$35.00",
+							"processing_fee": "$3.95"
+						},
+						{
+							"registration_opens": "2/2/2019 00:00",
+							"registration_closes": "2/28/2019 23:59",
+							"race_fee": "$40.00",
+							"processing_fee": "$3.95"
+						},
+						{
+							"registration_opens": "3/1/2019 00:00",
+							"registration_closes": "4/6/2019 07:59",
+							"race_fee": "$44.00",
+							"processing_fee": "$3.95"
+						}
+					],
+					"giveaway": "T-Shirt "
+				}]
+			}
+		},
+		{
+			"race": {
+				"race_id": 31511,
+				"name": "The Park CDC 5K Domestic Violence Awareness RUN/WALK",
+				"last_date": "06/30/2018",
+				"last_end_date": "06/30/2018",
+				"next_date": "06/22/2019",
+				"next_end_date": "06/22/2019",
+				"is_draft_race": "F",
+				"is_registration_open": "T",
+				"created": "3/4/2016 17:10",
+				"last_modified": "10/28/2018 07:17",
+				"description": "<p>OUR MISSION<br/>The mission of The Park CDC 5k Domestic Violence Awareness Run/Walk is to highlight the problem of domestic violence in our community.<br/>OUR GOAL<br/>To raise money to bring awareness to this cause, generating critical funds for Safe Alliance, the Jamie Kimble Foundation for Courage and other educational prevention and victim services programs.</p>\r\n<p>EVENTS</p>\r\n<p>5K<br/>$15 thru 12/31<br/>$25 thru 5/18<br/>$35 Race day</p>\r\n<p>5K (K-12)<br/>$15 thru Race day</p>\r\n<p>Couples 5K<br/>$40 thru Race day</p>\r\n<p>Virtual<br/>$20 thru Race day</p>\r\n<p>Team Runners - $20 per person for teams of 5 or more; first person pays $25</p>\r\n<p><strong>SHIRTS ARE ONLY GUARANTEED TO THOSE WHO REGISTER BY 11:59PM ON TUESDAY 6/10. AFTER THAT IT IS FIRST COME FIRST SERVE.</strong></p>\r\n<p>PACKET PICKUP <br/>FRIDAY, June 21th, 10AM-6PM AT<br/>Run For Your Life - Midtown<br/>901 S. Kings Drive<br/>Charlotte, NC 28204</p>",
+				"url": "https://runsignup.com/Race/NC/Charlotte/ThePark5KDomesticViolenceAwarenessRUNWALK",
+				"external_race_url": "http://www.thepark5krun.org/",
+				"external_results_url": null,
+				"fb_page_id": "Walk",
+				"fb_event_id": null,
+				"address": {
+					"street": "808 Briar Creek Rd",
+					"city": "Charlotte",
+					"state": "NC",
+					"zipcode": "28205",
+					"country_code": "US"
+				},
+				"timezone": "America/New_York",
+				"logo_url": "https://d368g9lw5ileu7.cloudfront.net/races/race31511-logo.bw3Ina.png",
+				"real_time_notifications_enabled": "F",
+				"events": [{
+						"event_id": 270501,
+						"race_event_days_id": 109163,
+						"name": "5K",
+						"details": null,
+						"start_time": "6/22/2019 07:45",
+						"end_time": "6/22/2019 14:00",
+						"age_calc_base_date": null,
+						"registration_opens": "10/28/2018 00:00",
+						"event_type": "running_race",
+						"distance": null,
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "10/28/2018 00:00",
+								"registration_closes": "12/31/2018 23:59",
+								"race_fee": "$15.00",
+								"processing_fee": "$3.25"
+							},
+							{
+								"registration_opens": "1/1/2019 00:00",
+								"registration_closes": "6/21/2019 23:59",
+								"race_fee": "$25.00",
+								"processing_fee": "$3.25"
+							},
+							{
+								"registration_opens": "6/22/2019 00:00",
+								"registration_closes": "6/22/2019 23:59",
+								"race_fee": "$35.00",
+								"processing_fee": "$4.25"
+							}
+						],
+						"giveaway": "T-Shirt"
+					},
+					{
+						"event_id": 270502,
+						"race_event_days_id": 109163,
+						"name": "5K (K-12)",
+						"details": null,
+						"start_time": "6/22/2019 07:45",
+						"end_time": "6/22/2019 14:00",
+						"age_calc_base_date": null,
+						"registration_opens": "10/28/2018 00:00",
+						"event_type": "running_race",
+						"distance": null,
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+							"registration_opens": "10/28/2018 00:00",
+							"registration_closes": "6/21/2019 23:59",
+							"race_fee": "$10.00",
+							"processing_fee": "$2.25"
+						}],
+						"giveaway": "T-Shirt"
+					},
+					{
+						"event_id": 270503,
+						"race_event_days_id": 109163,
+						"name": "Couples 5K",
+						"details": "One male, one female (husband/wife, dad/daughter, mom/son)",
+						"start_time": "6/22/2019 07:45",
+						"end_time": "6/22/2019 14:00",
+						"age_calc_base_date": null,
+						"registration_opens": "1/1/2019 00:00",
+						"event_type": "running_race",
+						"distance": null,
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+							"registration_opens": "1/1/2019 00:00",
+							"registration_closes": "6/21/2019 23:59",
+							"race_fee": "$40.00",
+							"processing_fee": "$4.25"
+						}],
+						"giveaway": "T-Shirt"
+					},
+					{
+						"event_id": 270504,
+						"race_event_days_id": 109163,
+						"name": "Virtual Runner",
+						"details": "T-shirts will be mailed to you.",
+						"start_time": "6/22/2019 07:45",
+						"end_time": "6/22/2019 14:00",
+						"age_calc_base_date": null,
+						"registration_opens": "10/28/2018 00:00",
+						"event_type": "virtual_race",
+						"distance": null,
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+							"registration_opens": "10/28/2018 00:00",
+							"registration_closes": "6/21/2019 23:59",
+							"race_fee": "$20.00",
+							"processing_fee": "$3.25"
+						}]
+					}
+				]
+			}
+		},
+		{
+			"race": {
+				"race_id": 1604,
+				"name": "Touching Souls Foundation Frosty 5k",
+				"last_date": "12/16/2017",
+				"last_end_date": "12/16/2017",
+				"next_date": "12/15/2018",
+				"next_end_date": "12/15/2018",
+				"is_draft_race": "F",
+				"is_registration_open": "T",
+				"created": "5/7/2012 14:44",
+				"last_modified": "10/31/2018 06:53",
+				"description": "<p>5k run and walk to raise money for the <strong>Touching Souls Foundation</strong>. The TSF Mission Statement is to honor and remember loved ones who have died unexpectedly and provide financial support to their families.</p>\r\n<p><strong>Cash awards</strong> to male and female overall and masters winners.&nbsp; Awards to top 3 in age group.</p>\r\n<p><strong>Age Groups:</strong> &nbsp;14 &amp; under, 15-19, 20-29, 30-39, 40-49, 50-59, 60-69, 70+</p>\r\n<p><strong>Entry Fee</strong> is $20 until December 1st, $25 from 12/2 until 12/10, $30 12/11 to race day</p>\r\n<p>All race entry will receive <strong>Touching Souls Swag</strong>! Hot Chocolate at the finish! Warming area at Al!ve!</p>\r\n<p>Can&rsquo;t make the date? Hate the cold? You can still participate! Just register as a virtual participant, log miles ran/workouts completed to your Facebook, and tag the Touching Souls Foundation. You can pick-up your TS swag or we can mail it to you! Cost is $25.&nbsp;</p>\r\n<p>The race will be professionally timed by the <span style=\"color: #333399;\"><strong><a style=\"color: #333399;\" href=\"https://www.facebook.com/michiganrunningfoundation/\" target=\"_blank\" rel=\"noopener noreferrer\">Michigan Running Foundation</a></strong></span>. Results will be posted during the race and online at <span style=\"color: #ff0000;\"><strong><a style=\"color: #ff0000;\" href=\"https://www.playmakers.com/Events/Results.aspx\" target=\"_blank\" rel=\"noopener noreferrer\">Playmakers.com</a></strong></span>.</p>",
+				"url": "https://runsignup.com/Race/MI/Charlotte/TouchingSouls5kRunWalkandRemember",
+				"external_race_url": null,
+				"external_results_url": null,
+				"fb_page_id": "TouchingSoulsFoundation",
+				"fb_event_id": "489314521565208",
+				"address": {
+					"street": "800 W Lawrence Ave",
+					"city": "Charlotte",
+					"state": "MI",
+					"zipcode": "48813",
+					"country_code": "US"
+				},
+				"timezone": "America/Detroit",
+				"logo_url": "https://d368g9lw5ileu7.cloudfront.net/races/race1604_logo.brTW5Z.png",
+				"real_time_notifications_enabled": "F",
+				"events": [{
+						"event_id": 209302,
+						"race_event_days_id": 84994,
+						"name": "5k Run/Walk",
+						"details": null,
+						"start_time": "12/15/2018 10:00",
+						"end_time": null,
+						"age_calc_base_date": null,
+						"registration_opens": "1/1/2018 00:00",
+						"event_type": "running_race",
+						"distance": "3.1 Miles",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "1/1/2018 00:00",
+								"registration_closes": "12/1/2018 23:59",
+								"race_fee": "$20.00",
+								"processing_fee": "$2.75"
+							},
+							{
+								"registration_opens": "12/2/2018 00:00",
+								"registration_closes": "12/10/2018 23:59",
+								"race_fee": "$25.00",
+								"processing_fee": "$2.75"
+							},
+							{
+								"registration_opens": "12/11/2018 00:00",
+								"registration_closes": "12/15/2018 23:59",
+								"race_fee": "$30.00",
+								"processing_fee": "$2.75"
+							}
+						]
+					},
+					{
+						"event_id": 273386,
+						"race_event_days_id": 84994,
+						"name": "Virtual 5k Run/Walk",
+						"details": "Virtual 5k - see race info tab for details",
+						"start_time": "12/15/2018 10:00",
+						"end_time": null,
+						"age_calc_base_date": null,
+						"registration_opens": "10/30/2018 14:55",
+						"event_type": "virtual_race",
+						"distance": "3.1 Miles",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+							"registration_opens": "10/30/2018 14:55",
+							"registration_closes": "12/15/2018 23:59",
+							"race_fee": "$25.00",
+							"processing_fee": "$2.75"
+						}]
+					}
+				],
+				"headings": [{
+						"heading_text": "Donate and Receive a FREE Entry!",
+						"content": "<p>Donate $100 by December 1st and we'll give you a<span style=\"color: #ff0000;\"> <strong>free entry</strong></span>!&nbsp; After December 1st you'll receive a $20 discount off one entry with a $100 donation. Donate $50 at any time and receive $10 off one entry, donate $25 and receive $5 off one entry fee. Simply follow the steps during registration and donate, the discount will be automatically taken during checkout. <em>Valid for the both 5k run/walk and the Virtual 5k.&nbsp;</em></p>\r\n<p>Our Mission is to honor and remember loved ones who have died unexpectedly and provide financial support to their families. Our HOPE is to pass on the love and support that we were touched by during our own time of loss. <strong>Please help us in our fight to keep our loved ones memories alive!</strong></p>"
+					},
+					{
+						"heading_text": "Virtual 5k run/walk",
+						"content": "<p>If you cannot make the <span style=\"color: #3366ff;\"><strong>Touching Souls Foundation Frosty 5K</strong></span> in person, but would still like to support our amazing cause, you can complete the <span style=\"color: #3366ff;\"><strong>Virtual Touching Souls Foundation Frosty 5K</strong></span>!&nbsp; A virtual race is a race that can be run (or walked) from any location you choose. You can run, jog, or walk on the road, on the trail, on the treadmill, at the gym or on the track (or even at another race). You get to run your own race, at your own pace, and time it yourself.&nbsp; Your race swag can be picked up or will be ship it to you.&nbsp;</p>\r\n<p><strong><span style=\"color: #3366ff;\">Sign up using the Virtual 5k event listed above.</span></strong></p>\r\n<p><strong><span style=\"color: #3366ff;\">What:</span></strong> This is a Virtual 5K, so you choose your own course and time yourself.</p>\r\n<p><span style=\"color: #3366ff;\"><strong>When:</strong></span> Complete your race any time on or before December 16, 2018.</p>\r\n<p><strong><span style=\"color: #3366ff;\">Where: &nbsp;</span></strong>You choose the course and you time yourself. Just register as a virtual participant, log miles ran/workouts completed to your Facebook, and tag the Touching Souls Foundation. You can pick-up your TS swag or we can mail it to you! Not required however you may include more formal results from your Garmin, treadmill, any other fitness tracking device, etc.. Again this is not required, all we need is your distance and tag us on facebook.</p>\r\n<p><span style=\"color: #3366ff;\"><strong>Why:</strong> </span>&nbsp;We want to spread awareness of our mission to honor and remember loved ones who have died unexpectedly and provide financial support to their families.</p>\r\n<p><span style=\"color: #3366ff;\"><strong>Cost:</strong></span> &nbsp;The price is $25 and includes your swag, you can pick it up from us or we'll ship it to you. &nbsp;</p>"
+					},
+					{
+						"heading_text": "Printable Entry Form",
+						"content": null
+					}
+				]
+			}
+		},
+		{
+			"race": {
+				"race_id": 17800,
+				"name": "University City Turkey Trot 5K",
+				"last_date": "11/23/2017",
+				"last_end_date": "11/23/2017",
+				"next_date": "11/22/2018",
+				"next_end_date": "11/22/2018",
+				"is_draft_race": "F",
+				"is_registration_open": "T",
+				"created": "3/5/2015 18:41",
+				"last_modified": "11/12/2018 12:14",
+				"description": "<h3>&nbsp;</h3>\r\n<p><span style=\"color: #ff0000;\"></span><strong><span style=\"color: #ff0000;\">WAKE... RUN.... FEAST!&nbsp; </span></strong>Join us as we celebrate the 5th year of the <strong>University City Turkey Trot</strong>... our cute turkey is turning five! In honor of our 5th year, random prizes will be awarded to participants who sign up throughout the registration period. The <strong>University City Turkey Trot</strong> is a timed 5K race/walk sponsored by Sickle Cell Partners of the Carolinas on Thanksgiving Day. &nbsp;Join fellow runners and walkers Thanksgiving Day for this great community race at 3024 Prosperity Church Road (formerly The Fresh Market) in Charlotte for all of University City to enjoy! After the race, cool down and enjoy a post-race mini-feast featuring food, drinks and music! &nbsp;</p>\r\n<p><strong>Our 5th-year tee shirt is one you do not want to be without. To guarantee you receive a tee shirt, please register for the race by 11/09/2018.</strong></p>\r\n<p>The <strong>University City Turkey Trot</strong>&nbsp;features a dedicated one-mile fun run (for all ages). Costumes are encouraged for all those young at heart! Prizes will be awarded to the top three costumes. In addition, prizes are awarded to the top three finishers in each age category. Participants are encouraged to take part in our food drive by bringing a non-perishable item to support those who are less fortunate in our community. Participation in this event supports Sickle Cell Partners of the Carolinas.</p>\r\n<p><strong>Date &amp; Time:</strong>&nbsp;<br/><span style=\"color: #ff0000;\"><strong>Thanksgiving Day, Thursday, November 22, 2018 at 8am</strong></span></p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>\r\n<p>&nbsp;</p>",
+				"url": "https://runsignup.com/Race/NC/Charlotte/UniversityCityTurkeyTrot5K",
+				"external_race_url": "http://universitycityturkeytrot.com",
+				"external_results_url": "https://results.chronotrack.com/event/results/event/event-18100",
+				"fb_page_id": "universitycityturkeytrot1",
+				"fb_event_id": "1",
+				"address": {
+					"street": "3024 Prosperity Church Road Charlotte, NC 28269",
+					"city": "Charlotte",
+					"state": "NC",
+					"zipcode": "28269",
+					"country_code": "US"
+				},
+				"timezone": "America/New_York",
+				"logo_url": "https://d368g9lw5ileu7.cloudfront.net/",
+				"real_time_notifications_enabled": "F",
+				"events": [{
+						"event_id": 203430,
+						"race_event_days_id": 83090,
+						"name": "5K Run",
+						"details": "WAKE... RUN.... FEAST! The University City Turkey Trot is a 5K race/walk sponsored by Sickle Cell Partners of the Carolinas on Thanksgiving Day and will be held at 3024 Prosperity Church Road in Charlotte (formerly The Fresh Market). \r\n\r\nThe 5K walk/run features a fun run and costume contest for all those young at heart and in the Thanksgiving spirit. In addition to the race festivities, please bring a non-perishable item to support those less fortunate in our community. Join this great race now in its fifth year! \r\n\r\nGobble!\r\n\r\nDate & Time: \r\nThanksgiving Day, Thursday, November 22, 2018 at 8am\r\n\r\n\r\n\r\n",
+						"start_time": "11/22/2018 08:00",
+						"end_time": "11/22/2018 10:00",
+						"age_calc_base_date": null,
+						"registration_opens": "11/24/2017 00:01",
+						"event_type": "running_race",
+						"distance": "3.1K",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "11/24/2017 00:01",
+								"registration_closes": "12/3/2017 23:59",
+								"race_fee": "$20.00",
+								"processing_fee": "$3.25"
+							},
+							{
+								"registration_opens": "12/4/2017 00:00",
+								"registration_closes": "6/4/2018 23:59",
+								"race_fee": "$20.00",
+								"processing_fee": "$3.25"
+							},
+							{
+								"registration_opens": "6/5/2018 00:00",
+								"registration_closes": "9/30/2018 23:59",
+								"race_fee": "$25.00",
+								"processing_fee": "$3.25"
+							},
+							{
+								"registration_opens": "10/1/2018 00:00",
+								"registration_closes": "11/15/2018 23:59",
+								"race_fee": "$30.00",
+								"processing_fee": "$3.25"
+							},
+							{
+								"registration_opens": "11/16/2018 00:00",
+								"registration_closes": "11/21/2018 23:59",
+								"race_fee": "$35.00",
+								"processing_fee": "$4.25"
+							}
+						],
+						"giveaway": "T-Shirt"
+					},
+					{
+						"event_id": 203431,
+						"race_event_days_id": 83090,
+						"name": "Fun Run",
+						"details": null,
+						"start_time": "11/22/2018 09:00",
+						"end_time": "11/22/2018 09:15",
+						"age_calc_base_date": null,
+						"registration_opens": "11/25/2017 00:01",
+						"event_type": "running_race",
+						"distance": "1 Miles",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": [{
+								"registration_opens": "11/25/2017 00:01",
+								"registration_closes": "6/4/2018 23:59",
+								"race_fee": "$12.00",
+								"processing_fee": "$3.25"
+							},
+							{
+								"registration_opens": "6/5/2018 00:00",
+								"registration_closes": "11/15/2018 23:59",
+								"race_fee": "$15.00",
+								"processing_fee": "$3.25"
+							},
+							{
+								"registration_opens": "11/16/2018 00:00",
+								"registration_closes": "11/21/2018 23:59",
+								"race_fee": "$20.00",
+								"processing_fee": "$3.25"
+							}
+						],
+						"giveaway": "T-Shirt"
+					}
+				]
+			}
+		},
+		{
+			"race": {
+				"race_id": 56336,
+				"name": "We Believe Santa 5K & Dog Jog",
+				"last_date": null,
+				"last_end_date": null,
+				"next_date": "12/15/2018",
+				"next_end_date": "12/15/2018",
+				"is_draft_race": "F",
+				"is_registration_open": "F",
+				"created": "1/19/2018 11:03",
+				"last_modified": "1/19/2018 11:03",
+				"description": "<p>The Santa 5K Trail Race is the place for every wannabe St. Nick to come out for a little pre-holiday fun. This mid-December 5k offers a brisk trot through the USNWC trail system. Be sure to bring your red coat and white beard &ndash; there will be a prize given to the best Santa Claus look-a-like. Do you have a four-legged friend who also wants to get in on the fun? After the trail race, grab your canine companion and hit the trails decked out in your (and your pup&rsquo;s) jolly ole St. Nick attire for the We Believe Santa 5K Dog Jog.<br/>EVENT DETAILS:<br/>Date: Saturday, December 15, 2018<br/>Distance: 5K<br/>Time:We Believe Santa 5K Trail Race &ndash; 12:00 p.m.<br/>We Believe Santa 5K Dog Jog &ndash; 1:30 p.m.<br/>REGISTRATION:<br/>We Believe Santa 5K Trail Race$30 &ndash; Pre-registration available online&nbsp;through December&nbsp;13<br/>$37 &ndash; Race day registration<br/>*Note:Recover&nbsp;shirts&nbsp;are only guaranteed&nbsp;to teams who pre-register by December 9<br/>We Believe Santa 5K Dog Jog$30 &ndash; Pre-registration available online&nbsp;through December&nbsp;13<br/>$37 &ndash; Race day registration<br/>*Note:Recover&nbsp;shirts&nbsp;are only guaranteed&nbsp;to teams who pre-register by December 9</p>",
+				"url": "https://runsignup.com/Race/NC/Charlotte/WeBelieveSanta5KDogJog",
+				"external_race_url": "http://usnwc.org/play/whitewater-race-series/upcoming/we-believe/",
+				"external_results_url": "http://usnwc.org/play/whitewater-race-series/upcoming/we-believe/",
+				"fb_page_id": null,
+				"fb_event_id": null,
+				"address": {
+					"street": "5000 Whitewater Center Parkway",
+					"city": "Charlotte",
+					"state": "NC",
+					"zipcode": "28214",
+					"country_code": "US"
+				},
+				"timezone": "America/New_York",
+				"logo_url": "https://d368g9lw5ileu7.cloudfront.net/races/race56336-logo.bAyHBO.png",
+				"real_time_notifications_enabled": "F",
+				"events": [{
+						"event_id": 216136,
+						"race_event_days_id": 87548,
+						"name": "5K",
+						"details": null,
+						"start_time": "12/15/2018 12:00",
+						"end_time": null,
+						"age_calc_base_date": null,
+						"registration_opens": null,
+						"event_type": "trail_race",
+						"distance": "5K",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": []
+					},
+					{
+						"event_id": 216137,
+						"race_event_days_id": 87548,
+						"name": "5K Dog Jog",
+						"details": null,
+						"start_time": "12/15/2018 13:30",
+						"end_time": null,
+						"age_calc_base_date": null,
+						"registration_opens": null,
+						"event_type": "trail_race",
+						"distance": "5K",
+						"volunteer": "F",
+						"require_dob": "T",
+						"require_phone": "T",
+						"registration_periods": []
+					}
+				]
+			}
+		}
+	]
+}

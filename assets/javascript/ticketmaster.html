@@ -7,29 +7,53 @@
     <title>ticketmaster</title>
 </head>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
 <script type="text/javascript">
-    $( document ).ready(function events() {
-  
- $.ajax({
+
+ $( document ).ready(function events() {
+$.ajax({
   type:"GET",
-  url:"https://app.ticketmaster.com/discovery/v2/events.json?classificationName=sport,music&dmaId=245&latlong=&apikey=EjCnoRIJWhXvqFM6uxTUzXnplhtRgBCU",
+  url:"https://app.ticketmaster.com/discovery/v2/events.json?classificationName=sport,music,arts&dmaId=245&latlong=&apikey=EjCnoRIJWhXvqFM6uxTUzXnplhtRgBCU&size=50",
   async:true,
   dataType: "json",
   success: function(json) {
-              console.log(json._embedded.events[0].dates.start);
-              console.log(json._embedded.events[0]._embedded.venues[0].location);
+    for(var i = 0; i < json._embedded.events.length; i++) {
+    var obj = json._embedded.events[i];
+            
               // Parse the response.
               // Do other things.
-           },
+var event = obj.name 
+var latLong = obj._embedded.venues[0].location
+var starDates = obj.dates.start.localDate 
+var teaTime = obj.dates.start.localTime
+console.log(event,latLong,starDates,teaTime),
+
+$("#eventlist > tbody").append("<tr><td>" + event + "</td><td>" + latLong + "</td><td>" + starDates + "</td><td>" +  teaTime+ "</td></tr>");
+    }},
+    
+  
   error: function(xhr, status, err) {
               // This time, we do not end up here!
-           }
-});
-document.getElementById('eventlist').innerHTML = events;
-})
+           }  },
+           
+);
+$.parseJSON({
+  type:"GET",
+  url:"assets\javascript\GetRace.json",
+  async:true,
+  dataType: "json",
+  success: function(json) {
+var myJSON = "assets\javascript\GetRace.json"
+
+console.log(myJSON)
+      
+}})})
+
 
 </script>
-<body>
+
+<tbody>
     <div id="eventList" ></div>
+    
 </body>
 </html>
