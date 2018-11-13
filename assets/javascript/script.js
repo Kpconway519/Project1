@@ -1,8 +1,4 @@
-  //How do I put an object inside of another object?
-  
-  
-  
-  
+
   
   // Initialize Firebase
   var config = {
@@ -12,7 +8,7 @@
     projectId: "humbug-e5b83",
     storageBucket: "humbug-e5b83.appspot.com",
     messagingSenderId: "964116892329"
-  };
+  };    
   firebase.initializeApp(config);
 
   var database = firebase.database();
@@ -27,62 +23,81 @@
 
 //=============First time user code============================
 //on landing page, user makes a username or inputs username
-var userInfo = {
-name: "",
-startAddress: "",
-endAddress: "",
-startTime: "",
-endTime: "",
-};
-var userName = userInfo.name;
+// ∂∂∂∂∂∂∂∂∂∂∂ must redo this thing in a bit ©©©©©©©©©©©©©©©©©
+
 
 //========================================
 //hardcoding the info in for now so I can play around with it.
 //the database is a JSON object that we can access like an api
 var firebaseDbObject = {
-  users: {
-    sampleUser: {
-      //CHRIS==I'm thinking we need to take this address info initially, but convert it to a lat/long for easier storage. This string below looks much more difficult to parse
-      route: "/*plug in the route link from Google*/" ,
-      leaveTime: "17:00",
-      arriveTime: "18:00",
-      },
-
-  },
+  users: [
+    {
+        username: "test",
+        route: "/*plug in the route link from Google*/" ,
+        leaveTime: "17:00",
+        arriveTime: "18:00",
+    },
+    {
+        username: "test2",
+        route: "route sample",
+        leaveTime: "2:00",
+        arriveTime: "3:00"
+    }
+    ],
   allUsernames: ["sampleUser"]
 }
 //========================================
+//this is just for the first time user putting the username into the database.
+
 
 $("#submit-button").on("click", function(event) {
   event.preventDefault();
-
   //grab the user's name out of the username box on the landing page
+
   var userName = $("#user-name").val().trim();
 
-//=========trying to figure out how to put an object inside of another object. the .push() method returns an error. been working for a while on this one. no solution found yet.
+  var newUser = {
+    username: "test2",
+    route: "route sample",
+    leaveTime: "2:00",
+    arriveTime: "3:00"
+  }
 
-  var newUser = {userName: {
-  startAddress: "",
-  endAddress: "",
-  leaveTime: "",
-  arriveTime: "",}}
+  if (firebaseDbObject.allUsernames.includes(userName) === true) {
+//make sure to delete this alert later and replace it with something else
+    alert("exists already, please input a new username")
+  }else{
 
-  localStorage.setItem("username", userName)
+    newUser.username = userName;
 
-
-  //check the username to see if it has been done before====================
-  //pull down the database
-
-  //make a function here to check and see if the new username matches one that has been done before. 
-
-  //if it does match, prompt the user to make a different one
+    firebaseDbObject.allUsernames.push(userName)
+  
 
 
-  //if it does not match, it is a new user, so we put it in the array in firebase
+    //upload the new object to firebase.
+    database.ref().push(firebaseDbObject)
 
-  //upload the new object to firebase.
-  database.ref().push(firebaseDbObject)
+  };
+
+
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //at this point the user plugs in their addresses and times
@@ -120,26 +135,34 @@ $("#user-info-submit").on("click", function() {
 
 //†††††††††††††††† Maybe use a different API to look for other relevant events going on in your city. Ticketmaster looks like a good one. †††††††††††††††††††††††††
 
+
 $( document ).ready(function events() {
-$.ajax({
-  type:"GET",
-  url:"https://app.ticketmaster.com/discovery/v2/events.json?classificationName=sport,music&dmaId=245&latlong=&apikey=EjCnoRIJWhXvqFM6uxTUzXnplhtRgBCU",
-  async:true,
-  dataType: "json",
-  success: function(json) {
-              console.log(json._embedded.events[0].dates.start);
-              console.log(json._embedded.events[0]._embedded.venues[0].location);
-              console.log(json._embedded.events);
-
-              // Parse the response.
-              // Do other things.
-           },
-  error: function(xhr, status, err) {
-              // This time, we do not end up here!
-           }
-          // for (var i = 0; i < movies.length; i++) {
-});})
-
+  $.ajax({
+    type:"GET",
+    url:"https://app.ticketmaster.com/discovery/v2/events.json?classificationName=sport,music&dmaId=245&latlong=&apikey=EjCnoRIJWhXvqFM6uxTUzXnplhtRgBCU",
+    async:true,
+    dataType: "json",
+    success: function(json) {
+      for(var i = 0; i < json._embedded.events.length; i++) {
+      var obj = json._embedded.events[i];
+      console.log(obj.name,obj._embedded.venues[0].location, obj.dates.start.localDate, obj.dates.start.localTime);
+          
+                // Parse the response.
+                // Do other things.
+             }},
+    error: function(xhr, status, err) {
+                // This time, we do not end up here!
+             }
+             
+  });
+  var event = obj.name 
+  var latLong = obj._embedded.venues[0].location
+  var starDates = obj.dates.start.localDate 
+  var teaTime = obj.dates.start.localTime
+  
+  $("#eventlist > tbody").append("<tr><td>" + event + "</td><td>" + latLong + "</td><td>" + starDates + "</td><td>" +  teaTime+ "</td></tr>");
+  
+  })
 
 
 

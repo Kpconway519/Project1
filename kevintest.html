@@ -1,0 +1,168 @@
+<!-- definitely going to go with google authentication. Just need to figure out exactly how. Will handle in class.  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
+
+</head>
+
+<body>
+    <div class="container">
+        <!-- Row for the title -->
+        <div class="row">
+        <div class="col-lg-12" id="title">
+            <img src="assets/images/Humbug_Logo_Tagline.png" style="width:400px;height:200px;" id="titleImage">
+        </div>
+        </div>
+        <!-- Row for the navbar -->
+        <div class="row">
+        <div class="col-lg-6" id="navbar">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                          <div class="navbar-nav">
+                            <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link" href="create.html">Create a schedule</a>
+                            <a class="nav-item nav-link" href="schedule.html">Weekly schedule</a>
+                          </div>
+                        </div>
+                      </nav>
+        </div>
+        </div>
+        <!-- Row for the name form -->
+                <form>
+                        <div class="row">
+                        <div class="col-lg-6">
+                            <input type="text" class="form-control" 
+                            id="user-name"
+                            placeholder="Username">
+                            <!-- Submit username button -->
+                            <div class="col-auto my-1">
+                            <button type="submit" class="btn btn-primary" id="submit-button">Submit</button>
+                            <button type="submit" class="btn btn-primary" id="kevin-button">google login</button>
+                            <button type="submit" class="btn btn-primary" id="sign-out">sign out</button>
+                            </div>
+                        </div>
+                        </div>
+                </form>
+        </div>
+        </div>
+    </div>
+
+
+    
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+
+
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyCBpI-0zqjP8_LypXmGt4N9xuBz8SyYaqU",
+      authDomain: "humbug-e5b83.firebaseapp.com",
+      databaseURL: "https://humbug-e5b83.firebaseio.com",
+      projectId: "humbug-e5b83",
+      storageBucket: "humbug-e5b83.appspot.com",
+      messagingSenderId: "964116892329"
+    };    
+    firebase.initializeApp(config);
+  
+    var database = firebase.database();
+  
+  
+
+  //========================================
+  //this is just for the first time user putting the username into the database.
+  
+  
+  $("#submit-button").on("click", function(event) {
+    event.preventDefault();
+    //grab the user's name out of the username box on the landing page
+  
+    var userName = $("#user-name").val().trim();
+    // var startTime = $("#start-time").val().trim();
+    // var endTime = $("#end-time").val().trim();
+  
+var startTime = "3:00";
+var endTime = "crazy test";
+      //upload the new object to firebase.
+      // database.ref("-LQyUNs_dCRCSkR49-MO/users").push(newUser)
+      database.ref('/users/').push({
+      username: userName,
+      route: "route sample",
+      leaveTime: startTime,
+      arriveTime: endTime
+      });
+
+
+
+
+
+        console.log(database.ref("users"))
+    
+  
+  
+  })
+
+$("#kevin-button").on("click", function() {
+
+  var provider = new firebase.auth.GoogleAuthProvider();
+
+firebase.auth().signInWithPopup(provider)
+// .then(function(result) {
+//   // This gives you a Google Access Token. You can use it to access the Google API.
+//   var token = result.credential.accessToken;
+//   // The signed-in user info.
+//   console.log(token)
+//   var user = result.user;
+//   console.log(user)
+//   // ...
+}).catch(function(error) {
+  // Handle Errors here.
+  var errorCode = error.code;
+  var errorMessage = error.message;
+  // The email of the user's account used.
+  var email = error.email;
+  // The firebase.auth.AuthCredential type that was used.
+  var credential = error.credential;
+  // ...
+});
+});
+
+$("#sign-out").on("click", function() {
+  firebase.auth().signOut();
+})
+  </script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
