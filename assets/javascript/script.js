@@ -174,5 +174,3 @@ $( document ).ready(function events() {
 
 
 
-
-
