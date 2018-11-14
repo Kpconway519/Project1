@@ -9,6 +9,7 @@ $("form").on("click", "button", function(event) {
   start = $("#start-route").val().trim();
   end = $("#end-route").val().trim();
   codeAddress();
+  $("#map").addClass("left");
   calculateAndDisplayRoute(directionsService, directionsDisplay);
 
 });
