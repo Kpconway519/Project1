@@ -126,9 +126,14 @@ $("#user-info-submit").on("click", function(event) {
 
     updateValue("username", newUserName, "/users/", startAddress, endAddress, leaveTime, arriveTime)
 
-//††††††††††† This redirect right here is asynchronous, need to fix so that it happens after everything else.†††††††††††††††††††††††††††††††††††††††††††††
 
-    // window.location = 'schedule.html'
+function updateAndLoadSchedule() {
+  //††††††††††† This redirect right here is asynchronous, need to fix so that it happens after everything else.†††††††††††††††††††††††††††††††††††††††††††††
+  
+  window.location = 'schedule.html'
+  };
+
+setTimeout(updateAndLoadSchedule, 500);
 })
 
 
