@@ -23,14 +23,14 @@
         </div>
         <!-- Row for the navbar -->
         <div class="row justify-content-md-center">
-        <div class="col-lg-6" id="navbar">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="col-lg-12">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-light" id="navbar">
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                           <span class="navbar-toggler-icon"></span>
                         </button>
-                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                          <div class="navbar-nav">
-                            <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <div class="collapse navbar-collapse justify-content-md-center" id="navbarNavAltMarkup">
+                          <div class="navbar-nav" id="navbar-links">
+                            <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                             <a class="nav-item nav-link" href="create.html">Create a schedule</a>
                             <a class="nav-item nav-link" href="schedule.html">Weekly schedule</a>
                           </div>
@@ -40,10 +40,9 @@
         </div>
 
         <!-- Row for the days -->
-        <div class="row">
+        <div class="row justify-content-md-center">
                 <!-- sunday -->
-                <div class="card" style="width: 10rem;" id="sunday-card">
-                        <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+                <div class="card" style="width: 9.5rem;" id="sunday-card">
                         <div class="card-body">
                           <h5 class="card-title">Sunday</h5>
                           <p class="card-text">View the map for Sunday</p>
@@ -51,8 +50,7 @@
                         </div>
                 </div>
                 <!-- monday -->
-                <div class="card" style="width: 10rem;" id="monday-card">
-                        <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+                <div class="card" style="width: 9.5rem;" id="monday-card">
                         <div class="card-body">
                           <h5 class="card-title">Monday</h5>
                           <p class="card-text">View the map for Monday</p>
@@ -60,8 +58,7 @@
                         </div>
                 </div>
                 <!-- tuesday -->
-                <div class="card" style="width: 10rem;" id="tuesday-card">
-                        <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+                <div class="card" style="width: 9.5rem;" id="tuesday-card">
                         <div class="card-body">
                           <h5 class="card-title">Tuesday</h5>
                           <p class="card-text">View the map for Tuesday</p>
@@ -69,8 +66,7 @@
                         </div>
                 </div>
                 <!-- wednesday -->
-                <div class="card" style="width: 10rem;" id="wednesday-card">
-                        <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+                <div class="card" style="width: 9.5rem;" id="wednesday-card">
                         <div class="card-body">
                           <h5 class="card-title">Wednesday</h5>
                           <p class="card-text">View the map for Wednesday</p>
@@ -78,8 +74,7 @@
                         </div>
                 </div>
                 <!-- thursday -->
-                <div class="card" style="width: 10rem;" id="thursday-card">
-                        <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+                <div class="card" style="width: 9.5rem;" id="thursday-card">
                         <div class="card-body">
                           <h5 class="card-title">Thursday</h5>
                           <p class="card-text">View the map for Thursday</p>
@@ -87,8 +82,7 @@
                         </div>
                 </div>
                 <!-- friday -->
-                <div class="card" style="width: 10rem;" id="friday-card">
-                        <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+                <div class="card" style="width: 9.5rem;" id="friday-card">
                         <div class="card-body">
                           <h5 class="card-title">Friday</h5>
                           <p class="card-text">View the map for Friday</p>
@@ -96,32 +90,40 @@
                         </div>
                 </div>
                 <!-- saturday -->
-                <div class="card" style="width: 10rem;" id="saturday-card">
-                        <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+                <div class="card" style="width: 9.5rem;" id="saturday-card">
                         <div class="card-body">
                           <h5 class="card-title">Saturday</h5>
                           <p class="card-text">View the map for Saturday</p>
                           <a href="#" class="btn btn-success" id="saturday-view">View</a>
                         </div>
                 </div>
-        </div>
+          </div>
+        <!-- <div class="row justify-content-md-center"> -->
+          <!-- <div class="col-lg-12"> -->
+            <!--google map -->
+            <!-- <iframe width="1000" height="450" frameborder="0" style="border:0"
+              src="https://www.google.com/maps/embed/v1/directions?origin=8111+Concord+Mills+Boulevard,
+              +Concord,+NC+28027&destination=320+E+9th+St,+Charlotte,+NC+28202&key=AIzaSyAmAJABDIKP1_S6uXioW7w81FkcpRiNGw8" allowfullscreen>
+            </iframe>
+          </div>
+        </div> -->
+      </div>
+      
+      
+        <div class="container" id="map"></div>
+<script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous">
+</script>
 
-        
-    </div>
-
-
-    
-
-
-
-
+<!-- google maps api -->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_mEQx_sIh4T3NQodWY8oPt8PLUkqHhbo&callback=initialize"
+      async defer></script>
+<script src="assets/javascript/map.js"></script>
 
 <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
 
-    <script
-  src="https://code.jquery.com/jquery-3.3.1.min.js"
-  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-  crossorigin="anonymous"></script>
-  <script src="assets/javascript/script.js"></script>
+<!-- <script src="assets/javascript/script.js"></script> -->
 </body>
 </html>

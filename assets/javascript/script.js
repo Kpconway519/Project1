@@ -136,7 +136,7 @@ $("#user-info-submit").on("click", function() {
 $( document ).ready(function events() {
   $.ajax({
     type:"GET",
-    url:"https://app.ticketmaster.com/discovery/v2/events.json?classificationName=sport,music&dmaId=245&latlong=&apikey=EjCnoRIJWhXvqFM6uxTUzXnplhtRgBCU",
+    url:"https://app.ticketmaster.com/discovery/v2/events.json?classificationName=sport,music,arts&dmaId=245&latlong=&apikey=EjCnoRIJWhXvqFM6uxTUzXnplhtRgBCU&size=50" ,
     async:true,
     dataType: "json",
     success: function(json) {
@@ -164,8 +164,6 @@ $( document ).ready(function events() {
 
 
 //===========================================
-
-
 
 
 
