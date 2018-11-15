@@ -6,8 +6,8 @@ var end;
 
 $("form").on("click", "button", function(event) {
   event.preventDefault();
-  start = $("#start-route").val().trim();
-  end = $("#end-route").val().trim();
+  start = database.ref(startadd);
+  end = database.ref(endadd);
   codeAddress();
   $("#map").addClass("left");
   calculateAndDisplayRoute(directionsService, directionsDisplay);
