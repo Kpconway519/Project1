@@ -104,10 +104,7 @@ $("#submit-button").on("click", function(event) {
 
 //get the values from the blanks
 //†††††††† need to look back at this and make sure I am putting this into the object correctly
-userInfo.startAddress = $("#start-address").val().trim();
-userInfo.endAddress = $("#end-address").val().trim();
-userInfo.leaveTime = $("#leave-time").val().trim();
-userInfo.arriveTime = $("#arrive-time").val().trim();
+
 
 //==============Section here for converting startAddress and endAddress into a latitude/longitude to plug into google maps API to get route, then save that route as a variable so it can be pushed to the database============================
 

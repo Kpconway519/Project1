@@ -50,8 +50,25 @@
                             <!-- Submit username button -->
                             <div class="col-auto my-1">
                             <button type="submit" class="btn btn-primary" id="submit-button">Submit</button>
-                            <button type="submit" class="btn btn-primary" id="kevin-button">google login</button>
-                            <button type="submit" class="btn btn-primary" id="sign-out">sign out</button>
+                            <button class="btn btn-primary" id="search-user-button">add start time</button>
+                            <button class="btn btn-primary" id="user-info-submit">submit user info</button>
+                            <!-- section for the test user input -->
+                            <input type="text" class="form-control" 
+                            id="start-address"
+                            placeholder="start address">
+                            
+                            <input type="text" class="form-control" 
+                            id="end-address"
+                            placeholder="end address">
+                            
+                            <input type="text" class="form-control" 
+                            id="leave-time"
+                            placeholder="leave time">
+                            
+                            <input type="text" class="form-control" 
+                            id="arrive-time"
+                            placeholder="arrive time">
+                            
                             </div>
                         </div>
                         </div>
@@ -91,67 +108,203 @@
   
   
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   //========================================
   //this is just for the first time user putting the username into the database.
-  
+  var userName = "";
   
   $("#submit-button").on("click", function(event) {
     event.preventDefault();
     //grab the user's name out of the username box on the landing page
   
     var userName = $("#user-name").val().trim();
-    // var startTime = $("#start-time").val().trim();
-    // var endTime = $("#end-time").val().trim();
-  
-var startTime = "3:00";
-var endTime = "crazy test";
-      //upload the new object to firebase.
-      // database.ref("-LQyUNs_dCRCSkR49-MO/users").push(newUser)
+
+    //put the userName into local storage
+localStorage.setItem("humbugusername", userName)
+    //push the username into the database. Need to make a function later to check and see if the database contains the username already. if so, send the user to their weekly summary screen, prepared in advance.
       database.ref('/users/').push({
       username: userName,
-      route: "route sample",
-      leaveTime: startTime,
-      arriveTime: endTime
       });
 
 
 
 
 
-        console.log(database.ref("users"))
-    
-  
-  
+
+
+
+//make a function here to send the user over to the next page
+window.location = "create.html";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  //OK so now that I have the username in the function, the next step is to take the stuff the user puts in and put that in alongside the user.
+  //#user-info-submit is the name of the button.
+  $("#user-info-submit").on("click", function(event) {
+    event.preventDefault()
+//AT THIS POINT I NEED TO PULL THE USERNAME FROM LOCALSTORAGE SO THE PROGRAM WILL KNOW WHAT IT IS
+var newUserName = localStorage.getItem("humbugusername")
+console.log(newUserName)
+
+    //start address. using raw user input for now, must change to lat/long later
+var startAddress = $("#start-address").val().trim();
+    //end address. using raw user input for now, must change to lat/long later
+var endAddress = $("#end-address").val().trim();
+    //leave time using raw user input for now, maybe pass that through moment.js later
+var leaveTime = $("#leave-time").val().trim();
+    //arrive time using raw user input for now, maybe pass that through moment.js later
+var arriveTime = $("#arrive-time").val().trim();
+
+updateValue("username", newUserName, "/users/", startAddress, endAddress, leaveTime, arriveTime)
   })
 
-$("#kevin-button").on("click", function() {
+  $("#search-user-button").on("click", function(e) {
+    e.preventDefault()
+    updateValue("username", "yobany", "/users/", "sesame street")
+  })
 
-  var provider = new firebase.auth.GoogleAuthProvider();
 
-firebase.auth().signInWithPopup(provider)
-// .then(function(result) {
-//   // This gives you a Google Access Token. You can use it to access the Google API.
-//   var token = result.credential.accessToken;
-//   // The signed-in user info.
-//   console.log(token)
-//   var user = result.user;
-//   console.log(user)
-//   // ...
-}).catch(function(error) {
-  // Handle Errors here.
-  var errorCode = error.code;
-  var errorMessage = error.message;
-  // The email of the user's account used.
-  var email = error.email;
-  // The firebase.auth.AuthCredential type that was used.
-  var credential = error.credential;
-  // ...
-});
-});
+   
+  function findByProperty(property, query, location, cb) {
+    if (!location) {
+      console.log("location not provided, using default '/users/'")
+      location = "/users/";
+    }
+    database.ref(location).once('value', function(snapshot) {
 
-$("#sign-out").on("click", function() {
-  firebase.auth().signOut();
+    var result = snapshot.val();
+    // this is a for...in loop look me up
+    for (key in result) {
+      console.log(key); // this is the random firebase property key
+      var currentUser = result[key]; // this is bracket notation to look up
+      if (currentUser[property] === query) {
+          cb(currentUser);
+      }
+
+    }
+    })
+  }
+
+//with this, I can 
+
+  findByProperty("username", "yobany", "/users/", function(result) {
+    // do stuff when this lookup is done
+    var currentUser = result;
+    console.log(currentUser)
+  });
+
+// findByProperty("username", "yobany", "/users/", function(result) {
+//   database.ref(location + "/" + key + "/").update({
+//         starttime: /*the variable for starttime*/"",
+//       })
+// })
+
+// findByProperty("username", "yobany", "/users/", function(result) {
+//   database.ref(location + "/" + key + "/").update({
+//         endtime: /*the variable for endtime*/""
+//       })
+// })
+
+// findByProperty("username", "yobany", "/users/", function(result) {
+//   database.ref(location + "/" + key + "/").update({
+//         startaddress: /*the variable for startaddress*/""
+//       })
+// })
+
+// findByProperty("username", "yobany", "/users/", function(result) {
+//   database.ref(location + "/" + key + "/").update({
+//         endaddress: /*the variable for endaddress*/""
+//       })
+// })
+
+var Amish = "butter"
+
+//with this, I can update the values in the database.=============================
+function updateValue(property, query, location, startadd, endadd, leavet, arrivet) {
+database.ref(location).once('value', function(snapshot) {
+  var result = snapshot.val();
+  for (key in result) {
+    var currentUser = result[key];
+    if (currentUser[property] === query) {
+      console.log('here')
+      database.ref(location + "/" + key + "/").update({
+        //place receptacle for callback function here.
+        startaddress:  startadd,
+        endaddress: endadd, 
+        starttime: leavet,
+        arrivetime: arrivet
+      });
+
+    }
+  }
 })
+}
+
+
+
+
+
+
+
+//
   </script>
 
 
