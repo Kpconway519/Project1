@@ -110,90 +110,66 @@ $("#user-login").on("click", function(event) {
 
   //OK so now that I have the username in the function, the next step is to take the stuff the user puts in and put that in alongside the user.
   //#user-info-submit is the name of the button.
-  $("#user-info-submit").on("click", function(event) {
+
+$("#user-info-submit").on("click", function(event) {
     event.preventDefault()
-//AT THIS POINT I NEED TO PULL THE USERNAME FROM LOCALSTORAGE SO THE PROGRAM WILL KNOW WHAT IT IS
-var newUserName = localStorage.getItem("humbugusername")
-console.log(newUserName)
+    //AT THIS POINT I NEED TO PULL THE USERNAME FROM LOCALSTORAGE SO THE PROGRAM WILL KNOW WHAT IT IS
+    var newUserName = localStorage.getItem("humbugusername")
+    console.log(newUserName)
 
+    //==============Section here for converting startAddress and endAddress into a latitude/longitude to plug into google maps API to get route, then save that route as a variable so it can be pushed to the database============================
 
+    var startAddress = $("#start-address").val().trim();
+    var endAddress = $("#end-address").val().trim();
+    var leaveTime = $("#leave-time").val().trim();
+    var arriveTime = $("#arrive-time").val().trim();
 
-//==============Section here for converting startAddress and endAddress into a latitude/longitude to plug into google maps API to get route, then save that route as a variable so it can be pushed to the database============================
+    updateValue("username", newUserName, "/users/", startAddress, endAddress, leaveTime, arriveTime)
 
+//††††††††††† This redirect right here is asynchronous, need to fix so that it happens after everything else.†††††††††††††††††††††††††††††††††††††††††††††
 
-
-
-    //start address. using raw user input for now, must change to lat/long later
-var startAddress = $("#start-address").val().trim();
-    //end address. using raw user input for now, must change to lat/long later
-var endAddress = $("#end-address").val().trim();
-    //leave time using raw user input for now, maybe pass that through moment.js later
-var leaveTime = $("#leave-time").val().trim();
-    //arrive time using raw user input for now, maybe pass that through moment.js later
-var arriveTime = $("#arrive-time").val().trim();
-
-updateValue("username", newUserName, "/users/", startAddress, endAddress, leaveTime, arriveTime)
+    // window.location = 'schedule.html'
 })
 
-$("#search-user-button").on("click", function(e) {
-e.preventDefault()
-updateValue("username", "yobany", "/users/", "sesame street")
-})
-
-//=-=-=-=-=-==-=-=-=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 function findByProperty(property, query, location, cb) {
-if (!location) {
-  console.log("location not provided, using default '/users/'")
-  location = "/users/";
-}
-database.ref(location).once('value', function(snapshot) {
-
-var result = snapshot.val();
-// this is a for...in loop look me up
-for (key in result) {
-  var currentUser = result[key]; // this is bracket notation to look up
-  if (currentUser[property] === query) {
-      cb(currentUser);
+  if (!location) {
+      console.log("location not provided, using default '/users/'")
+      location = "/users/";
   }
+  database.ref(location).once('value', function(snapshot) {
 
-}
-})
+    var result = snapshot.val();
+    // this is a for...in loop look me up
+    for (key in result) {
+      var currentUser = result[key]; // this is bracket notation to look up
+      if (currentUser[property] === query) {
+          cb(currentUser);
+      }
+    }
+  }) 
 }
 
 //with this, I can update the values in the database.=============================
 function updateValue(property, query, location, startadd, endadd, leavet, arrivet) {
-database.ref(location).once('value', function(snapshot) {
-var result = snapshot.val();
-for (key in result) {
-var currentUser = result[key];
-if (currentUser[property] === query) {
-  console.log('here')
-  database.ref(location + "/" + key + "/").update({
-    //place receptacle for callback function here.
-    startaddress:  startadd,
-    endaddress: endadd, 
-    starttime: leavet,
-    arrivetime: arrivet
-  });
+  database.ref(location).once('value', function(snapshot) {
+    var result = snapshot.val();
+    for (key in result) {
+      var currentUser = result[key];
+      if (currentUser[property] === query) {
+        console.log('here')
+        database.ref(location + "/" + key + "/").update({
+          //place receptacle for callback function here.
+          startaddress:  startadd,
+          endaddress: endadd, 
+          starttime: leavet,
+          arrivetime: arrivet
+        });
 
+      }
+    }
+  })
 }
-}
-})
-}
-
-//weekly outlook page===========================
-//this page uses the route we saved from the on click function and compares it with the eventbrite api
-
-//get all events within 5 miles of the destination, save addresses
-
-//take the data above and filter for time of the drive
-
-//all remaining items need to be shown on the map that is displayed to the user
-
-//separate out this stuff based on the day and show a different map for each day, which will be accessed when the user clicks on that day on their weekly outlook page
-
-//†††††††††††††††† Maybe use a different API to look for other relevant events going on in your city. Ticketmaster looks like a good one. †††††††††††††††††††††††††
 
 
 $( document ).ready(function events() {
