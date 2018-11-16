@@ -116,6 +116,16 @@ function initialize() {
   
 }
     
+// Create the search box and link it to the UI element.
+var input = $("#search");
+var searchBox = new google.maps.places.SearchBox(input);
+
+// Bias the SearchBox results towards current map's viewport.
+map.addListener('bounds_changed', function() {
+  searchBox.setBounds(map.getBounds());
+});
+
+
 function calculateAndDisplayRoute(directionsService, directionsDisplay) {
   directionsService.route({
   origin: startLatLng,
