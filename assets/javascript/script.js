@@ -210,7 +210,17 @@ $( document ).ready(function events() {
 //===========================================
 
 
+function makePins(endaddress) {
+  //here is an ajax call which queries for events within a certain radius of the zip code for {endaddress} and outputs all "closeEvents" into an array
+var closeEvents = [];
+  var sortForTime(leavetime, arrivetime) {
+for (i = 0; i < sortForTime.length; i++) {
 
+    // if closeEvents[i]./*starttime*/ is within 3 hours of arrivetime, push it into eventPins[]
+
+    }
+  }
+}
 
 
 
