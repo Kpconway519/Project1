@@ -231,7 +231,6 @@ $( document ).ready(function events() {
       });
       var realEventsArray= [];
       console.log(realEventsArray)
-      console.log(2,5)})})})
       })})})
     //var event = obj.name 
     //var latLong = obj._embedded.venues[0].location
