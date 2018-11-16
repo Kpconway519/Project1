@@ -6,6 +6,7 @@ var end;
 
 $("form").on("click", "button", function(event) {
   event.preventDefault();
+
   start = $("#start-route").val().trim();
   end = $("#end-route").val().trim();
   codeAddress();
@@ -166,3 +167,15 @@ function calculateAndDisplayRoute(directionsService, directionsDisplay) {
       console.log(endLatLng);
   });
 };
+
+
+
+
+
+
+
+
+
+
+
+

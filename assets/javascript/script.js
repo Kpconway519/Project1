@@ -1,5 +1,32 @@
 
+var loggedInUserArriveTime = "";
+
+var loggedInUserLeaveTime = "";
+
+var loggedInUserEndAddress = "";
+
+var loggedInUserStartAddress = ""; 
+
+function pullUserData() {
+    var scheduleUserName = localStorage.getItem("humbugusername")
+    alert(scheduleUserName)
+    findByProperty("username", scheduleUserName, "/users/", function getData(x) {
+console.log(x)
+loggedInUserArriveTime = x.arrivetime;
+loggedInUserLeaveTime = x.starttime;
+loggedInUserStartAddress = x.startaddress;
+loggedInUserEndAddress = x.endaddress;
+
+alert(loggedInUserArriveTime)
+alert(loggedInUserEndAddress)
+alert(loggedInUserLeaveTime)
+alert(loggedInUserArriveTime)
+    })
+}
   
+
+
+
   // Initialize Firebase
   var config = {
     apiKey: "AIzaSyCBpI-0zqjP8_LypXmGt4N9xuBz8SyYaqU",
@@ -128,8 +155,6 @@ $("#user-info-submit").on("click", function(event) {
 
 
 function updateAndLoadSchedule() {
-  //††††††††††† This redirect right here is asynchronous, need to fix so that it happens after everything else.†††††††††††††††††††††††††††††††††††††††††††††
-  
   window.location = 'schedule.html'
   };
 
@@ -210,17 +235,17 @@ $( document ).ready(function events() {
 //===========================================
 
 
-function makePins(endaddress) {
-  //here is an ajax call which queries for events within a certain radius of the zip code for {endaddress} and outputs all "closeEvents" into an array
-var closeEvents = [];
-  var sortForTime(leavetime, arrivetime) {
-for (i = 0; i < sortForTime.length; i++) {
+// function makePins(endaddress) {
+//   //here is an ajax call which queries for events within a certain radius of the zip code for {endaddress} and outputs all "closeEvents" into an array
+// var closeEvents = [];
+//   var sortForTime(leavetime, arrivetime) {
+// for (i = 0; i < sortForTime.length; i++) {
 
-    // if closeEvents[i]./*starttime*/ is within 3 hours of arrivetime, push it into eventPins[]
+//     // if closeEvents[i]./*starttime*/ is within 3 hours of arrivetime, push it into eventPins[]
 
-    }
-  }
-}
+//     }
+//   }
+// }
 
 
 
