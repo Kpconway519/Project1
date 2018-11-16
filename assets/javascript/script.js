@@ -205,50 +205,38 @@ function updateValue(property, query, location, startadd, endadd, leavet, arrive
 $( document ).ready(function events() {
   $( document ).ready(function races() {
   
-    var settings = {
-    "async": true,
-    "crossDomain": true,
-    "url": "https://runsignup.com/Rest/races/?format=json&events=T&race_headings=T&race_links=F&include_waiver=F&include_event_days=F&page=1&results_per_page=50&sort=name+ASC&start_date=today&search_start_date_only=F&only_races_with_results=F&city=Charlotte&distance_units=K&api_key=bFXbdzmpncmjBUe52srx0FnMhbViL73w&api_secret=AyGNLq8xGHAlDEpwBzsGEdwjzRMRiz1s",
-    "method": "GET",
-    "headers": {
-      "cache-control": "no-cache",
-      "Postman-Token": "a179fe14-1867-42a6-a83d-70b6a3ef27d3"
-    }
-  }
-  
-  $.ajax(settings).done(function (response) {
-    for(var i = 0; i < response.races.length; i++)
-  
-    console.log(response.races[i].race.name, response.races[i].race.next_date, response.races[i].race.address)
-    
-    
-    //var raceName = response.races[i].race.name
-    //var raceDate = response.races[i].race.next_date
-   // var raceLoc = response.races[i].race.address
-    
-  });
-  $.ajax({
-      type:"GET",
-      url:"https://app.ticketmaster.com/discovery/v2/events.json?classificationName=sport,music,arts&dmaId=245&latlong=&apikey=EjCnoRIJWhXvqFM6uxTUzXnplhtRgBCU&size=50",
-      async:true,
-      dataType: "json",
-      success: function(json) {
-        for(var i = 0; i < json._embedded.events.length; i++) {
-        var obj = json._embedded.events[i];
-        console.log(obj.name,obj._embedded.venues[0].location, obj.dates.start.localDate, obj.dates.start.localTime);
-            
-                  // Parse the response.
-                  // Do other things.
-               }},
-      error: function(xhr, status, err) {
-                  // This time, we do not end up here!
-               }
-               
-    });
-         
-    
+    $( document ).ready(function events() {
+      $.ajax({
+        type:"GET",
+        url:"https://app.ticketmaster.com/discovery/v2/events.json?classificationName=sport,music,arts&dmaId=245&latlong=&apikey=EjCnoRIJWhXvqFM6uxTUzXnplhtRgBCU&size=50",
+        async:true,
+        dataType: "json",
+        success: function(json) {
+          for(var i = 0; i < json._embedded.events.length; i++) {
+          var obj = json._embedded.events[i];
+          var eventName = obj.name
+          var eventDate = obj.dates.start.localDate + obj.dates.start.localTime
+          var eventLoc = obj._embedded.venues[0].location
+          var realEvents = [eventName, eventDate, eventLoc]
           
-    })
+                console.log(realEvents);
+              realEventsArray.push(realEvents);
+                    // Parse the response.
+                    // Do other things.
+                 }},
+        error: function(xhr, status, err) {
+                    // This time, we do not end up here!
+                 }
+                 
+      });
+      var realEventsArray= [];
+      console.log(realEventsArray)
+      console.log(2,5)})})})
+    //var event = obj.name 
+    //var latLong = obj._embedded.venues[0].location
+    //var starDates = obj.dates.start.localDate 
+    //var teaTime = obj.dates.start.localTime
+    
 //===========================================
 
 
