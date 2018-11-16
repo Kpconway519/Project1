@@ -1,13 +1,11 @@
 // GOOGLE MAPS API
 var mapKey="AIzaSyAmAJABDIKP1_S6uXioW7w81FkcpRiNGw8";
-var start;
-var end;
+var start = ;
+var end = ;
 
 
 $("form").on("click", "button", function(event) {
   event.preventDefault();
-  start = database.ref(startadd);
-  end = database.ref(endadd);
   codeAddress();
   $("#map").addClass("left");
   calculateAndDisplayRoute(directionsService, directionsDisplay);
