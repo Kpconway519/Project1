@@ -7,53 +7,122 @@
     <title>ticketmaster</title>
 </head>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
+<script src= 'https://cdnjs.cloudflare.com/ajax/libs/jquery-ui-timepicker-addon/1.6.3/i18n/jquery-ui-timepicker-addon-i18n.js'></script>
+<script src= 'https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.js'></script>
 <script type="text/javascript">
 
- $( document ).ready(function events() {
-$.ajax({
-  type:"GET",
-  url:"https://app.ticketmaster.com/discovery/v2/events.json?classificationName=sport,music,arts&dmaId=245&latlong=&apikey=EjCnoRIJWhXvqFM6uxTUzXnplhtRgBCU&size=50",
-  async:true,
-  dataType: "json",
-  success: function(json) {
-    for(var i = 0; i < json._embedded.events.length; i++) {
-    var obj = json._embedded.events[i];
-            
-              // Parse the response.
-              // Do other things.
-var event = obj.name 
-var latLong = obj._embedded.venues[0].location
-var starDates = obj.dates.start.localDate 
-var teaTime = obj.dates.start.localTime
-console.log(event,latLong,starDates,teaTime),
-
-$("#eventlist > tbody").append("<tr><td>" + event + "</td><td>" + latLong + "</td><td>" + starDates + "</td><td>" +  teaTime+ "</td></tr>");
-    }},
-    
+ $( document ).ready(function things() {
   
-  error: function(xhr, status, err) {
-              // This time, we do not end up here!
-           }  },
-           
-);
-$.parseJSON({
-  type:"GET",
-  url:"assets\javascript\GetRace.json",
-  async:true,
-  dataType: "json",
-  success: function(json) {
-var myJSON = "assets\javascript\GetRace.json"
+  var settings = {
+  "async": true,
+  "crossDomain": true,
+  "url": "https://runsignup.com/Rest/races/?format=json&events=T&race_headings=T&race_links=F&include_waiver=F&include_event_days=F&page=1&results_per_page=50&sort=name+ASC&start_date=today&search_start_date_only=F&only_races_with_results=F&city=Charlotte&distance_units=K&api_key=bFXbdzmpncmjBUe52srx0FnMhbViL73w&api_secret=AyGNLq8xGHAlDEpwBzsGEdwjzRMRiz1s",
+  "method": "GET",
+  "headers": {
+    "cache-control": "no-cache",
+    "Postman-Token": "e8e7d4d8-dad5-4eda-b1f1-8d843405a661"
+  }
+}
 
-console.log(myJSON)
+$.ajax(settings).done(function (response) {
+  console.log(response);
+});
+fetch("https://runsignup.com/Rest/races/?format=json&events=T&race_headings=T&race_links=F&include_waiver=F&include_event_days=F&page=1&results_per_page=50&sort=name+ASC&start_date=today&search_start_date_only=F&only_races_with_results=F&city=Charlotte&distance_units=K&api_key=bFXbdzmpncmjBUe52srx0FnMhbViL73w&api_secret=AyGNLq8xGHAlDEpwBzsGEdwjzRMRiz1s")
+  .then(function(response) {
+    return response;
+  })
+  .then(function(myJson) {
+    console.log((myJson));
+    console.log()
+  });
+  //var raceName = response.races[i].race.name
+  //var raceDate = response.races[i].race.events[0].start_time
+  //var raceLoc = response.races[i].race.address
+  
+    //var realRaces = [raceName, raceDate, raceLoc]
+    //var addRaces = [];
+    //then(function play(response) {
+    //addRaces.push({realRaces});
+    //console.log(realRaces)})
+  
+  })
+  var settings = {
+  "async": true,
+  "crossDomain": true,
+  "url": "https://maps.googleapis.com/maps/api/geocode/json?address=1415+hurley+school+road&key=AIzaSyA_mEQx_sIh4T3NQodWY8oPt8PLUkqHhbo",
+  "method": "GET",
+  "headers": {
+    "cache-control": "public",
+    "Postman-Token": "ab391f51-d8a8-460a-b226-87945a0be95a"
+  }
+}
+
+$.ajax(settings).done(function (response) {
+  console.log(response);
+});
+  //console.log(response.races[q].race.name, response.races[q].race.next_date, response.races[q].race.address)
+  
+  fetch("https://maps.googleapis.com/maps/api/geocode/json?address=1415+hurley+school+road&key=AIzaSyA_mEQx_sIh4T3NQodWY8oPt8PLUkqHhbo")
+  .then(function(response) {
+    return response.json();
+  })
+  .then(function(myJson) {
+    console.log(myJson)
+    console.log(myJson.results[0].address_components[7].long_name);
+  });
+  //
+  
+
+$.ajax({
+    type:"GET",
+    url:"https://app.ticketmaster.com/discovery/v2/events.json?classificationName=sport,music,arts&dmaId=245&latlong=&apikey=EjCnoRIJWhXvqFM6uxTUzXnplhtRgBCU&size=50",
+    async:true,
+    dataType: "json",
+    success: function(json) {
+      for(var i = 0; i < json._embedded.events.length; i++) {
+      var obj = json._embedded.events[i];
+      var eventName = obj.name
+      var eventDate = obj.dates.start.localDate + obj.dates.start.localTime
+      var eventLoc = obj._embedded.venues[0].location
+      var realEvents = [eventName, eventDate, eventLoc]
       
-}})})
+            console.log(realEvents);
+          
+                // Parse the response.
+                // Do other things.
+             }},
+    error: function(xhr, status, err) {
+                // This time, we do not end up here!
+             }
+             
+  });
+       
+  
+        
+  
+   
 
 
 </script>
-
-<tbody>
-    <div id="eventList" ></div>
-    
+<div class="container">
+  <div class="row">
+      <div class='col-sm-6'>
+          <div class="form-group">
+              <div class='input-group date' id='datetimepicker1'>
+                  <input type='text' class="form-control" />
+                  <span class="input-group-addon">
+                      <span class="glyphicon glyphicon-calendar"></span>
+                  </span>
+              </div>
+          </div>
+      </div>
+      <script type="text/javascript">
+          $(function () {
+              $('#datetimepicker1').datetimepicker();
+          });
+      </script>
+  </div>
+</div>
+   
 </body>
 </html>

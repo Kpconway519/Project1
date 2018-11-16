@@ -57,7 +57,11 @@ html, body {
 }
 
 #map {
+<<<<<<< HEAD
     height: 400px;
+=======
+    height: 50%;
+>>>>>>> d2e6c1ce8d73e08aeb4c831c44255570f3d3e863
     width: 87%;
     margin: auto;
     margin-top: 20px;

@@ -15,6 +15,7 @@
           height: 50%;
           width: 50%;
           margin: auto;
+          padding: 10px;
         }
         /* Optional: Makes the sample page fill the window.*/
         html, body {
@@ -22,6 +23,15 @@
           margin: 0;
           padding: 0;
         }
+        #right-panel {
+          float:right;
+          width: 50%;
+          margin: auto;
+        }
+        .left { 
+          float: left;
+        }
+
       </style>
     </head>
 
@@ -48,10 +58,11 @@
         <div class="container"><p></p></div>
 
       <div id="map"></div>
+      <div id="right-panel"></div>
 
       <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA_mEQx_sIh4T3NQodWY8oPt8PLUkqHhbo&callback=initialize"
       async defer></script>
-      <script src = "map.js"></script>
+      <script src = "../assets/javascript/map.js"></script>
 
 </body>
 </html>
