@@ -1,14 +1,17 @@
 // GOOGLE MAPS API
 var mapKey="AIzaSyAmAJABDIKP1_S6uXioW7w81FkcpRiNGw8";
-var start = ;
-var end = ;
+var start;
+var end;
 
 
 $("form").on("click", "button", function(event) {
   event.preventDefault();
+  start = $("#start-route").val().trim();
+  console.log(start)
+  end = $("#end-route").val().trim();
+  console.log(end)
   codeAddress();
-  $("#map").addClass("left");
-  calculateAndDisplayRoute(directionsService, directionsDisplay);
+
 
 });
 
@@ -113,9 +116,7 @@ function initialize() {
       directionsDisplay.setPanel(document.getElementById('right-panel'));
   
 }
-// this is for the google places auto complete
-// ===============================================================================
-
+    
 // // Create the search box and link it to the UI element.
 // var input = $("#search");
 // var searchBox = new google.maps.places.SearchBox(input);
@@ -125,20 +126,18 @@ function initialize() {
 //   searchBox.setBounds(map.getBounds());
 // });
 
-// =================================================================================
-
 
 function calculateAndDisplayRoute(directionsService, directionsDisplay) {
-  directionsService.route({
-  origin: startLatLng,
+        directionsService.route({
+        origin: startLatLng,
         destination: endLatLng,
         travelMode: 'DRIVING'
-      }, function(response, status) {
-        if (status === 'OK') {
+      }, (response, status) => {
+        // if (status === 'OK') {
           directionsDisplay.setDirections(response);
-        } else {
-          window.alert('Directions request failed due to ' + status);
-        }
+        // } else {
+        //   window.alert('Directions request failed due to ' + status);
+        // }
       });
     }
     
@@ -161,10 +160,16 @@ function calculateAndDisplayRoute(directionsService, directionsDisplay) {
     function codeAddress() {
       geocoder.geocode( { 'address': start}, function(results) {
         startLatLng = results[0].geometry.location;
+        
         console.log(startLatLng);
+
+        geocoder.geocode( { 'address': end}, function(results) {
+          endLatLng = results[0].geometry.location;
+          console.log(endLatLng);
+
+          $("#map").addClass("left");
+          calculateAndDisplayRoute(directionsService, directionsDisplay);
       });
-      geocoder.geocode( { 'address': end}, function(results) {
-      endLatLng = results[0].geometry.location;
-      console.log(endLatLng);
+
   });
 };
