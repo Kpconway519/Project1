@@ -1,29 +1,96 @@
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//this is the area for the user data which is pulled out of the database on the schedule.html page
+//=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 var loggedInUserArriveTime = "";
-
 var loggedInUserLeaveTime = "";
-
 var loggedInUserEndAddress = "";
-
 var loggedInUserStartAddress = ""; 
 
+//pullUserData is triggered by an 'onload' in the body tag of the schedule.html file
 function pullUserData() {
+  //takes the username from localstorage
     var scheduleUserName = localStorage.getItem("humbugusername")
-    alert(scheduleUserName)
+  //this is a callback function to pull the appropriate data out of firebase
     findByProperty("username", scheduleUserName, "/users/", function getData(x) {
 console.log(x)
+      //save the data as variables so we can use them
 loggedInUserArriveTime = x.arrivetime;
 loggedInUserLeaveTime = x.starttime;
 loggedInUserStartAddress = x.startaddress;
 loggedInUserEndAddress = x.endaddress;
 
-alert(loggedInUserArriveTime)
-alert(loggedInUserEndAddress)
-alert(loggedInUserLeaveTime)
-alert(loggedInUserArriveTime)
+//what's it gonna do with the user data once it pulls it?
+
+//geocode step here
+
+
+
+
+
+
     })
 }
   
+//=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 
 
@@ -41,26 +108,16 @@ alert(loggedInUserArriveTime)
   var database = firebase.database();
 
 
-
-
-//=============First time user code============================
-//on landing page, user makes a username or inputs username
-
-//================================================================================================
-
-
-
+//=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+//simple function to put the username into the database
 function pushIntoDb(uname) {
   database.ref('/users/').push({
   username: uname,
   });
 }
+//=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
-
-
-
-  //========================================
-  //this is just for the first time user putting the username into the database. user clicks this button to login for the first time and put stuf into the database. 
+  //this is just for the first time user putting the username into the database. user clicks this button to login for the first time and put stuff into the database. 
   var userName = "";
 $("#submit-button").on("click", function(event) {
     event.preventDefault();
@@ -71,80 +128,36 @@ $("#submit-button").on("click", function(event) {
     //put the userName into local storage
     localStorage.setItem("humbugusername", userName)
 
-    console.log("the username is not currently in the database")
     pushIntoDb(userName)
+    //redirect to the next page
     window.location = "create.html";
 });
 
-//======================================================================================================================================================
-//if the user clicks the login again function, this thing runs
+//=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 
 $("#user-login").on("click", function(event) {
     event.preventDefault()
 
-
     var userName = $("#user-name").val().trim();
 
     //put the userName into local storage
     localStorage.setItem("humbugusername", userName)
-
-
-
+    //takes user directly to the schedule page if they are logging in.
     window.location = 'schedule.html'
-
-
-// findByProperty("username", userName, "/users/", function(x) {
-// console.log(x)
-// if (x.username === userName) {
-//   // trueChecker = true;
-//   console.log(`the username ${userName} exists`)
-//   console.log(trueChecker)
-//   // alert('this username already exists, logging you in.')
-//   window.location = "schedule.html"
-//   }
-// })
 
 })
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//at this point the user plugs in their addresses and times
-
-
-
-
-
-
-
-
-
-
+//=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
   //OK so now that I have the username in the function, the next step is to take the stuff the user puts in and put that in alongside the user.
   //#user-info-submit is the name of the button.
 
 $("#user-info-submit").on("click", function(event) {
     event.preventDefault()
-    //AT THIS POINT I NEED TO PULL THE USERNAME FROM LOCALSTORAGE SO THE PROGRAM WILL KNOW WHAT IT IS
+
     var newUserName = localStorage.getItem("humbugusername")
     console.log(newUserName)
-
-    //==============Section here for converting startAddress and endAddress into a latitude/longitude to plug into google maps API to get route, then save that route as a variable so it can be pushed to the database============================
 
     var startAddress = $("#start-address").val().trim();
     var endAddress = $("#end-address").val().trim();
@@ -153,14 +166,15 @@ $("#user-info-submit").on("click", function(event) {
 
     updateValue("username", newUserName, "/users/", startAddress, endAddress, leaveTime, arriveTime)
 
-
-function updateAndLoadSchedule() {
-  window.location = 'schedule.html'
-  };
-
-setTimeout(updateAndLoadSchedule, 500);
+    function updateAndLoadSchedule() {
+      window.location = 'schedule.html'
+      };
+    //using settimeout to avoid asynchronous messups
+    setTimeout(updateAndLoadSchedule, 500);
 })
 
+//=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+//here is where my firebase retrieval functions live.
 
 function findByProperty(property, query, location, cb) {
   if (!location) {
@@ -200,6 +214,7 @@ function updateValue(property, query, location, startadd, endadd, leavet, arrive
     }
   })
 }
+//=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 
 $( document ).ready(function events() {
