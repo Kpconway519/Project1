@@ -8,9 +8,21 @@ html, body {
     padding: 0;
   }
 
+  #username-display {
+      color: rgb(0, 255, 170);
+      margin-top: 5px;
+      margin-bottom: 10px;
+  }
+
 #title {
     text-align: center;
     align-content: center;
+    margin: auto;
+}
+#titleImage {
+    width: 35% !important;
+    height: auto !important;
+    margin: auto !important;
 }
 
 #navbar {
@@ -22,7 +34,6 @@ html, body {
 }
 
 #user-name {
-    width: 300px !important;
     margin-top: 30px;
 }
 
@@ -70,6 +81,10 @@ html, body {
 
   /* responsiveness for other screen sizes */
   @media screen and (max-width: 980px) {
+      #titleImage {
+          width: 40% !important;
+          height: auto !important;
+      }
       #navbar {
           margin: auto !important;
       }
@@ -79,7 +94,6 @@ html, body {
           margin-top: 30px;
       }
       #user-name {
-          width: 75% !important;
       }
       .collapse {
         display: none !important;
@@ -87,6 +101,10 @@ html, body {
   }
 
   @media screen and (max-width: 768px) {
+    #titleImage {
+        width: 50% !important;
+        height: auto !important;
+    }
       #navbar {
           margin: auto !important;
           width: 400px !important;
@@ -97,7 +115,6 @@ html, body {
           margin-top: 30px;
       }
       #user-name {
-          width: 80% !important;
       }
       .collapse {
         display: none !important;
@@ -105,6 +122,10 @@ html, body {
   }
 
   @media screen and (max-width: 640px) {
+      #titleImage {
+          width: 50% !important;
+          height: auto !important;
+      }
       #navbar {
           width: 300px !important;
           margin: auto !important;
@@ -115,6 +136,5 @@ html, body {
           margin-top: 30px;
       }
       #user-name {
-          width: 80% !important;
       }
   }
