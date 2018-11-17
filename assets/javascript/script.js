@@ -212,10 +212,9 @@ function updateValue(property, query, location, startadd, endadd, leavet, arrive
 }
 
 
-$( document ).ready(function events() {
-  $( document ).ready(function races() {
+
   
-    $( document ).ready(function events() {
+$("#user-info-submit").on("click", function(){
       $.ajax({
         type:"GET",
         url:"https://app.ticketmaster.com/discovery/v2/events.json?classificationName=sport,music,arts&dmaId=245&latlong=&apikey=EjCnoRIJWhXvqFM6uxTUzXnplhtRgBCU&size=50",
@@ -226,10 +225,11 @@ $( document ).ready(function events() {
           var obj = json._embedded.events[i];
           var eventName = obj.name
           var eventDate = obj.dates.start.localDate + obj.dates.start.localTime
-          var eventLoc = obj._embedded.venues[0].location
+          var eventLoc = [obj._embedded.venues[0].location.latitude, obj._embedded.venues[0].location.longitude]
           var realEvents = [eventName, eventDate, eventLoc]
-          
-                //console.log(realEvents);
+      
+            console.log(realEvents);
+            console.log(eventLoc[0], eventLoc[1])
               realEventsArray.push(realEvents);
                     // Parse the response.
                     // Do other things.
@@ -241,7 +241,7 @@ $( document ).ready(function events() {
       });
       var realEventsArray= [];
       console.log(realEventsArray)
-      })})})
+      })
     //var event = obj.name 
     //var latLong = obj._embedded.venues[0].location
     //var starDates = obj.dates.start.localDate 
