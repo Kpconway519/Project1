@@ -366,12 +366,12 @@ function calculateAndDisplayRoute(directionsService, directionsDisplay) {
     
     
     function codeAddress() {
-      geocoder.geocode( { 'address':  result[startadd]}, function(results) {
+      geocoder.geocode( { 'address': start}, function(results) {
         startLatLng = results[0].geometry.location;
 
         console.log(startLatLng);
 
-        geocoder.geocode( { 'address':  result[endadd]}, function(results) {
+        geocoder.geocode( { 'address': end}, function(results) {
           endLatLng = results[0].geometry.location;
           console.log(endLatLng);
 
