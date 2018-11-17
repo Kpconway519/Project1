@@ -1,6 +1,20 @@
 
 
 
+var loggedInUserStartAddress = "";
+
+// variable and function to display the username at the top //
+var displayUsername = localStorage.getItem("humbugusername")
+
+$(document).ready(function(){
+  $("#user-login").ready(function(){
+      $("#username-display").append(displayUsername);
+  });
+});
+// ------ //
+
+
+
 
   
 //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
