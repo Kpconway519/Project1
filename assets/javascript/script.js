@@ -1,5 +1,26 @@
 
+
+
+var loggedInUserStartAddress = "";
+
+// variable and function to display the username at the top //
+var displayUsername = localStorage.getItem("humbugusername")
+
+$(document).ready(function(){
+  $("#user-login").ready(function(){
+      $("#username-display").append(displayUsername);
+  });
+});
+// ------ //
+
+
+
+
   
+//=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
+
+
   // Initialize Firebase
   var config = {
     apiKey: "AIzaSyCBpI-0zqjP8_LypXmGt4N9xuBz8SyYaqU",
@@ -14,26 +35,16 @@
   var database = firebase.database();
 
 
-
-
-//=============First time user code============================
-//on landing page, user makes a username or inputs username
-
-//================================================================================================
-
-
-
+//=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+//simple function to put the username into the database
 function pushIntoDb(uname) {
   database.ref('/users/').push({
   username: uname,
   });
 }
+//=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
-
-
-
-  //========================================
-  //this is just for the first time user putting the username into the database. user clicks this button to login for the first time and put stuf into the database. 
+  //this is just for the first time user putting the username into the database. user clicks this button to login for the first time and put stuff into the database. 
   var userName = "";
 $("#submit-button").on("click", function(event) {
     event.preventDefault();
@@ -44,80 +55,36 @@ $("#submit-button").on("click", function(event) {
     //put the userName into local storage
     localStorage.setItem("humbugusername", userName)
 
-    console.log("the username is not currently in the database")
     pushIntoDb(userName)
+    //redirect to the next page
     window.location = "create.html";
 });
 
-//======================================================================================================================================================
-//if the user clicks the login again function, this thing runs
+//=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 
 $("#user-login").on("click", function(event) {
     event.preventDefault()
 
-
     var userName = $("#user-name").val().trim();
 
     //put the userName into local storage
     localStorage.setItem("humbugusername", userName)
-
-
-
+    //takes user directly to the schedule page if they are logging in.
     window.location = 'schedule.html'
-
-
-// findByProperty("username", userName, "/users/", function(x) {
-// console.log(x)
-// if (x.username === userName) {
-//   // trueChecker = true;
-//   console.log(`the username ${userName} exists`)
-//   console.log(trueChecker)
-//   // alert('this username already exists, logging you in.')
-//   window.location = "schedule.html"
-//   }
-// })
 
 })
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//at this point the user plugs in their addresses and times
-
-
-
-
-
-
-
-
-
-
+//=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
   //OK so now that I have the username in the function, the next step is to take the stuff the user puts in and put that in alongside the user.
   //#user-info-submit is the name of the button.
 
 $("#user-info-submit").on("click", function(event) {
     event.preventDefault()
-    //AT THIS POINT I NEED TO PULL THE USERNAME FROM LOCALSTORAGE SO THE PROGRAM WILL KNOW WHAT IT IS
+
     var newUserName = localStorage.getItem("humbugusername")
     console.log("new user name " + newUserName)
-
-    //==============Section here for converting startAddress and endAddress into a latitude/longitude to plug into google maps API to get route, then save that route as a variable so it can be pushed to the database============================
 
     var startAddress = $("#start-address").val().trim();
     var endAddress = $("#end-address").val().trim();
@@ -141,6 +108,8 @@ setTimeout(updateAndLoadSchedule, 500);
   calculateAndDisplayRoute(directionsService, directionsDisplay);
 })
 
+//=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+//here is where my firebase retrieval functions live.
 
 function findByProperty(property, query, location, cb) {
   if (!location) {
@@ -216,8 +185,47 @@ $( document ).ready(function events() {
   })
 
 
+function calculateAndDisplayRoute(directionsService, directionsDisplay) {
+  directionsService.route({
+  origin: startLatLng,
+        destination: endLatLng,
+        travelMode: 'DRIVING'
+      }, function(response, status) {
+        if (status === 'OK') {
+          directionsDisplay.setDirections(response);
+        } else {
+          window.alert('Directions request failed due to ' + status);
+        }
+      });
+    }
+    
+    function markerMaker() {
+      geocoder.geocode( { 'address': start}, function(results, status) {
+        if (status == 'OK') {
+          marker = new google.maps.Marker({
+            map: map,
+            position: results[0].geometry.location
+          });
+        } else {
+          alert('Geocode was not successful for the following reason: ' + status);
+        }
+      });
+    }
+    
+    var startLatLng;
+    var endLatLng;
+    
+    function codeAddress() {
+      geocoder.geocode( { 'address': start}, function(results) {
+        startLatLng = results[0].geometry.location;
+        console.log(startLatLng);
+      });
+      geocoder.geocode( { 'address': end}, function(results) {
+      endLatLng = results[0].geometry.location;
+      console.log(endLatLng);
+  });
+};
 
-//===========================================
 
 // map script =======================================================================>
 
@@ -382,4 +390,42 @@ function calculateAndDisplayRoute(directionsService, directionsDisplay) {
 
 
 
+
+
+//this is the area for the user data which is pulled out of the database on the schedule.html page
+//=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+var loggedInUserArriveTime = "";
+var loggedInUserLeaveTime = "";
+var loggedInUserEndAddress = "";
+var loggedInUserStartAddress = ""; 
+
+//pullUserData is triggered by an 'onload' in the body tag of the schedule.html file
+function pullUserData() {
+  //takes the username from localstorage
+    var scheduleUserName = localStorage.getItem("humbugusername")
+  //this is a callback function to pull the appropriate data out of firebase
+    findByProperty("username", scheduleUserName, "/users/", function getData(x) {
+console.log(x)
+      //save the data as variables so we can use them
+loggedInUserArriveTime = x.arrivetime;
+loggedInUserLeaveTime = x.starttime;
+loggedInUserStartAddress = x.startaddress;
+loggedInUserEndAddress = x.endaddress;
+
+//what's it gonna do with the user data once it pulls it?
+
+//geocode step here
+
+  // start = $("#start-route").val().trim();
+  start = loggedInUserStartAddress
+  // end = $("#end-route").val().trim();
+  end = loggedInUserEndAddress
+  codeAddress();
+  $("#map").addClass("left");
+  calculateAndDisplayRoute(directionsService, directionsDisplay);
+
+
+
+    })
+}
 

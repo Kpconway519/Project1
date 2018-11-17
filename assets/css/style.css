@@ -8,37 +8,57 @@ html, body {
     padding: 0;
   }
 
+  #username-display {
+      color: rgb(0, 255, 170);
+      margin-top: 5px;
+      margin-bottom: 10px;
+  }
+
 #title {
     text-align: center;
     align-content: center;
+    margin: auto;
+}
+#titleImage {
+    width: 35% !important;
+    height: auto !important;
+    margin: auto !important;
 }
 
 #navbar {
-    margin-bottom: 30px;
+    margin: auto !important;
     background-color: rgb(0, 27, 37) !important;
-    height: 40px;
-    border-radius: 25px;
+    border-radius: 10px;
+    color: white !important;
+    width: 600px !important;
 }
 
-#navbar-links {
-    color: white !important;
-    text-align: center !important;
+#user-name {
+    margin-top: 30px;
 }
 
 #submit-button {
     background-color: rgb(0, 255, 170) !important;
     color: rgb(0, 40, 55) !important;
+    margin-top: 26px;
+}
+
+#user-login {
+    margin-top: 26px;
 }
 
 #form-header {
     background-color: rgb(0, 27, 37) !important;
     color: white !important;
+    margin-top: 30px !important;
 }
 
 .card {
     background-color: rgb(0, 27, 37) !important;
     color: white !important;
     margin-right: 5px;
+    margin-bottom: 5px;
+    margin-top: 30px !important;
 }
 
 #sunday-view, #monday-view, #tuesday-view, #wednesday-view, #thursday-view, #friday-view, #saturday-view {
@@ -55,4 +75,66 @@ html, body {
     height: 50%;
     width: 87%;
     margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  /* responsiveness for other screen sizes */
+  @media screen and (max-width: 980px) {
+      #titleImage {
+          width: 40% !important;
+          height: auto !important;
+      }
+      #navbar {
+          margin: auto !important;
+      }
+      .card {
+          margin-right: 5px !important;
+          margin-bottom: 5px !important;
+          margin-top: 30px;
+      }
+      #user-name {
+      }
+      .collapse {
+        display: none !important;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    #titleImage {
+        width: 50% !important;
+        height: auto !important;
+    }
+      #navbar {
+          margin: auto !important;
+          width: 400px !important;
+      }
+      .card {
+          margin-right: 5px !important;
+          margin-bottom: 5px !important;
+          margin-top: 30px;
+      }
+      #user-name {
+      }
+      .collapse {
+        display: none !important;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+      #titleImage {
+          width: 50% !important;
+          height: auto !important;
+      }
+      #navbar {
+          width: 300px !important;
+          margin: auto !important;
+      }
+      .card {
+          margin-right: 5px !important;
+          margin-bottom: 5px !important;
+          margin-top: 30px;
+      }
+      #user-name {
+      }
   }
