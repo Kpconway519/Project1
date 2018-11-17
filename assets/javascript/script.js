@@ -134,6 +134,11 @@ function updateAndLoadSchedule() {
   };
 
 setTimeout(updateAndLoadSchedule, 500);
+
+  // calling map functions
+  codeAddress();
+  markerMaker();
+  calculateAndDisplayRoute(directionsService, directionsDisplay);
 })
 
 
@@ -207,10 +212,6 @@ $( document ).ready(function events() {
   teaTime = obj.dates.start.localTime;
   
   $("#eventlist > tbody").append("<tr><td>" + event + "</td><td>" + latLong + "</td><td>" + starDates + "</td><td>" +  teaTime+ "</td></tr>");
-  // calling map functions
-  codeAddress();
-  markerMaker();
-  calculateAndDisplayRoute(directionsService, directionsDisplay);
 
   })
 
@@ -350,7 +351,7 @@ function calculateAndDisplayRoute(directionsService, directionsDisplay) {
     function markerMaker() {
           marker = new google.maps.Marker({
             map: map,
-            position: latLong
+            position:  {lat: 35.22846, lng: -80.83508760000001}
           })
         };
   
