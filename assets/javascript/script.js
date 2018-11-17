@@ -2,93 +2,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//this is the area for the user data which is pulled out of the database on the schedule.html page
-//=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
-var loggedInUserArriveTime = "";
-var loggedInUserLeaveTime = "";
-var loggedInUserEndAddress = "";
-var loggedInUserStartAddress = ""; 
-
-//pullUserData is triggered by an 'onload' in the body tag of the schedule.html file
-function pullUserData() {
-  //takes the username from localstorage
-    var scheduleUserName = localStorage.getItem("humbugusername")
-  //this is a callback function to pull the appropriate data out of firebase
-    findByProperty("username", scheduleUserName, "/users/", function getData(x) {
-console.log(x)
-      //save the data as variables so we can use them
-loggedInUserArriveTime = x.arrivetime;
-loggedInUserLeaveTime = x.starttime;
-loggedInUserStartAddress = x.startaddress;
-loggedInUserEndAddress = x.endaddress;
-
-//what's it gonna do with the user data once it pulls it?
-
-//geocode step here
-
-
-
-
-
-
-    })
-}
   
 //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
@@ -217,33 +130,33 @@ function updateValue(property, query, location, startadd, endadd, leavet, arrive
 //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 
 
-$( document ).ready(function events() {
-  $.ajax({
-    type:"GET",
-    url:"https://app.ticketmaster.com/discovery/v2/events.json?classificationName=sport,music,arts&dmaId=245&latlong=&apikey=EjCnoRIJWhXvqFM6uxTUzXnplhtRgBCU&size=50" ,
-    async:true,
-    dataType: "json",
-    success: function(json) {
-      for(var i = 0; i < json._embedded.events.length; i++) {
-      var obj = json._embedded.events[i];
-      console.log(obj.name,obj._embedded.venues[0].location, obj.dates.start.localDate, obj.dates.start.localTime);
+// $( document ).ready(function events() {
+//   $.ajax({
+//     type:"GET",
+//     url:"https://app.ticketmaster.com/discovery/v2/events.json?classificationName=sport,music,arts&dmaId=245&latlong=&apikey=EjCnoRIJWhXvqFM6uxTUzXnplhtRgBCU&size=50" ,
+//     async:true,
+//     dataType: "json",
+//     success: function(json) {
+//       for(var i = 0; i < json._embedded.events.length; i++) {
+//       var obj = json._embedded.events[i];
+//       console.log(obj.name,obj._embedded.venues[0].location, obj.dates.start.localDate, obj.dates.start.localTime);
           
-                // Parse the response.
-                // Do other things.
-             }},
-    error: function(xhr, status, err) {
-                // This time, we do not end up here!
-             }
+//                 // Parse the response.
+//                 // Do other things.
+//              }},
+//     error: function(xhr, status, err) {
+//                 // This time, we do not end up here!
+//              }
              
-  });
-  var event = obj.name 
-  var latLong = obj._embedded.venues[0].location
-  var starDates = obj.dates.start.localDate 
-  var teaTime = obj.dates.start.localTime
+//   });
+//   var event = obj.name 
+//   var latLong = obj._embedded.venues[0].location
+//   var starDates = obj.dates.start.localDate 
+//   var teaTime = obj.dates.start.localTime
   
-  $("#eventlist > tbody").append("<tr><td>" + event + "</td><td>" + latLong + "</td><td>" + starDates + "</td><td>" +  teaTime+ "</td></tr>");
+//   $("#eventlist > tbody").append("<tr><td>" + event + "</td><td>" + latLong + "</td><td>" + starDates + "</td><td>" +  teaTime+ "</td></tr>");
   
-  })
+//   })
 
 
 
@@ -263,5 +176,205 @@ $( document ).ready(function events() {
 // }
 
 
+// GOOGLE MAPS API
+var mapKey="AIzaSyAmAJABDIKP1_S6uXioW7w81FkcpRiNGw8";
+var start;
+var end;
+var geocoder;
+var map;
+var marker;
+var directionsService;
+var directionsDisplay;
 
+function initialize() {
+  directionsService = new google.maps.DirectionsService;
+  directionsDisplay = new google.maps.DirectionsRenderer;
+  geocoder = new google.maps.Geocoder();
+  var latlng = new google.maps.LatLng(35.227, -80.843); //35.2271° N, -80.8431° W "Charlotte Coordinates
+  var mapOptions = {
+    zoom: 10,
+    center: latlng,
+    styles: [
+      {elementType: 'geometry', stylers: [{color: '#001b25'}]},
+      {elementType: 'labels.text.stroke', stylers: [{color: '#242f3e'}]},
+      {elementType: 'labels.text.fill', stylers: [{color: '#ffffff'}]},
+      {
+        featureType: 'administrative.locality',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#ffffff'}]
+      },
+      {
+        featureType: 'poi',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#ffffff'}]
+      },
+      {
+        featureType: 'poi.park',
+        elementType: 'geometry',
+        stylers: [{color: '#263c3f'}]
+      },
+      {
+        featureType: 'poi.park',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#ffffff'}]
+      },
+      {
+        featureType: 'road',
+        elementType: 'geometry',
+        stylers: [{color: '#38414e'}]
+      },
+      {
+        featureType: 'road',
+        elementType: 'geometry.stroke',
+        stylers: [{color: '#212a37'}]
+      },
+      {
+        featureType: 'road',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#ffffff'}]
+      },
+      {
+        featureType: 'road.highway',
+        elementType: 'geometry',
+        stylers: [{color: '#00ffaa'}]
+      },
+      {
+        featureType: 'road.highway',
+        elementType: 'geometry.stroke',
+        stylers: [{color: '#001b25'}]
+      },
+      {
+        featureType: 'road.highway',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#ffffff'}]
+      },
+      {
+        featureType: 'transit',
+        elementType: 'geometry',
+        stylers: [{color: '#2f3948'}]
+      },
+      {
+        featureType: 'transit.station',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#ffffff'}]
+      },
+      {
+        featureType: 'water',
+        elementType: 'geometry',
+        stylers: [{color: '#17263c'}]
+      },
+      {
+        featureType: 'water',
+        elementType: 'labels.text.fill',
+        stylers: [{color: '#ffffff'}]
+          },
+          {
+            featureType: 'water',
+            elementType: 'labels.text.stroke',
+            stylers: [{color: '#ffffff'}]
+          }
+        ]
+      }
+      map = new google.maps.Map(document.getElementById("map"), mapOptions);
+      
+      directionsDisplay.setMap(map);
+      directionsDisplay.setPanel(document.getElementById('right-panel'));
+  
+}
+    
+// Create the search box and link it to the UI element.
+var input = $("#search");
+var searchBox = new google.maps.places.SearchBox(input);
+
+// Bias the SearchBox results towards current map's viewport.
+map.addListener('bounds_changed', function() {
+  searchBox.setBounds(map.getBounds());
+});
+
+
+function calculateAndDisplayRoute(directionsService, directionsDisplay) {
+  directionsService.route({
+  origin: startLatLng,
+        destination: endLatLng,
+        travelMode: 'DRIVING'
+      }, function(response, status) {
+        if (status === 'OK') {
+          directionsDisplay.setDirections(response);
+        } else {
+          window.alert('Directions request failed due to ' + status);
+        }
+      });
+    }
+    
+    function markerMaker() {
+      geocoder.geocode( { 'address': start}, function(results, status) {
+        if (status == 'OK') {
+          marker = new google.maps.Marker({
+            map: map,
+            position: results[0].geometry.location
+          });
+        } else {
+          alert('Geocode was not successful for the following reason: ' + status);
+        }
+      });
+    }
+    
+    var startLatLng;
+    var endLatLng;
+    
+    function codeAddress() {
+      geocoder.geocode( { 'address': start}, function(results) {
+        startLatLng = results[0].geometry.location;
+        console.log(startLatLng);
+      });
+      geocoder.geocode( { 'address': end}, function(results) {
+      endLatLng = results[0].geometry.location;
+      console.log(endLatLng);
+  });
+};
+
+
+
+
+
+
+
+
+
+//this is the area for the user data which is pulled out of the database on the schedule.html page
+//=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+var loggedInUserArriveTime = "";
+var loggedInUserLeaveTime = "";
+var loggedInUserEndAddress = "";
+var loggedInUserStartAddress = ""; 
+
+//pullUserData is triggered by an 'onload' in the body tag of the schedule.html file
+function pullUserData() {
+  //takes the username from localstorage
+    var scheduleUserName = localStorage.getItem("humbugusername")
+  //this is a callback function to pull the appropriate data out of firebase
+    findByProperty("username", scheduleUserName, "/users/", function getData(x) {
+console.log(x)
+      //save the data as variables so we can use them
+loggedInUserArriveTime = x.arrivetime;
+loggedInUserLeaveTime = x.starttime;
+loggedInUserStartAddress = x.startaddress;
+loggedInUserEndAddress = x.endaddress;
+
+//what's it gonna do with the user data once it pulls it?
+
+//geocode step here
+
+  // start = $("#start-route").val().trim();
+  start = loggedInUserStartAddress
+  // end = $("#end-route").val().trim();
+  end = loggedInUserEndAddress
+  codeAddress();
+  $("#map").addClass("left");
+  calculateAndDisplayRoute(directionsService, directionsDisplay);
+
+
+
+    })
+}
 
