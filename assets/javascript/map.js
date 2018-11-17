@@ -1,25 +1,22 @@
-// GOOGLE MAPS API
-var mapKey="AIzaSyAmAJABDIKP1_S6uXioW7w81FkcpRiNGw8";
-var start;
-var end;
-
-
-$("form").on("click", "button", function(event) {
-  event.preventDefault();
-  start = $("#start-route").val().trim();
-  console.log(start)
-  end = $("#end-route").val().trim();
-  console.log(end)
-  codeAddress();
-
-
-});
+// Global variables ========================================
+// var monday =  moment().startOf("isoWeek").format();
+// var tuesday = moment(monday).add(1, "day").format();
+// var wednsday = moment(monday).add(2, "day").format();
+// var thursday = moment(monday).add(3, "day").format();
+// var friday = moment(monday).add(4, "day").format();
+// var saturday = moment(monday).add(5, "day").format();
+// var sunday = moment().endOf("isoWeek").format();
 
 var geocoder;
 var map;
 var marker;
 var directionsService;
 var directionsDisplay;
+var startLatLng;
+var endLatLng;
+// =========================================================
+
+console.log("start " + startadd + "  end " + endadd);
 
 function initialize() {
   directionsService = new google.maps.DirectionsService;
@@ -115,55 +112,34 @@ function initialize() {
       directionsDisplay.setMap(map);
       directionsDisplay.setPanel(document.getElementById('right-panel'));
   
-}
-    
-// // Create the search box and link it to the UI element.
-// var input = $("#search");
-// var searchBox = new google.maps.places.SearchBox(input);
-
-// // Bias the SearchBox results towards current map's viewport.
-// map.addListener('bounds_changed', function() {
-//   searchBox.setBounds(map.getBounds());
-// });
-
+};
 
 function calculateAndDisplayRoute(directionsService, directionsDisplay) {
         directionsService.route({
         origin: startLatLng,
         destination: endLatLng,
         travelMode: 'DRIVING'
-      }, (response, status) => {
-        // if (status === 'OK') {
+      }, (response) => {
           directionsDisplay.setDirections(response);
-        // } else {
-        //   window.alert('Directions request failed due to ' + status);
-        // }
-      });
+           });
     }
     
     function markerMaker() {
-      geocoder.geocode( { 'address': start}, function(results, status) {
-        if (status == 'OK') {
           marker = new google.maps.Marker({
             map: map,
             position: results[0].geometry.location
-          });
-        } else {
-          alert('Geocode was not successful for the following reason: ' + status);
-        }
-      });
-    }
+          })
+        };
+  
     
-    var startLatLng;
-    var endLatLng;
     
     function codeAddress() {
-      geocoder.geocode( { 'address': start}, function(results) {
+      geocoder.geocode( { 'address': startadd}, function(results) {
         startLatLng = results[0].geometry.location;
-        
+
         console.log(startLatLng);
 
-        geocoder.geocode( { 'address': end}, function(results) {
+        geocoder.geocode( { 'address': endadd}, function(results) {
           endLatLng = results[0].geometry.location;
           console.log(endLatLng);
 
